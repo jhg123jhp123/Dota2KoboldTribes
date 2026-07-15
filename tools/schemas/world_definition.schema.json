@@ -1,0 +1,322 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kobold-survival.local/schemas/world_definition.schema.json",
+  "title": "Kobold Survival World Definition",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "name", "grid", "regions"],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "grid": {
+      "$ref": "#/$defs/grid"
+    },
+    "regions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/region"
+      }
+    }
+  },
+  "$defs": {
+    "grid": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tileSize", "width", "height", "origin"],
+      "properties": {
+        "tileSize": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "origin": {
+          "$ref": "#/$defs/point"
+        }
+      }
+    },
+    "region": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "bounds", "biome", "terrain", "elevation"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bounds": {
+          "$ref": "#/$defs/bounds"
+        },
+        "priority": {
+          "type": "integer",
+          "default": 0
+        },
+        "biome": {
+          "type": "string",
+          "enum": ["forest", "swamp", "mountain", "cave", "plains", "riverlands", "badlands", "ruins"]
+        },
+        "terrain": {
+          "type": "string",
+          "enum": ["grass", "mud", "stone", "sand", "snow", "shallow_water", "deep_water", "cavern_floor"]
+        },
+        "elevation": {
+          "$ref": "#/$defs/range"
+        },
+        "treeDensity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "resourceRules": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/resourceRule"
+          },
+          "default": []
+        },
+        "wildlifeRules": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/wildlifeRule"
+          },
+          "default": []
+        },
+        "ambient": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "decorativeProps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "roads": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pathFeature"
+          },
+          "default": []
+        },
+        "rivers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pathFeature"
+          },
+          "default": []
+        },
+        "lakes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/areaFeature"
+          },
+          "default": []
+        },
+        "caves": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/areaFeature"
+          },
+          "default": []
+        },
+        "bossArenas": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/areaFeature"
+          },
+          "default": []
+        },
+        "tribeStarts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/tribeStart"
+          },
+          "default": []
+        }
+      }
+    },
+    "bounds": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x1", "y1", "x2", "y2"],
+      "properties": {
+        "x1": { "type": "integer" },
+        "y1": { "type": "integer" },
+        "x2": { "type": "integer" },
+        "y2": { "type": "integer" }
+      }
+    },
+    "point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x", "y"],
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" }
+      }
+    },
+    "range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max"],
+      "properties": {
+        "min": { "type": "number" },
+        "max": { "type": "number" }
+      }
+    },
+    "resourceRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["resourceId", "weight"],
+      "properties": {
+        "resourceId": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "weight": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "clusterSize": {
+          "$ref": "#/$defs/integerRange"
+        },
+        "spawnTags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        }
+      }
+    },
+    "wildlifeRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["unitId", "weight"],
+      "properties": {
+        "unitId": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "spawnTag": {
+          "type": "string"
+        },
+        "weight": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "packSize": {
+          "$ref": "#/$defs/integerRange"
+        }
+      }
+    },
+    "pathFeature": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "points"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "width": {
+          "type": "number",
+          "minimum": 0
+        },
+        "points": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/point"
+          }
+        }
+      }
+    },
+    "areaFeature": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "center"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "center": {
+          "$ref": "#/$defs/point"
+        },
+        "radius": {
+          "type": "number",
+          "minimum": 0
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        }
+      }
+    },
+    "tribeStart": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "position"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "position": {
+          "$ref": "#/$defs/point"
+        },
+        "teamHint": {
+          "type": "string"
+        },
+        "safeRadius": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "integerRange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max"],
+      "properties": {
+        "min": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

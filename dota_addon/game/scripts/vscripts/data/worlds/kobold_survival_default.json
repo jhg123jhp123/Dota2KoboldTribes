@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "id": "kobold_survival_default",
+  "name": "Kobold Survival Default World",
+  "grid": {
+    "tileSize": 128,
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "regions": [
+    {
+      "id": "northern_tribe_starting_region",
+      "name": "Northern Tribe Starting Region",
+      "bounds": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40
+      },
+      "priority": 20,
+      "biome": "forest",
+      "terrain": "grass",
+      "elevation": {
+        "min": 0,
+        "max": 2
+      },
+      "treeDensity": 0.65,
+      "resourceRules": [
+        {
+          "resourceId": "node_ordinary_tree",
+          "weight": 60,
+          "clusterSize": {
+            "min": 2,
+            "max": 7
+          },
+          "spawnTags": ["basic", "wood"]
+        },
+        {
+          "resourceId": "node_stone_deposit",
+          "weight": 20,
+          "clusterSize": {
+            "min": 1,
+            "max": 3
+          },
+          "spawnTags": ["basic", "stone"]
+        },
+        {
+          "resourceId": "node_berry_bush",
+          "weight": 10,
+          "clusterSize": {
+            "min": 1,
+            "max": 4
+          },
+          "spawnTags": ["basic", "food"]
+        }
+      ],
+      "wildlifeRules": [
+        {
+          "unitId": "animal_sheep",
+          "spawnTag": "food",
+          "weight": 30,
+          "packSize": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "unitId": "animal_wolf",
+          "spawnTag": "wildlife",
+          "weight": 10,
+          "packSize": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "ambient": ["birds"],
+      "decorativeProps": ["fallen_log", "mossy_rock"],
+      "roads": [],
+      "rivers": [],
+      "lakes": [],
+      "caves": [],
+      "bossArenas": [],
+      "tribeStarts": [
+        {
+          "id": "north_tribe_start",
+          "position": {
+            "x": 24,
+            "y": 24
+          },
+          "teamHint": "tribe_north",
+          "safeRadius": 6
+        }
+      ]
+    },
+    {
+      "id": "southern_tribe_starting_region",
+      "name": "Southern Tribe Starting Region",
+      "bounds": {
+        "x1": 88,
+        "y1": 88,
+        "x2": 120,
+        "y2": 120
+      },
+      "priority": 20,
+      "biome": "forest",
+      "terrain": "grass",
+      "elevation": {
+        "min": 0,
+        "max": 2
+      },
+      "treeDensity": 0.65,
+      "resourceRules": [
+        {
+          "resourceId": "node_ordinary_tree",
+          "weight": 60,
+          "clusterSize": {
+            "min": 2,
+            "max": 7
+          },
+          "spawnTags": ["basic", "wood"]
+        },
+        {
+          "resourceId": "node_stone_deposit",
+          "weight": 20,
+          "clusterSize": {
+            "min": 1,
+            "max": 3
+          },
+          "spawnTags": ["basic", "stone"]
+        },
+        {
+          "resourceId": "node_berry_bush",
+          "weight": 10,
+          "clusterSize": {
+            "min": 1,
+            "max": 4
+          },
+          "spawnTags": ["basic", "food"]
+        }
+      ],
+      "wildlifeRules": [
+        {
+          "unitId": "animal_sheep",
+          "spawnTag": "food",
+          "weight": 30,
+          "packSize": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "unitId": "animal_wolf",
+          "spawnTag": "wildlife",
+          "weight": 10,
+          "packSize": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "ambient": ["birds"],
+      "decorativeProps": ["fallen_log", "mossy_rock"],
+      "roads": [],
+      "rivers": [],
+      "lakes": [],
+      "caves": [],
+      "bossArenas": [],
+      "tribeStarts": [
+        {
+          "id": "south_tribe_start",
+          "position": {
+            "x": 104,
+            "y": 104
+          },
+          "teamHint": "tribe_south",
+          "safeRadius": 6
+        }
+      ]
+    },
+    {
+      "id": "central_contested_forest",
+      "name": "Central Contested Forest",
+      "bounds": {
+        "x1": 42,
+        "y1": 42,
+        "x2": 86,
+        "y2": 86
+      },
+      "priority": 10,
+      "biome": "forest",
+      "terrain": "grass",
+      "elevation": {
+        "min": 0,
+        "max": 4
+      },
+      "treeDensity": 0.85,
+      "resourceRules": [
+        {
+          "resourceId": "node_ordinary_tree",
+          "weight": 45,
+          "clusterSize": {
+            "min": 3,
+            "max": 9
+          },
+          "spawnTags": ["wood", "contested"]
+        },
+        {
+          "resourceId": "node_elder_tree",
+          "weight": 5,
+          "clusterSize": {
+            "min": 1,
+            "max": 2
+          },
+          "spawnTags": ["rare", "contested"]
+        },
+        {
+          "resourceId": "node_gold_deposit",
+          "weight": 15,
+          "clusterSize": {
+            "min": 1,
+            "max": 3
+          },
+          "spawnTags": ["advanced", "contested"]
+        },
+        {
+          "resourceId": "node_shadowstone_source",
+          "weight": 3,
+          "clusterSize": {
+            "min": 1,
+            "max": 1
+          },
+          "spawnTags": ["rare", "magical"]
+        },
+        {
+          "resourceId": "node_radiant_gemstone_source",
+          "weight": 3,
+          "clusterSize": {
+            "min": 1,
+            "max": 1
+          },
+          "spawnTags": ["rare", "magical"]
+        }
+      ],
+      "wildlifeRules": [
+        {
+          "unitId": "animal_wolf",
+          "spawnTag": "wildlife",
+          "weight": 20,
+          "packSize": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "unitId": "animal_bear",
+          "spawnTag": "dangerous_wildlife",
+          "weight": 5,
+          "packSize": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "unitId": "animal_stag",
+          "spawnTag": "rare_food",
+          "weight": 5,
+          "packSize": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "ambient": ["birds", "fireflies"],
+      "decorativeProps": ["fallen_log", "mossy_rock"],
+      "roads": [],
+      "rivers": [],
+      "lakes": [],
+      "caves": [],
+      "bossArenas": [
+        {
+          "id": "central_boss_arena",
+          "center": {
+            "x": 64,
+            "y": 64
+          },
+          "radius": 8,
+          "tags": ["boss_arena", "central_event"]
+        }
+      ],
+      "tribeStarts": []
+    },
+    {
+      "id": "night_predator_zone",
+      "name": "Night Predator Zone",
+      "bounds": {
+        "x1": 30,
+        "y1": 30,
+        "x2": 98,
+        "y2": 98
+      },
+      "priority": 5,
+      "biome": "forest",
+      "terrain": "grass",
+      "elevation": {
+        "min": 0,
+        "max": 4
+      },
+      "treeDensity": 0.5,
+      "resourceRules": [],
+      "wildlifeRules": [
+        {
+          "unitId": "animal_dire_wolf",
+          "spawnTag": "night_predator",
+          "weight": 100,
+          "packSize": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ],
+      "ambient": ["night_wind"],
+      "decorativeProps": [],
+      "roads": [],
+      "rivers": [],
+      "lakes": [],
+      "caves": [],
+      "bossArenas": [],
+      "tribeStarts": []
+    }
+  ]
+}

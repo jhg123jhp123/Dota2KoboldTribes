@@ -1,0 +1,8530 @@
+{
+  "source_markers": [
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 31,
+        "y": 3
+      },
+      "hammer_world": {
+        "x": -4160,
+        "y": 7744,
+        "z_hint": 0
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "AF4",
+      "world": {
+        "x": -8320,
+        "y": 15488
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 51,
+        "y": 3
+      },
+      "hammer_world": {
+        "x": -1600,
+        "y": 7744,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "AZ4",
+      "world": {
+        "x": -3200,
+        "y": 15488
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 71,
+        "y": 3
+      },
+      "hammer_world": {
+        "x": 960,
+        "y": 7744,
+        "z_hint": 0
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "BT4",
+      "world": {
+        "x": 1920,
+        "y": 15488
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 112,
+        "y": 3
+      },
+      "hammer_world": {
+        "x": 6208,
+        "y": 7744,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DI4",
+      "world": {
+        "x": 12416,
+        "y": 15488
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 28,
+        "y": 4
+      },
+      "hammer_world": {
+        "x": -4544,
+        "y": 7616,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "AC5",
+      "world": {
+        "x": -9088,
+        "y": 15232
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 32,
+        "y": 4
+      },
+      "hammer_world": {
+        "x": -4032,
+        "y": 7616,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "AG5",
+      "world": {
+        "x": -8064,
+        "y": 15232
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 50,
+        "y": 4
+      },
+      "hammer_world": {
+        "x": -1728,
+        "y": 7616,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "AY5",
+      "world": {
+        "x": -3456,
+        "y": 15232
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 51,
+        "y": 4
+      },
+      "hammer_world": {
+        "x": -1600,
+        "y": 7616,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "AZ5",
+      "world": {
+        "x": -3200,
+        "y": 15232
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 62,
+        "y": 4
+      },
+      "hammer_world": {
+        "x": -192,
+        "y": 7616,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "BK5",
+      "world": {
+        "x": -384,
+        "y": 15232
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 87,
+        "y": 4
+      },
+      "hammer_world": {
+        "x": 3008,
+        "y": 7616,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "CJ5",
+      "world": {
+        "x": 6016,
+        "y": 15232
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 106,
+        "y": 4
+      },
+      "hammer_world": {
+        "x": 5440,
+        "y": 7616,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DC5",
+      "world": {
+        "x": 10880,
+        "y": 15232
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 5,
+        "y": 7
+      },
+      "hammer_world": {
+        "x": -7488,
+        "y": 7232,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "F8",
+      "world": {
+        "x": -14976,
+        "y": 14464
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 98,
+        "y": 8
+      },
+      "hammer_world": {
+        "x": 4416,
+        "y": 7104,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "CU9",
+      "world": {
+        "x": 8832,
+        "y": 14208
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 124,
+        "y": 8
+      },
+      "hammer_world": {
+        "x": 7744,
+        "y": 7104,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DU9",
+      "world": {
+        "x": 15488,
+        "y": 14208
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "frostmaw",
+      "grid": {
+        "x": 64,
+        "y": 12
+      },
+      "hammer_world": {
+        "x": 64,
+        "y": 6592,
+        "z_hint": 384
+      },
+      "primary_entity_id": "frostmaw",
+      "spawn_group": "world_boss",
+      "tile_id": "BM13",
+      "world": {
+        "x": 128,
+        "y": 13184
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 110,
+        "y": 12
+      },
+      "hammer_world": {
+        "x": 5952,
+        "y": 6592,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DG13",
+      "world": {
+        "x": 11904,
+        "y": 13184
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 21,
+        "y": 13
+      },
+      "hammer_world": {
+        "x": -5440,
+        "y": 6464,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "V14",
+      "world": {
+        "x": -10880,
+        "y": 12928
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 98,
+        "y": 13
+      },
+      "hammer_world": {
+        "x": 4416,
+        "y": 6464,
+        "z_hint": 256
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CU14",
+      "world": {
+        "x": 8832,
+        "y": 12928
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 115,
+        "y": 13
+      },
+      "hammer_world": {
+        "x": 6592,
+        "y": 6464,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DL14",
+      "world": {
+        "x": 13184,
+        "y": 12928
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 106,
+        "y": 15
+      },
+      "hammer_world": {
+        "x": 5440,
+        "y": 6208,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "DC16",
+      "world": {
+        "x": 10880,
+        "y": 12416
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 114,
+        "y": 15
+      },
+      "hammer_world": {
+        "x": 6464,
+        "y": 6208,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "DK16",
+      "world": {
+        "x": 12928,
+        "y": 12416
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 116,
+        "y": 16
+      },
+      "hammer_world": {
+        "x": 6720,
+        "y": 6080,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "DM17",
+      "world": {
+        "x": 13440,
+        "y": 12160
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 110,
+        "y": 17
+      },
+      "hammer_world": {
+        "x": 5952,
+        "y": 5952,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DG18",
+      "world": {
+        "x": 11904,
+        "y": 11904
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 108,
+        "y": 18
+      },
+      "hammer_world": {
+        "x": 5696,
+        "y": 5824,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "DE19",
+      "world": {
+        "x": 11392,
+        "y": 11648
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 111,
+        "y": 18
+      },
+      "hammer_world": {
+        "x": 6080,
+        "y": 5824,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DH19",
+      "world": {
+        "x": 12160,
+        "y": 11648
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 96,
+        "y": 19
+      },
+      "hammer_world": {
+        "x": 4160,
+        "y": 5696,
+        "z_hint": 256
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "CS20",
+      "world": {
+        "x": 8320,
+        "y": 11392
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 22,
+        "y": 20
+      },
+      "hammer_world": {
+        "x": -5312,
+        "y": 5568,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "W21",
+      "world": {
+        "x": -10624,
+        "y": 11136
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 71,
+        "y": 20
+      },
+      "hammer_world": {
+        "x": 960,
+        "y": 5568,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "BT21",
+      "world": {
+        "x": 1920,
+        "y": 11136
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 120,
+        "y": 20
+      },
+      "hammer_world": {
+        "x": 7232,
+        "y": 5568,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DQ21",
+      "world": {
+        "x": 14464,
+        "y": 11136
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 25,
+        "y": 22
+      },
+      "hammer_world": {
+        "x": -4928,
+        "y": 5312,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "Z23",
+      "world": {
+        "x": -9856,
+        "y": 10624
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 70,
+        "y": 22
+      },
+      "hammer_world": {
+        "x": 832,
+        "y": 5312,
+        "z_hint": 0
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "BS23",
+      "world": {
+        "x": 1664,
+        "y": 10624
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 124,
+        "y": 24
+      },
+      "hammer_world": {
+        "x": 7744,
+        "y": 5056,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DU25",
+      "world": {
+        "x": 15488,
+        "y": 10112
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 94,
+        "y": 25
+      },
+      "hammer_world": {
+        "x": 3904,
+        "y": 4928,
+        "z_hint": 256
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "CQ26",
+      "world": {
+        "x": 7808,
+        "y": 9856
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 99,
+        "y": 25
+      },
+      "hammer_world": {
+        "x": 4544,
+        "y": 4928,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "CV26",
+      "world": {
+        "x": 9088,
+        "y": 9856
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 3,
+        "y": 26
+      },
+      "hammer_world": {
+        "x": -7744,
+        "y": 4800,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "D27",
+      "world": {
+        "x": -15488,
+        "y": 9600
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 13,
+        "y": 26
+      },
+      "hammer_world": {
+        "x": -6464,
+        "y": 4800,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "N27",
+      "world": {
+        "x": -12928,
+        "y": 9600
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 111,
+        "y": 27
+      },
+      "hammer_world": {
+        "x": 6080,
+        "y": 4672,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "DH28",
+      "world": {
+        "x": 12160,
+        "y": 9344
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 112,
+        "y": 27
+      },
+      "hammer_world": {
+        "x": 6208,
+        "y": 4672,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "DI28",
+      "world": {
+        "x": 12416,
+        "y": 9344
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 26,
+        "y": 28
+      },
+      "hammer_world": {
+        "x": -4800,
+        "y": 4544,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "AA29",
+      "world": {
+        "x": -9600,
+        "y": 9088
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 7,
+        "y": 29
+      },
+      "hammer_world": {
+        "x": -7232,
+        "y": 4416,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "H30",
+      "world": {
+        "x": -14464,
+        "y": 8832
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 112,
+        "y": 29
+      },
+      "hammer_world": {
+        "x": 6208,
+        "y": 4416,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DI30",
+      "world": {
+        "x": 12416,
+        "y": 8832
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 8,
+        "y": 30
+      },
+      "hammer_world": {
+        "x": -7104,
+        "y": 4288,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "I31",
+      "world": {
+        "x": -14208,
+        "y": 8576
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 4,
+        "y": 31
+      },
+      "hammer_world": {
+        "x": -7616,
+        "y": 4160,
+        "z_hint": 0
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "E32",
+      "world": {
+        "x": -15232,
+        "y": 8320
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 44,
+        "y": 31
+      },
+      "hammer_world": {
+        "x": -2496,
+        "y": 4160,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "AS32",
+      "world": {
+        "x": -4992,
+        "y": 8320
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 123,
+        "y": 31
+      },
+      "hammer_world": {
+        "x": 7616,
+        "y": 4160,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DT32",
+      "world": {
+        "x": 15232,
+        "y": 8320
+      },
+      "zone": "frost_north"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 88,
+        "y": 32
+      },
+      "hammer_world": {
+        "x": 3136,
+        "y": 4032,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "CK33",
+      "world": {
+        "x": 6272,
+        "y": 8064
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 65,
+        "y": 34
+      },
+      "hammer_world": {
+        "x": 192,
+        "y": 3776,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "BN35",
+      "world": {
+        "x": 384,
+        "y": 7552
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 14,
+        "y": 36
+      },
+      "hammer_world": {
+        "x": -6336,
+        "y": 3520,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "O37",
+      "world": {
+        "x": -12672,
+        "y": 7040
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 64,
+        "y": 36
+      },
+      "hammer_world": {
+        "x": 64,
+        "y": 3520,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "BM37",
+      "world": {
+        "x": 128,
+        "y": 7040
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 88,
+        "y": 36
+      },
+      "hammer_world": {
+        "x": 3136,
+        "y": 3520,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CK37",
+      "world": {
+        "x": 6272,
+        "y": 7040
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 123,
+        "y": 36
+      },
+      "hammer_world": {
+        "x": 7616,
+        "y": 3520,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DT37",
+      "world": {
+        "x": 15232,
+        "y": 7040
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 21,
+        "y": 38
+      },
+      "hammer_world": {
+        "x": -5440,
+        "y": 3264,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "V39",
+      "world": {
+        "x": -10880,
+        "y": 6528
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 121,
+        "y": 38
+      },
+      "hammer_world": {
+        "x": 7360,
+        "y": 3264,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DR39",
+      "world": {
+        "x": 14720,
+        "y": 6528
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 30,
+        "y": 39
+      },
+      "hammer_world": {
+        "x": -4288,
+        "y": 3136,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "AE40",
+      "world": {
+        "x": -8576,
+        "y": 6272
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 92,
+        "y": 39
+      },
+      "hammer_world": {
+        "x": 3648,
+        "y": 3136,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CO40",
+      "world": {
+        "x": 7296,
+        "y": 6272
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 112,
+        "y": 39
+      },
+      "hammer_world": {
+        "x": 6208,
+        "y": 3136,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DI40",
+      "world": {
+        "x": 12416,
+        "y": 6272
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 114,
+        "y": 39
+      },
+      "hammer_world": {
+        "x": 6464,
+        "y": 3136,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DK40",
+      "world": {
+        "x": 12928,
+        "y": 6272
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 52,
+        "y": 40
+      },
+      "hammer_world": {
+        "x": -1472,
+        "y": 3008,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "BA41",
+      "world": {
+        "x": -2944,
+        "y": 6016
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 87,
+        "y": 40
+      },
+      "hammer_world": {
+        "x": 3008,
+        "y": 3008,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "CJ41",
+      "world": {
+        "x": 6016,
+        "y": 6016
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 17,
+        "y": 41
+      },
+      "hammer_world": {
+        "x": -5952,
+        "y": 2880,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "R42",
+      "world": {
+        "x": -11904,
+        "y": 5760
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 27,
+        "y": 41
+      },
+      "hammer_world": {
+        "x": -4672,
+        "y": 2880,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "AB42",
+      "world": {
+        "x": -9344,
+        "y": 5760
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 97,
+        "y": 41
+      },
+      "hammer_world": {
+        "x": 4288,
+        "y": 2880,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CT42",
+      "world": {
+        "x": 8576,
+        "y": 5760
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 120,
+        "y": 42
+      },
+      "hammer_world": {
+        "x": 7232,
+        "y": 2752,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DQ43",
+      "world": {
+        "x": 14464,
+        "y": 5504
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 85,
+        "y": 43
+      },
+      "hammer_world": {
+        "x": 2752,
+        "y": 2624,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "CH44",
+      "world": {
+        "x": 5504,
+        "y": 5248
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 56,
+        "y": 44
+      },
+      "hammer_world": {
+        "x": -960,
+        "y": 2496,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "BE45",
+      "world": {
+        "x": -1920,
+        "y": 4992
+      },
+      "zone": "central_basin"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 115,
+        "y": 44
+      },
+      "hammer_world": {
+        "x": 6592,
+        "y": 2496,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DL45",
+      "world": {
+        "x": 13184,
+        "y": 4992
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 111,
+        "y": 45
+      },
+      "hammer_world": {
+        "x": 6080,
+        "y": 2368,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DH46",
+      "world": {
+        "x": 12160,
+        "y": 4736
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 15,
+        "y": 46
+      },
+      "hammer_world": {
+        "x": -6208,
+        "y": 2240,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "P47",
+      "world": {
+        "x": -12416,
+        "y": 4480
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 42,
+        "y": 46
+      },
+      "hammer_world": {
+        "x": -2752,
+        "y": 2240,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "AQ47",
+      "world": {
+        "x": -5504,
+        "y": 4480
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 7,
+        "y": 47
+      },
+      "hammer_world": {
+        "x": -7232,
+        "y": 2112,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "H48",
+      "world": {
+        "x": -14464,
+        "y": 4224
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 114,
+        "y": 47
+      },
+      "hammer_world": {
+        "x": 6464,
+        "y": 2112,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DK48",
+      "world": {
+        "x": 12928,
+        "y": 4224
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 43,
+        "y": 48
+      },
+      "hammer_world": {
+        "x": -2624,
+        "y": 1984,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "AR49",
+      "world": {
+        "x": -5248,
+        "y": 3968
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 87,
+        "y": 49
+      },
+      "hammer_world": {
+        "x": 3008,
+        "y": 1856,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CJ50",
+      "world": {
+        "x": 6016,
+        "y": 3712
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 44,
+        "y": 50
+      },
+      "hammer_world": {
+        "x": -2496,
+        "y": 1728,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "AS51",
+      "world": {
+        "x": -4992,
+        "y": 3456
+      },
+      "zone": "central_basin"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 118,
+        "y": 50
+      },
+      "hammer_world": {
+        "x": 6976,
+        "y": 1728,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DO51",
+      "world": {
+        "x": 13952,
+        "y": 3456
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 41,
+        "y": 51
+      },
+      "hammer_world": {
+        "x": -2880,
+        "y": 1600,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "AP52",
+      "world": {
+        "x": -5760,
+        "y": 3200
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 55,
+        "y": 51
+      },
+      "hammer_world": {
+        "x": -1088,
+        "y": 1600,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "BD52",
+      "world": {
+        "x": -2176,
+        "y": 3200
+      },
+      "zone": "central_basin"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 118,
+        "y": 51
+      },
+      "hammer_world": {
+        "x": 6976,
+        "y": 1600,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DO52",
+      "world": {
+        "x": 13952,
+        "y": 3200
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 70,
+        "y": 52
+      },
+      "hammer_world": {
+        "x": 832,
+        "y": 1472,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "BS53",
+      "world": {
+        "x": 1664,
+        "y": 2944
+      },
+      "zone": "central_basin"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 54,
+        "y": 53
+      },
+      "hammer_world": {
+        "x": -1216,
+        "y": 1344,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "BC54",
+      "world": {
+        "x": -2432,
+        "y": 2688
+      },
+      "zone": "central_basin"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 113,
+        "y": 53
+      },
+      "hammer_world": {
+        "x": 6336,
+        "y": 1344,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DJ54",
+      "world": {
+        "x": 12672,
+        "y": 2688
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 124,
+        "y": 53
+      },
+      "hammer_world": {
+        "x": 7744,
+        "y": 1344,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DU54",
+      "world": {
+        "x": 15488,
+        "y": 2688
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 107,
+        "y": 54
+      },
+      "hammer_world": {
+        "x": 5568,
+        "y": 1216,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DD55",
+      "world": {
+        "x": 11136,
+        "y": 2432
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 16,
+        "y": 55
+      },
+      "hammer_world": {
+        "x": -6080,
+        "y": 1088,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "Q56",
+      "world": {
+        "x": -12160,
+        "y": 2176
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 12,
+        "y": 56
+      },
+      "hammer_world": {
+        "x": -6592,
+        "y": 960,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "M57",
+      "world": {
+        "x": -13184,
+        "y": 1920
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 32,
+        "y": 57
+      },
+      "hammer_world": {
+        "x": -4032,
+        "y": 832,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "AG58",
+      "world": {
+        "x": -8064,
+        "y": 1664
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 78,
+        "y": 57
+      },
+      "hammer_world": {
+        "x": 1856,
+        "y": 832,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CA58",
+      "world": {
+        "x": 3712,
+        "y": 1664
+      },
+      "zone": "central_basin"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 50,
+        "y": 58
+      },
+      "hammer_world": {
+        "x": -1728,
+        "y": 704,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "AY59",
+      "world": {
+        "x": -3456,
+        "y": 1408
+      },
+      "zone": "central_basin"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 30,
+        "y": 59
+      },
+      "hammer_world": {
+        "x": -4288,
+        "y": 576,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "AE60",
+      "world": {
+        "x": -8576,
+        "y": 1152
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "stone_giant",
+      "grid": {
+        "x": 110,
+        "y": 59
+      },
+      "hammer_world": {
+        "x": 5952,
+        "y": 576,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DG60",
+      "world": {
+        "x": 11904,
+        "y": 1152
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 37,
+        "y": 61
+      },
+      "hammer_world": {
+        "x": -3392,
+        "y": 320,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "AL62",
+      "world": {
+        "x": -6784,
+        "y": 640
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "wolf_lord",
+      "grid": {
+        "x": 22,
+        "y": 62
+      },
+      "hammer_world": {
+        "x": -5312,
+        "y": 192,
+        "z_hint": 384
+      },
+      "primary_entity_id": "wolf_lord",
+      "spawn_group": "cave_boss",
+      "tile_id": "W63",
+      "world": {
+        "x": -10624,
+        "y": 384
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "stone_giant",
+      "grid": {
+        "x": 106,
+        "y": 62
+      },
+      "hammer_world": {
+        "x": 5440,
+        "y": 192,
+        "z_hint": 128
+      },
+      "primary_entity_id": "stone_giant",
+      "spawn_group": "cave_boss",
+      "tile_id": "DC63",
+      "world": {
+        "x": 10880,
+        "y": 384
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 14,
+        "y": 63
+      },
+      "hammer_world": {
+        "x": -6336,
+        "y": 64,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "O64",
+      "world": {
+        "x": -12672,
+        "y": 128
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 31,
+        "y": 63
+      },
+      "hammer_world": {
+        "x": -4160,
+        "y": 64,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "AF64",
+      "world": {
+        "x": -8320,
+        "y": 128
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "stone_giant",
+      "grid": {
+        "x": 110,
+        "y": 63
+      },
+      "hammer_world": {
+        "x": 5952,
+        "y": 64,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "DG64",
+      "world": {
+        "x": 11904,
+        "y": 128
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 13,
+        "y": 64
+      },
+      "hammer_world": {
+        "x": -6464,
+        "y": -64,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "N65",
+      "world": {
+        "x": -12928,
+        "y": -128
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "great_wyrm",
+      "grid": {
+        "x": 64,
+        "y": 64
+      },
+      "hammer_world": {
+        "x": 64,
+        "y": -64,
+        "z_hint": -128
+      },
+      "primary_entity_id": "great_wyrm",
+      "spawn_group": "world_boss",
+      "tile_id": "BM65",
+      "world": {
+        "x": 128,
+        "y": -128
+      },
+      "zone": "grimroot_marsh"
+    },
+    {
+      "boss_arena": "stone_giant",
+      "grid": {
+        "x": 107,
+        "y": 64
+      },
+      "hammer_world": {
+        "x": 5568,
+        "y": -64,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DD65",
+      "world": {
+        "x": 11136,
+        "y": -128
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 35,
+        "y": 65
+      },
+      "hammer_world": {
+        "x": -3648,
+        "y": -192,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "AJ66",
+      "world": {
+        "x": -7296,
+        "y": -384
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 37,
+        "y": 65
+      },
+      "hammer_world": {
+        "x": -3392,
+        "y": -192,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "AL66",
+      "world": {
+        "x": -6784,
+        "y": -384
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 91,
+        "y": 67
+      },
+      "hammer_world": {
+        "x": 3520,
+        "y": -448,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "CN68",
+      "world": {
+        "x": 7040,
+        "y": -896
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 53,
+        "y": 68
+      },
+      "hammer_world": {
+        "x": -1344,
+        "y": -576,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "BB69",
+      "world": {
+        "x": -2688,
+        "y": -1152
+      },
+      "zone": "grimroot_marsh"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 104,
+        "y": 69
+      },
+      "hammer_world": {
+        "x": 5184,
+        "y": -704,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DA70",
+      "world": {
+        "x": 10368,
+        "y": -1408
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 122,
+        "y": 69
+      },
+      "hammer_world": {
+        "x": 7488,
+        "y": -704,
+        "z_hint": 256
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DS70",
+      "world": {
+        "x": 14976,
+        "y": -1408
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 14,
+        "y": 70
+      },
+      "hammer_world": {
+        "x": -6336,
+        "y": -832,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "O71",
+      "world": {
+        "x": -12672,
+        "y": -1664
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 9,
+        "y": 72
+      },
+      "hammer_world": {
+        "x": -6976,
+        "y": -1088,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "J73",
+      "world": {
+        "x": -13952,
+        "y": -2176
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 57,
+        "y": 73
+      },
+      "hammer_world": {
+        "x": -832,
+        "y": -1216,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "BF74",
+      "world": {
+        "x": -1664,
+        "y": -2432
+      },
+      "zone": "grimroot_marsh"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 6,
+        "y": 74
+      },
+      "hammer_world": {
+        "x": -7360,
+        "y": -1344,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "G75",
+      "world": {
+        "x": -14720,
+        "y": -2688
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 7,
+        "y": 74
+      },
+      "hammer_world": {
+        "x": -7232,
+        "y": -1344,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "H75",
+      "world": {
+        "x": -14464,
+        "y": -2688
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 67,
+        "y": 74
+      },
+      "hammer_world": {
+        "x": 448,
+        "y": -1344,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "BP75",
+      "world": {
+        "x": 896,
+        "y": -2688
+      },
+      "zone": "grimroot_marsh"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 88,
+        "y": 74
+      },
+      "hammer_world": {
+        "x": 3136,
+        "y": -1344,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CK75",
+      "world": {
+        "x": 6272,
+        "y": -2688
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 89,
+        "y": 74
+      },
+      "hammer_world": {
+        "x": 3264,
+        "y": -1344,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "CL75",
+      "world": {
+        "x": 6528,
+        "y": -2688
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 108,
+        "y": 74
+      },
+      "hammer_world": {
+        "x": 5696,
+        "y": -1344,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DE75",
+      "world": {
+        "x": 11392,
+        "y": -2688
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 121,
+        "y": 75
+      },
+      "hammer_world": {
+        "x": 7360,
+        "y": -1472,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DR76",
+      "world": {
+        "x": 14720,
+        "y": -2944
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 124,
+        "y": 75
+      },
+      "hammer_world": {
+        "x": 7744,
+        "y": -1472,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DU76",
+      "world": {
+        "x": 15488,
+        "y": -2944
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 87,
+        "y": 76
+      },
+      "hammer_world": {
+        "x": 3008,
+        "y": -1600,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "CJ77",
+      "world": {
+        "x": 6016,
+        "y": -3200
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 104,
+        "y": 77
+      },
+      "hammer_world": {
+        "x": 5184,
+        "y": -1728,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "DA78",
+      "world": {
+        "x": 10368,
+        "y": -3456
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 6,
+        "y": 79
+      },
+      "hammer_world": {
+        "x": -7360,
+        "y": -1984,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "G80",
+      "world": {
+        "x": -14720,
+        "y": -3968
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 85,
+        "y": 80
+      },
+      "hammer_world": {
+        "x": 2752,
+        "y": -2112,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CH81",
+      "world": {
+        "x": 5504,
+        "y": -4224
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 90,
+        "y": 81
+      },
+      "hammer_world": {
+        "x": 3392,
+        "y": -2240,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "CM82",
+      "world": {
+        "x": 6784,
+        "y": -4480
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 30,
+        "y": 82
+      },
+      "hammer_world": {
+        "x": -4288,
+        "y": -2368,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "AE83",
+      "world": {
+        "x": -8576,
+        "y": -4736
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 79,
+        "y": 82
+      },
+      "hammer_world": {
+        "x": 1984,
+        "y": -2368,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CB83",
+      "world": {
+        "x": 3968,
+        "y": -4736
+      },
+      "zone": "grimroot_marsh"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 112,
+        "y": 82
+      },
+      "hammer_world": {
+        "x": 6208,
+        "y": -2368,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DI83",
+      "world": {
+        "x": 12416,
+        "y": -4736
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 3,
+        "y": 83
+      },
+      "hammer_world": {
+        "x": -7744,
+        "y": -2496,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "D84",
+      "world": {
+        "x": -15488,
+        "y": -4992
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 59,
+        "y": 83
+      },
+      "hammer_world": {
+        "x": -576,
+        "y": -2496,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "BH84",
+      "world": {
+        "x": -1152,
+        "y": -4992
+      },
+      "zone": "grimroot_marsh"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 119,
+        "y": 83
+      },
+      "hammer_world": {
+        "x": 7104,
+        "y": -2496,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "DP84",
+      "world": {
+        "x": 14208,
+        "y": -4992
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 6,
+        "y": 84
+      },
+      "hammer_world": {
+        "x": -7360,
+        "y": -2624,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "G85",
+      "world": {
+        "x": -14720,
+        "y": -5248
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 7,
+        "y": 84
+      },
+      "hammer_world": {
+        "x": -7232,
+        "y": -2624,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "H85",
+      "world": {
+        "x": -14464,
+        "y": -5248
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 19,
+        "y": 84
+      },
+      "hammer_world": {
+        "x": -5696,
+        "y": -2624,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "T85",
+      "world": {
+        "x": -11392,
+        "y": -5248
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 20,
+        "y": 84
+      },
+      "hammer_world": {
+        "x": -5568,
+        "y": -2624,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "U85",
+      "world": {
+        "x": -11136,
+        "y": -5248
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 88,
+        "y": 84
+      },
+      "hammer_world": {
+        "x": 3136,
+        "y": -2624,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CK85",
+      "world": {
+        "x": 6272,
+        "y": -5248
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 83,
+        "y": 85
+      },
+      "hammer_world": {
+        "x": 2496,
+        "y": -2752,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "CF86",
+      "world": {
+        "x": 4992,
+        "y": -5504
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 120,
+        "y": 85
+      },
+      "hammer_world": {
+        "x": 7232,
+        "y": -2752,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DQ86",
+      "world": {
+        "x": 14464,
+        "y": -5504
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 123,
+        "y": 86
+      },
+      "hammer_world": {
+        "x": 7616,
+        "y": -2880,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DT87",
+      "world": {
+        "x": 15232,
+        "y": -5760
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 10,
+        "y": 87
+      },
+      "hammer_world": {
+        "x": -6848,
+        "y": -3008,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "K88",
+      "world": {
+        "x": -13696,
+        "y": -6016
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 66,
+        "y": 90
+      },
+      "hammer_world": {
+        "x": 320,
+        "y": -3392,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "BO91",
+      "world": {
+        "x": 640,
+        "y": -6784
+      },
+      "zone": "grimroot_marsh"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 3,
+        "y": 91
+      },
+      "hammer_world": {
+        "x": -7744,
+        "y": -3520,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "D92",
+      "world": {
+        "x": -15488,
+        "y": -7040
+      },
+      "zone": "western_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 83,
+        "y": 92
+      },
+      "hammer_world": {
+        "x": 2496,
+        "y": -3648,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "CF93",
+      "world": {
+        "x": 4992,
+        "y": -7296
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 92,
+        "y": 93
+      },
+      "hammer_world": {
+        "x": 3648,
+        "y": -3776,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CO94",
+      "world": {
+        "x": 7296,
+        "y": -7552
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 112,
+        "y": 93
+      },
+      "hammer_world": {
+        "x": 6208,
+        "y": -3776,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "DI94",
+      "world": {
+        "x": 12416,
+        "y": -7552
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 80,
+        "y": 95
+      },
+      "hammer_world": {
+        "x": 2112,
+        "y": -4032,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CC96",
+      "world": {
+        "x": 4224,
+        "y": -8064
+      },
+      "zone": "heartland"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 106,
+        "y": 95
+      },
+      "hammer_world": {
+        "x": 5440,
+        "y": -4032,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DC96",
+      "world": {
+        "x": 10880,
+        "y": -8064
+      },
+      "zone": "eastern_highlands"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 56,
+        "y": 97
+      },
+      "hammer_world": {
+        "x": -960,
+        "y": -4288,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "BE98",
+      "world": {
+        "x": -1920,
+        "y": -8576
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 105,
+        "y": 97
+      },
+      "hammer_world": {
+        "x": 5312,
+        "y": -4288,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DB98",
+      "world": {
+        "x": 10624,
+        "y": -8576
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 65,
+        "y": 99
+      },
+      "hammer_world": {
+        "x": 192,
+        "y": -4544,
+        "z_hint": 0
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "BN100",
+      "world": {
+        "x": 384,
+        "y": -9088
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 114,
+        "y": 99
+      },
+      "hammer_world": {
+        "x": 6464,
+        "y": -4544,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DK100",
+      "world": {
+        "x": 12928,
+        "y": -9088
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "grimroot",
+      "grid": {
+        "x": 45,
+        "y": 101
+      },
+      "hammer_world": {
+        "x": -2368,
+        "y": -4800,
+        "z_hint": 128
+      },
+      "primary_entity_id": "grimroot",
+      "spawn_group": "elite_boss",
+      "tile_id": "AT102",
+      "world": {
+        "x": -4736,
+        "y": -9600
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "ember_queen",
+      "grid": {
+        "x": 83,
+        "y": 101
+      },
+      "hammer_world": {
+        "x": 2496,
+        "y": -4800,
+        "z_hint": 128
+      },
+      "primary_entity_id": "ember_queen",
+      "spawn_group": "world_boss",
+      "tile_id": "CF102",
+      "world": {
+        "x": 4992,
+        "y": -9600
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 114,
+        "y": 102
+      },
+      "hammer_world": {
+        "x": 6464,
+        "y": -4928,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "DK103",
+      "world": {
+        "x": 12928,
+        "y": -9856
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 123,
+        "y": 102
+      },
+      "hammer_world": {
+        "x": 7616,
+        "y": -4928,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DT103",
+      "world": {
+        "x": 15232,
+        "y": -9856
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 38,
+        "y": 103
+      },
+      "hammer_world": {
+        "x": -3264,
+        "y": -5056,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "AM104",
+      "world": {
+        "x": -6528,
+        "y": -10112
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "ember_queen",
+      "grid": {
+        "x": 86,
+        "y": 103
+      },
+      "hammer_world": {
+        "x": 2880,
+        "y": -5056,
+        "z_hint": 256
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CI104",
+      "world": {
+        "x": 5760,
+        "y": -10112
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 122,
+        "y": 103
+      },
+      "hammer_world": {
+        "x": 7488,
+        "y": -5056,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "DS104",
+      "world": {
+        "x": 14976,
+        "y": -10112
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 7,
+        "y": 104
+      },
+      "hammer_world": {
+        "x": -7232,
+        "y": -5184,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "H105",
+      "world": {
+        "x": -14464,
+        "y": -10368
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 116,
+        "y": 104
+      },
+      "hammer_world": {
+        "x": 6720,
+        "y": -5184,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DM105",
+      "world": {
+        "x": 13440,
+        "y": -10368
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 8,
+        "y": 105
+      },
+      "hammer_world": {
+        "x": -7104,
+        "y": -5312,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "I106",
+      "world": {
+        "x": -14208,
+        "y": -10624
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 17,
+        "y": 107
+      },
+      "hammer_world": {
+        "x": -5952,
+        "y": -5568,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "R108",
+      "world": {
+        "x": -11904,
+        "y": -11136
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 90,
+        "y": 107
+      },
+      "hammer_world": {
+        "x": 3392,
+        "y": -5568,
+        "z_hint": 256
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "CM108",
+      "world": {
+        "x": 6784,
+        "y": -11136
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 117,
+        "y": 107
+      },
+      "hammer_world": {
+        "x": 6848,
+        "y": -5568,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DN108",
+      "world": {
+        "x": 13696,
+        "y": -11136
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 116,
+        "y": 108
+      },
+      "hammer_world": {
+        "x": 6720,
+        "y": -5696,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "DM109",
+      "world": {
+        "x": 13440,
+        "y": -11392
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 12,
+        "y": 109
+      },
+      "hammer_world": {
+        "x": -6592,
+        "y": -5824,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "M110",
+      "world": {
+        "x": -13184,
+        "y": -11648
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 9,
+        "y": 110
+      },
+      "hammer_world": {
+        "x": -6976,
+        "y": -5952,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "J111",
+      "world": {
+        "x": -13952,
+        "y": -11904
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 19,
+        "y": 110
+      },
+      "hammer_world": {
+        "x": -5696,
+        "y": -5952,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "T111",
+      "world": {
+        "x": -11392,
+        "y": -11904
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 90,
+        "y": 110
+      },
+      "hammer_world": {
+        "x": 3392,
+        "y": -5952,
+        "z_hint": 256
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "CM111",
+      "world": {
+        "x": 6784,
+        "y": -11904
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 107,
+        "y": 110
+      },
+      "hammer_world": {
+        "x": 5568,
+        "y": -5952,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DD111",
+      "world": {
+        "x": 11136,
+        "y": -11904
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 110,
+        "y": 110
+      },
+      "hammer_world": {
+        "x": 5952,
+        "y": -5952,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "DG111",
+      "world": {
+        "x": 11904,
+        "y": -11904
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 6,
+        "y": 111
+      },
+      "hammer_world": {
+        "x": -7360,
+        "y": -6080,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "G112",
+      "world": {
+        "x": -14720,
+        "y": -12160
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 109,
+        "y": 111
+      },
+      "hammer_world": {
+        "x": 5824,
+        "y": -6080,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DF112",
+      "world": {
+        "x": 11648,
+        "y": -12160
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 115,
+        "y": 111
+      },
+      "hammer_world": {
+        "x": 6592,
+        "y": -6080,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "DL112",
+      "world": {
+        "x": 13184,
+        "y": -12160
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 91,
+        "y": 112
+      },
+      "hammer_world": {
+        "x": 3520,
+        "y": -6208,
+        "z_hint": 256
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "CN113",
+      "world": {
+        "x": 7040,
+        "y": -12416
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 5,
+        "y": 113
+      },
+      "hammer_world": {
+        "x": -7488,
+        "y": -6336,
+        "z_hint": 128
+      },
+      "primary_entity_id": "wolf_pack",
+      "spawn_group": "hostile_pack",
+      "tile_id": "F114",
+      "world": {
+        "x": -14976,
+        "y": -12672
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 19,
+        "y": 113
+      },
+      "hammer_world": {
+        "x": -5696,
+        "y": -6336,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "T114",
+      "world": {
+        "x": -11392,
+        "y": -12672
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 40,
+        "y": 114
+      },
+      "hammer_world": {
+        "x": -3008,
+        "y": -6464,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "AO115",
+      "world": {
+        "x": -6016,
+        "y": -12928
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 17,
+        "y": 115
+      },
+      "hammer_world": {
+        "x": -5952,
+        "y": -6592,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "R116",
+      "world": {
+        "x": -11904,
+        "y": -13184
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 98,
+        "y": 115
+      },
+      "hammer_world": {
+        "x": 4416,
+        "y": -6592,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "CU116",
+      "world": {
+        "x": 8832,
+        "y": -13184
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 121,
+        "y": 115
+      },
+      "hammer_world": {
+        "x": 7360,
+        "y": -6592,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DR116",
+      "world": {
+        "x": 14720,
+        "y": -13184
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 123,
+        "y": 116
+      },
+      "hammer_world": {
+        "x": 7616,
+        "y": -6720,
+        "z_hint": 0
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "DT117",
+      "world": {
+        "x": 15232,
+        "y": -13440
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 21,
+        "y": 117
+      },
+      "hammer_world": {
+        "x": -5440,
+        "y": -6848,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "V118",
+      "world": {
+        "x": -10880,
+        "y": -13696
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 93,
+        "y": 117
+      },
+      "hammer_world": {
+        "x": 3776,
+        "y": -6848,
+        "z_hint": 256
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "CP118",
+      "world": {
+        "x": 7552,
+        "y": -13696
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 5,
+        "y": 118
+      },
+      "hammer_world": {
+        "x": -7488,
+        "y": -6976,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "F119",
+      "world": {
+        "x": -14976,
+        "y": -13952
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 11,
+        "y": 118
+      },
+      "hammer_world": {
+        "x": -6720,
+        "y": -6976,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "L119",
+      "world": {
+        "x": -13440,
+        "y": -13952
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 25,
+        "y": 118
+      },
+      "hammer_world": {
+        "x": -4928,
+        "y": -6976,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "Z119",
+      "world": {
+        "x": -9856,
+        "y": -13952
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 40,
+        "y": 118
+      },
+      "hammer_world": {
+        "x": -3008,
+        "y": -6976,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "AO119",
+      "world": {
+        "x": -6016,
+        "y": -13952
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 108,
+        "y": 118
+      },
+      "hammer_world": {
+        "x": 5696,
+        "y": -6976,
+        "z_hint": 128
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "DE119",
+      "world": {
+        "x": 11392,
+        "y": -13952
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 89,
+        "y": 119
+      },
+      "hammer_world": {
+        "x": 3264,
+        "y": -7104,
+        "z_hint": 256
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "CL120",
+      "world": {
+        "x": 6528,
+        "y": -14208
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 21,
+        "y": 120
+      },
+      "hammer_world": {
+        "x": -5440,
+        "y": -7232,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "V121",
+      "world": {
+        "x": -10880,
+        "y": -14464
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 18,
+        "y": 121
+      },
+      "hammer_world": {
+        "x": -5824,
+        "y": -7360,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "S122",
+      "world": {
+        "x": -11648,
+        "y": -14720
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 111,
+        "y": 121
+      },
+      "hammer_world": {
+        "x": 6080,
+        "y": -7360,
+        "z_hint": 128
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DH122",
+      "world": {
+        "x": 12160,
+        "y": -14720
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 113,
+        "y": 121
+      },
+      "hammer_world": {
+        "x": 6336,
+        "y": -7360,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DJ122",
+      "world": {
+        "x": 12672,
+        "y": -14720
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 93,
+        "y": 122
+      },
+      "hammer_world": {
+        "x": 3776,
+        "y": -7488,
+        "z_hint": 128
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "CP123",
+      "world": {
+        "x": 7552,
+        "y": -14976
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 25,
+        "y": 123
+      },
+      "hammer_world": {
+        "x": -4928,
+        "y": -7616,
+        "z_hint": 0
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "Z124",
+      "world": {
+        "x": -9856,
+        "y": -15232
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 72,
+        "y": 123
+      },
+      "hammer_world": {
+        "x": 1088,
+        "y": -7616,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "BU124",
+      "world": {
+        "x": 2176,
+        "y": -15232
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 78,
+        "y": 123
+      },
+      "hammer_world": {
+        "x": 1856,
+        "y": -7616,
+        "z_hint": 0
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "CA124",
+      "world": {
+        "x": 3712,
+        "y": -15232
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 81,
+        "y": 123
+      },
+      "hammer_world": {
+        "x": 2240,
+        "y": -7616,
+        "z_hint": 0
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "CD124",
+      "world": {
+        "x": 4480,
+        "y": -15232
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 84,
+        "y": 123
+      },
+      "hammer_world": {
+        "x": 2624,
+        "y": -7616,
+        "z_hint": 0
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "CG124",
+      "world": {
+        "x": 5248,
+        "y": -15232
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 9,
+        "y": 124
+      },
+      "hammer_world": {
+        "x": -6976,
+        "y": -7744,
+        "z_hint": 0
+      },
+      "primary_entity_id": "bear_den",
+      "spawn_group": "hostile_elite",
+      "tile_id": "J125",
+      "world": {
+        "x": -13952,
+        "y": -15488
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 107,
+        "y": 124
+      },
+      "hammer_world": {
+        "x": 5568,
+        "y": -7744,
+        "z_hint": 0
+      },
+      "primary_entity_id": "rabbit_warren",
+      "spawn_group": "passive_small",
+      "tile_id": "DD125",
+      "world": {
+        "x": 11136,
+        "y": -15488
+      },
+      "zone": "southern_wilds"
+    },
+    {
+      "boss_arena": "",
+      "grid": {
+        "x": 124,
+        "y": 124
+      },
+      "hammer_world": {
+        "x": 7744,
+        "y": -7744,
+        "z_hint": 0
+      },
+      "primary_entity_id": "deer_herd",
+      "spawn_group": "passive_large",
+      "tile_id": "DU125",
+      "world": {
+        "x": 15488,
+        "y": -15488
+      },
+      "zone": "southern_wilds"
+    }
+  ],
+  "spawn_zones": [
+    {
+      "bounds": {
+        "hammer_x1": -2496,
+        "hammer_x2": -2496,
+        "hammer_y1": 1728,
+        "hammer_y2": 1728,
+        "tile_count": 1,
+        "world_x1": -4992,
+        "world_x2": -4992,
+        "world_y1": 3456,
+        "world_y2": 3456,
+        "x1": 44,
+        "x2": 44,
+        "y1": 50,
+        "y2": 50
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 2,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 44.0,
+        "grid_y": 50.0,
+        "hammer_x": -2496.0,
+        "hammer_y": 1728.0,
+        "world_x": -4992.0,
+        "world_y": 3456.0
+      },
+      "id": "wildlife_zone_0001",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "central_basin"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -960,
+        "hammer_x2": -960,
+        "hammer_y1": 2496,
+        "hammer_y2": 2496,
+        "tile_count": 1,
+        "world_x1": -1920,
+        "world_x2": -1920,
+        "world_y1": 4992,
+        "world_y2": 4992,
+        "x1": 56,
+        "x2": 56,
+        "y1": 44,
+        "y2": 44
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 3,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 56.0,
+        "grid_y": 44.0,
+        "hammer_x": -960.0,
+        "hammer_y": 2496.0,
+        "world_x": -1920.0,
+        "world_y": 4992.0
+      },
+      "id": "wildlife_zone_0002",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "central_basin"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 1856,
+        "hammer_x2": 1856,
+        "hammer_y1": 832,
+        "hammer_y2": 832,
+        "tile_count": 1,
+        "world_x1": 3712,
+        "world_x2": 3712,
+        "world_y1": 1664,
+        "world_y2": 1664,
+        "x1": 78,
+        "x2": 78,
+        "y1": 57,
+        "y2": 57
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 78.0,
+        "grid_y": 57.0,
+        "hammer_x": 1856.0,
+        "hammer_y": 832.0,
+        "world_x": 3712.0,
+        "world_y": 1664.0
+      },
+      "id": "wildlife_zone_0003",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "central_basin"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -1728,
+        "hammer_x2": -1088,
+        "hammer_y1": 704,
+        "hammer_y2": 1600,
+        "tile_count": 3,
+        "world_x1": -3456,
+        "world_x2": -2176,
+        "world_y1": 1408,
+        "world_y2": 3200,
+        "x1": 50,
+        "x2": 55,
+        "y1": 51,
+        "y2": 58
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 3,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 53.0,
+        "grid_y": 54.0,
+        "hammer_x": -1344.0,
+        "hammer_y": 1216.0,
+        "world_x": -2688.0,
+        "world_y": 2432.0
+      },
+      "id": "wildlife_zone_0004",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "passive_small",
+      "zone": "central_basin"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 832,
+        "hammer_x2": 832,
+        "hammer_y1": 1472,
+        "hammer_y2": 1472,
+        "tile_count": 1,
+        "world_x1": 1664,
+        "world_x2": 1664,
+        "world_y1": 2944,
+        "world_y2": 2944,
+        "x1": 70,
+        "x2": 70,
+        "y1": 52,
+        "y2": 52
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 70.0,
+        "grid_y": 52.0,
+        "hammer_x": 832.0,
+        "hammer_y": 1472.0,
+        "world_x": 1664.0,
+        "world_y": 2944.0
+      },
+      "id": "wildlife_zone_0005",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "central_basin"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 5440,
+        "hammer_x2": 5440,
+        "hammer_y1": 192,
+        "hammer_y2": 192,
+        "tile_count": 1,
+        "world_x1": 10880,
+        "world_x2": 10880,
+        "world_y1": 384,
+        "world_y2": 384,
+        "x1": 106,
+        "x2": 106,
+        "y1": 62,
+        "y2": 62
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 106.0,
+        "grid_y": 62.0,
+        "hammer_x": 5440.0,
+        "hammer_y": 192.0,
+        "world_x": 10880.0,
+        "world_y": 384.0
+      },
+      "id": "wildlife_zone_0006",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "cave_boss",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 5952,
+        "hammer_x2": 5952,
+        "hammer_y1": 64,
+        "hammer_y2": 64,
+        "tile_count": 1,
+        "world_x1": 11904,
+        "world_x2": 11904,
+        "world_y1": 128,
+        "world_y2": 128,
+        "x1": 110,
+        "x2": 110,
+        "y1": 63,
+        "y2": 63
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 110.0,
+        "grid_y": 63.0,
+        "hammer_x": 5952.0,
+        "hammer_y": 64.0,
+        "world_x": 11904.0,
+        "world_y": 128.0
+      },
+      "id": "wildlife_zone_0007",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_pack",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 5184,
+        "hammer_x2": 5184,
+        "hammer_y1": -1728,
+        "hammer_y2": -1728,
+        "tile_count": 1,
+        "world_x1": 10368,
+        "world_x2": 10368,
+        "world_y1": -3456,
+        "world_y2": -3456,
+        "x1": 104,
+        "x2": 104,
+        "y1": 77,
+        "y2": 77
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 104.0,
+        "grid_y": 77.0,
+        "hammer_x": 5184.0,
+        "hammer_y": -1728.0,
+        "world_x": 10368.0,
+        "world_y": -3456.0
+      },
+      "id": "wildlife_zone_0008",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_pack",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6208,
+        "hammer_x2": 7104,
+        "hammer_y1": -3776,
+        "hammer_y2": -2496,
+        "tile_count": 2,
+        "world_x1": 12416,
+        "world_x2": 14208,
+        "world_y1": -7552,
+        "world_y2": -4992,
+        "x1": 112,
+        "x2": 119,
+        "y1": 83,
+        "y2": 93
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 115.5,
+        "grid_y": 88.0,
+        "hammer_x": 6656.0,
+        "hammer_y": -3136.0,
+        "world_x": 13312.0,
+        "world_y": -6272.0
+      },
+      "id": "wildlife_zone_0009",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "hostile_pack",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 4288,
+        "hammer_x2": 6080,
+        "hammer_y1": 2368,
+        "hammer_y2": 2880,
+        "tile_count": 2,
+        "world_x1": 8576,
+        "world_x2": 12160,
+        "world_y1": 4736,
+        "world_y2": 5760,
+        "x1": 97,
+        "x2": 111,
+        "y1": 41,
+        "y2": 45
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 104.0,
+        "grid_y": 43.0,
+        "hammer_x": 5184.0,
+        "hammer_y": 2624.0,
+        "world_x": 10368.0,
+        "world_y": 5248.0
+      },
+      "id": "wildlife_zone_0010",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_large",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 5952,
+        "hammer_x2": 5952,
+        "hammer_y1": 576,
+        "hammer_y2": 576,
+        "tile_count": 1,
+        "world_x1": 11904,
+        "world_x2": 11904,
+        "world_y1": 1152,
+        "world_y2": 1152,
+        "x1": 110,
+        "x2": 110,
+        "y1": 59,
+        "y2": 59
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 110.0,
+        "grid_y": 59.0,
+        "hammer_x": 5952.0,
+        "hammer_y": 576.0,
+        "world_x": 11904.0,
+        "world_y": 1152.0
+      },
+      "id": "wildlife_zone_0011",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 5440,
+        "hammer_x2": 5440,
+        "hammer_y1": -4032,
+        "hammer_y2": -4032,
+        "tile_count": 1,
+        "world_x1": 10880,
+        "world_x2": 10880,
+        "world_y1": -8064,
+        "world_y2": -8064,
+        "x1": 106,
+        "x2": 106,
+        "y1": 95,
+        "y2": 95
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 106.0,
+        "grid_y": 95.0,
+        "hammer_x": 5440.0,
+        "hammer_y": -4032.0,
+        "world_x": 10880.0,
+        "world_y": -8064.0
+      },
+      "id": "wildlife_zone_0012",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6208,
+        "hammer_x2": 7616,
+        "hammer_y1": 2112,
+        "hammer_y2": 3520,
+        "tile_count": 5,
+        "world_x1": 12416,
+        "world_x2": 15232,
+        "world_y1": 4224,
+        "world_y2": 7040,
+        "x1": 112,
+        "x2": 123,
+        "y1": 36,
+        "y2": 47
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 117.0,
+        "grid_y": 40.8,
+        "hammer_x": 6848.0,
+        "hammer_y": 2905.6,
+        "world_x": 13696.0,
+        "world_y": 5811.2
+      },
+      "id": "wildlife_zone_0013",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 5,
+      "spawn_group": "passive_large",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6336,
+        "hammer_x2": 6336,
+        "hammer_y1": 1344,
+        "hammer_y2": 1344,
+        "tile_count": 1,
+        "world_x1": 12672,
+        "world_x2": 12672,
+        "world_y1": 2688,
+        "world_y2": 2688,
+        "x1": 113,
+        "x2": 113,
+        "y1": 53,
+        "y2": 53
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 113.0,
+        "grid_y": 53.0,
+        "hammer_x": 6336.0,
+        "hammer_y": 1344.0,
+        "world_x": 12672.0,
+        "world_y": 2688.0
+      },
+      "id": "wildlife_zone_0014",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 7488,
+        "hammer_x2": 7744,
+        "hammer_y1": -1472,
+        "hammer_y2": -704,
+        "tile_count": 2,
+        "world_x1": 14976,
+        "world_x2": 15488,
+        "world_y1": -2944,
+        "world_y2": -1408,
+        "x1": 122,
+        "x2": 124,
+        "y1": 69,
+        "y2": 75
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 123.0,
+        "grid_y": 72.0,
+        "hammer_x": 7616.0,
+        "hammer_y": -1088.0,
+        "world_x": 15232.0,
+        "world_y": -2176.0
+      },
+      "id": "wildlife_zone_0015",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_large",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6208,
+        "hammer_x2": 6208,
+        "hammer_y1": -2368,
+        "hammer_y2": -2368,
+        "tile_count": 1,
+        "world_x1": 12416,
+        "world_x2": 12416,
+        "world_y1": -4736,
+        "world_y2": -4736,
+        "x1": 112,
+        "x2": 112,
+        "y1": 82,
+        "y2": 82
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 112.0,
+        "grid_y": 82.0,
+        "hammer_x": 6208.0,
+        "hammer_y": -2368.0,
+        "world_x": 12416.0,
+        "world_y": -4736.0
+      },
+      "id": "wildlife_zone_0016",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 5568,
+        "hammer_x2": 5568,
+        "hammer_y1": 1216,
+        "hammer_y2": 1216,
+        "tile_count": 1,
+        "world_x1": 11136,
+        "world_x2": 11136,
+        "world_y1": 2432,
+        "world_y2": 2432,
+        "x1": 107,
+        "x2": 107,
+        "y1": 54,
+        "y2": 54
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 107.0,
+        "grid_y": 54.0,
+        "hammer_x": 5568.0,
+        "hammer_y": 1216.0,
+        "world_x": 11136.0,
+        "world_y": 2432.0
+      },
+      "id": "wildlife_zone_0017",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 5184,
+        "hammer_x2": 5696,
+        "hammer_y1": -1344,
+        "hammer_y2": -64,
+        "tile_count": 3,
+        "world_x1": 10368,
+        "world_x2": 11392,
+        "world_y1": -2688,
+        "world_y2": -128,
+        "x1": 104,
+        "x2": 108,
+        "y1": 64,
+        "y2": 74
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 106.33,
+        "grid_y": 69.0,
+        "hammer_x": 5482.67,
+        "hammer_y": -704.0,
+        "world_x": 10965.33,
+        "world_y": -1408.0
+      },
+      "id": "wildlife_zone_0018",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "passive_small",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6464,
+        "hammer_x2": 7232,
+        "hammer_y1": 2752,
+        "hammer_y2": 3136,
+        "tile_count": 2,
+        "world_x1": 12928,
+        "world_x2": 14464,
+        "world_y1": 5504,
+        "world_y2": 6272,
+        "x1": 114,
+        "x2": 120,
+        "y1": 39,
+        "y2": 42
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 117.0,
+        "grid_y": 40.5,
+        "hammer_x": 6848.0,
+        "hammer_y": 2944.0,
+        "world_x": 13696.0,
+        "world_y": 5888.0
+      },
+      "id": "wildlife_zone_0019",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_small",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6976,
+        "hammer_x2": 7744,
+        "hammer_y1": 1344,
+        "hammer_y2": 1728,
+        "tile_count": 3,
+        "world_x1": 13952,
+        "world_x2": 15488,
+        "world_y1": 2688,
+        "world_y2": 3456,
+        "x1": 118,
+        "x2": 124,
+        "y1": 50,
+        "y2": 53
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 120.0,
+        "grid_y": 51.33,
+        "hammer_x": 7232.0,
+        "hammer_y": 1557.33,
+        "world_x": 14464.0,
+        "world_y": 3114.67
+      },
+      "id": "wildlife_zone_0020",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "passive_small",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 7360,
+        "hammer_x2": 7360,
+        "hammer_y1": -1472,
+        "hammer_y2": -1472,
+        "tile_count": 1,
+        "world_x1": 14720,
+        "world_x2": 14720,
+        "world_y1": -2944,
+        "world_y2": -2944,
+        "x1": 121,
+        "x2": 121,
+        "y1": 75,
+        "y2": 75
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 121.0,
+        "grid_y": 75.0,
+        "hammer_x": 7360.0,
+        "hammer_y": -1472.0,
+        "world_x": 14720.0,
+        "world_y": -2944.0
+      },
+      "id": "wildlife_zone_0021",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 7232,
+        "hammer_x2": 7616,
+        "hammer_y1": -2880,
+        "hammer_y2": -2752,
+        "tile_count": 2,
+        "world_x1": 14464,
+        "world_x2": 15232,
+        "world_y1": -5760,
+        "world_y2": -5504,
+        "x1": 120,
+        "x2": 123,
+        "y1": 85,
+        "y2": 86
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 121.5,
+        "grid_y": 85.5,
+        "hammer_x": 7424.0,
+        "hammer_y": -2816.0,
+        "world_x": 14848.0,
+        "world_y": -5632.0
+      },
+      "id": "wildlife_zone_0022",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_small",
+      "zone": "eastern_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -7488,
+        "hammer_x2": -7488,
+        "hammer_y1": 7232,
+        "hammer_y2": 7232,
+        "tile_count": 1,
+        "world_x1": -14976,
+        "world_x2": -14976,
+        "world_y1": 14464,
+        "world_y2": 14464,
+        "x1": 5,
+        "x2": 5,
+        "y1": 7,
+        "y2": 7
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 5.0,
+        "grid_y": 7.0,
+        "hammer_x": -7488.0,
+        "hammer_y": 7232.0,
+        "world_x": -14976.0,
+        "world_y": 14464.0
+      },
+      "id": "wildlife_zone_0023",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -7616,
+        "hammer_x2": -7232,
+        "hammer_y1": 4160,
+        "hammer_y2": 4416,
+        "tile_count": 2,
+        "world_x1": -15232,
+        "world_x2": -14464,
+        "world_y1": 8320,
+        "world_y2": 8832,
+        "x1": 4,
+        "x2": 7,
+        "y1": 29,
+        "y2": 31
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 5.5,
+        "grid_y": 30.0,
+        "hammer_x": -7424.0,
+        "hammer_y": 4288.0,
+        "world_x": -14848.0,
+        "world_y": 8576.0
+      },
+      "id": "wildlife_zone_0024",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "hostile_elite",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -4160,
+        "hammer_x2": -4160,
+        "hammer_y1": 7744,
+        "hammer_y2": 7744,
+        "tile_count": 1,
+        "world_x1": -8320,
+        "world_x2": -8320,
+        "world_y1": 15488,
+        "world_y2": 15488,
+        "x1": 31,
+        "x2": 31,
+        "y1": 3,
+        "y2": 3
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 31.0,
+        "grid_y": 3.0,
+        "hammer_x": -4160.0,
+        "hammer_y": 7744.0,
+        "world_x": -8320.0,
+        "world_y": 15488.0
+      },
+      "id": "wildlife_zone_0025",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -5312,
+        "hammer_x2": -5312,
+        "hammer_y1": 5568,
+        "hammer_y2": 5568,
+        "tile_count": 1,
+        "world_x1": -10624,
+        "world_x2": -10624,
+        "world_y1": 11136,
+        "world_y2": 11136,
+        "x1": 22,
+        "x2": 22,
+        "y1": 20,
+        "y2": 20
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 22.0,
+        "grid_y": 20.0,
+        "hammer_x": -5312.0,
+        "hammer_y": 5568.0,
+        "world_x": -10624.0,
+        "world_y": 11136.0
+      },
+      "id": "wildlife_zone_0026",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 960,
+        "hammer_x2": 960,
+        "hammer_y1": 7744,
+        "hammer_y2": 7744,
+        "tile_count": 1,
+        "world_x1": 1920,
+        "world_x2": 1920,
+        "world_y1": 15488,
+        "world_y2": 15488,
+        "x1": 71,
+        "x2": 71,
+        "y1": 3,
+        "y2": 3
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 71.0,
+        "grid_y": 3.0,
+        "hammer_x": 960.0,
+        "hammer_y": 7744.0,
+        "world_x": 1920.0,
+        "world_y": 15488.0
+      },
+      "id": "wildlife_zone_0027",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 832,
+        "hammer_x2": 832,
+        "hammer_y1": 5312,
+        "hammer_y2": 5312,
+        "tile_count": 1,
+        "world_x1": 1664,
+        "world_x2": 1664,
+        "world_y1": 10624,
+        "world_y2": 10624,
+        "x1": 70,
+        "x2": 70,
+        "y1": 22,
+        "y2": 22
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 70.0,
+        "grid_y": 22.0,
+        "hammer_x": 832.0,
+        "hammer_y": 5312.0,
+        "world_x": 1664.0,
+        "world_y": 10624.0
+      },
+      "id": "wildlife_zone_0028",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 3904,
+        "hammer_x2": 3904,
+        "hammer_y1": 4928,
+        "hammer_y2": 4928,
+        "tile_count": 1,
+        "world_x1": 7808,
+        "world_x2": 7808,
+        "world_y1": 9856,
+        "world_y2": 9856,
+        "x1": 94,
+        "x2": 94,
+        "y1": 25,
+        "y2": 25
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 94.0,
+        "grid_y": 25.0,
+        "hammer_x": 3904.0,
+        "hammer_y": 4928.0,
+        "world_x": 7808.0,
+        "world_y": 9856.0
+      },
+      "id": "wildlife_zone_0029",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 4160,
+        "hammer_x2": 5696,
+        "hammer_y1": 5696,
+        "hammer_y2": 5824,
+        "tile_count": 2,
+        "world_x1": 8320,
+        "world_x2": 11392,
+        "world_y1": 11392,
+        "world_y2": 11648,
+        "x1": 96,
+        "x2": 108,
+        "y1": 18,
+        "y2": 19
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 102.0,
+        "grid_y": 18.5,
+        "hammer_x": 4928.0,
+        "hammer_y": 5760.0,
+        "world_x": 9856.0,
+        "world_y": 11520.0
+      },
+      "id": "wildlife_zone_0030",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "hostile_elite",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6464,
+        "hammer_x2": 6464,
+        "hammer_y1": 6208,
+        "hammer_y2": 6208,
+        "tile_count": 1,
+        "world_x1": 12928,
+        "world_x2": 12928,
+        "world_y1": 12416,
+        "world_y2": 12416,
+        "x1": 114,
+        "x2": 114,
+        "y1": 15,
+        "y2": 15
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 114.0,
+        "grid_y": 15.0,
+        "hammer_x": 6464.0,
+        "hammer_y": 6208.0,
+        "world_x": 12928.0,
+        "world_y": 12416.0
+      },
+      "id": "wildlife_zone_0031",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6208,
+        "hammer_x2": 6720,
+        "hammer_y1": 4672,
+        "hammer_y2": 6080,
+        "tile_count": 2,
+        "world_x1": 12416,
+        "world_x2": 13440,
+        "world_y1": 9344,
+        "world_y2": 12160,
+        "x1": 112,
+        "x2": 116,
+        "y1": 16,
+        "y2": 27
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 114.0,
+        "grid_y": 21.5,
+        "hammer_x": 6464.0,
+        "hammer_y": 5376.0,
+        "world_x": 12928.0,
+        "world_y": 10752.0
+      },
+      "id": "wildlife_zone_0032",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "hostile_elite",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 4416,
+        "hammer_x2": 5440,
+        "hammer_y1": 6208,
+        "hammer_y2": 7104,
+        "tile_count": 2,
+        "world_x1": 8832,
+        "world_x2": 10880,
+        "world_y1": 12416,
+        "world_y2": 14208,
+        "x1": 98,
+        "x2": 106,
+        "y1": 8,
+        "y2": 15
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 102.0,
+        "grid_y": 11.5,
+        "hammer_x": 4928.0,
+        "hammer_y": 6656.0,
+        "world_x": 9856.0,
+        "world_y": 13312.0
+      },
+      "id": "wildlife_zone_0033",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "hostile_pack",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6080,
+        "hammer_x2": 6080,
+        "hammer_y1": 4672,
+        "hammer_y2": 4672,
+        "tile_count": 1,
+        "world_x1": 12160,
+        "world_x2": 12160,
+        "world_y1": 9344,
+        "world_y2": 9344,
+        "x1": 111,
+        "x2": 111,
+        "y1": 27,
+        "y2": 27
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 111.0,
+        "grid_y": 27.0,
+        "hammer_x": 6080.0,
+        "hammer_y": 4672.0,
+        "world_x": 12160.0,
+        "world_y": 9344.0
+      },
+      "id": "wildlife_zone_0034",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_pack",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -7744,
+        "hammer_x2": -6464,
+        "hammer_y1": 4800,
+        "hammer_y2": 4800,
+        "tile_count": 2,
+        "world_x1": -15488,
+        "world_x2": -12928,
+        "world_y1": 9600,
+        "world_y2": 9600,
+        "x1": 3,
+        "x2": 13,
+        "y1": 26,
+        "y2": 26
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 8.0,
+        "grid_y": 26.0,
+        "hammer_x": -7104.0,
+        "hammer_y": 4800.0,
+        "world_x": -14208.0,
+        "world_y": 9600.0
+      },
+      "id": "wildlife_zone_0035",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_large",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -5440,
+        "hammer_x2": -5440,
+        "hammer_y1": 6464,
+        "hammer_y2": 6464,
+        "tile_count": 1,
+        "world_x1": -10880,
+        "world_x2": -10880,
+        "world_y1": 12928,
+        "world_y2": 12928,
+        "x1": 21,
+        "x2": 21,
+        "y1": 13,
+        "y2": 13
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 21.0,
+        "grid_y": 13.0,
+        "hammer_x": -5440.0,
+        "hammer_y": 6464.0,
+        "world_x": -10880.0,
+        "world_y": 12928.0
+      },
+      "id": "wildlife_zone_0036",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -4928,
+        "hammer_x2": -4928,
+        "hammer_y1": 5312,
+        "hammer_y2": 5312,
+        "tile_count": 1,
+        "world_x1": -9856,
+        "world_x2": -9856,
+        "world_y1": 10624,
+        "world_y2": 10624,
+        "x1": 25,
+        "x2": 25,
+        "y1": 22,
+        "y2": 22
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 25.0,
+        "grid_y": 22.0,
+        "hammer_x": -4928.0,
+        "hammer_y": 5312.0,
+        "world_x": -9856.0,
+        "world_y": 10624.0
+      },
+      "id": "wildlife_zone_0037",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -4032,
+        "hammer_x2": -4032,
+        "hammer_y1": 7616,
+        "hammer_y2": 7616,
+        "tile_count": 1,
+        "world_x1": -8064,
+        "world_x2": -8064,
+        "world_y1": 15232,
+        "world_y2": 15232,
+        "x1": 32,
+        "x2": 32,
+        "y1": 4,
+        "y2": 4
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 2,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 32.0,
+        "grid_y": 4.0,
+        "hammer_x": -4032.0,
+        "hammer_y": 7616.0,
+        "world_x": -8064.0,
+        "world_y": 15232.0
+      },
+      "id": "wildlife_zone_0038",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -1728,
+        "hammer_x2": -192,
+        "hammer_y1": 7616,
+        "hammer_y2": 7744,
+        "tile_count": 3,
+        "world_x1": -3456,
+        "world_x2": -384,
+        "world_y1": 15232,
+        "world_y2": 15488,
+        "x1": 50,
+        "x2": 62,
+        "y1": 3,
+        "y2": 4
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 3,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 54.33,
+        "grid_y": 3.67,
+        "hammer_x": -1173.33,
+        "hammer_y": 7658.67,
+        "world_x": -2346.67,
+        "world_y": 15317.33
+      },
+      "id": "wildlife_zone_0039",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "passive_large",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 4416,
+        "hammer_x2": 4416,
+        "hammer_y1": 6464,
+        "hammer_y2": 6464,
+        "tile_count": 1,
+        "world_x1": 8832,
+        "world_x2": 8832,
+        "world_y1": 12928,
+        "world_y2": 12928,
+        "x1": 98,
+        "x2": 98,
+        "y1": 13,
+        "y2": 13
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 98.0,
+        "grid_y": 13.0,
+        "hammer_x": 4416.0,
+        "hammer_y": 6464.0,
+        "world_x": 8832.0,
+        "world_y": 12928.0
+      },
+      "id": "wildlife_zone_0040",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 7744,
+        "hammer_x2": 7744,
+        "hammer_y1": 7104,
+        "hammer_y2": 7104,
+        "tile_count": 1,
+        "world_x1": 15488,
+        "world_x2": 15488,
+        "world_y1": 14208,
+        "world_y2": 14208,
+        "x1": 124,
+        "x2": 124,
+        "y1": 8,
+        "y2": 8
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 124.0,
+        "grid_y": 8.0,
+        "hammer_x": 7744.0,
+        "hammer_y": 7104.0,
+        "world_x": 15488.0,
+        "world_y": 14208.0
+      },
+      "id": "wildlife_zone_0041",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6208,
+        "hammer_x2": 7744,
+        "hammer_y1": 4160,
+        "hammer_y2": 5568,
+        "tile_count": 4,
+        "world_x1": 12416,
+        "world_x2": 15488,
+        "world_y1": 8320,
+        "world_y2": 11136,
+        "x1": 112,
+        "x2": 124,
+        "y1": 20,
+        "y2": 31
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 119.75,
+        "grid_y": 26.0,
+        "hammer_x": 7200.0,
+        "hammer_y": 4800.0,
+        "world_x": 14400.0,
+        "world_y": 9600.0
+      },
+      "id": "wildlife_zone_0042",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 4,
+      "spawn_group": "passive_large",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -7104,
+        "hammer_x2": -7104,
+        "hammer_y1": 4288,
+        "hammer_y2": 4288,
+        "tile_count": 1,
+        "world_x1": -14208,
+        "world_x2": -14208,
+        "world_y1": 8576,
+        "world_y2": 8576,
+        "x1": 8,
+        "x2": 8,
+        "y1": 30,
+        "y2": 30
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 8.0,
+        "grid_y": 30.0,
+        "hammer_x": -7104.0,
+        "hammer_y": 4288.0,
+        "world_x": -14208.0,
+        "world_y": 8576.0
+      },
+      "id": "wildlife_zone_0043",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -4544,
+        "hammer_x2": -4544,
+        "hammer_y1": 7616,
+        "hammer_y2": 7616,
+        "tile_count": 1,
+        "world_x1": -9088,
+        "world_x2": -9088,
+        "world_y1": 15232,
+        "world_y2": 15232,
+        "x1": 28,
+        "x2": 28,
+        "y1": 4,
+        "y2": 4
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 28.0,
+        "grid_y": 4.0,
+        "hammer_x": -4544.0,
+        "hammer_y": 7616.0,
+        "world_x": -9088.0,
+        "world_y": 15232.0
+      },
+      "id": "wildlife_zone_0044",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -4800,
+        "hammer_x2": -4800,
+        "hammer_y1": 4544,
+        "hammer_y2": 4544,
+        "tile_count": 1,
+        "world_x1": -9600,
+        "world_x2": -9600,
+        "world_y1": 9088,
+        "world_y2": 9088,
+        "x1": 26,
+        "x2": 26,
+        "y1": 28,
+        "y2": 28
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 26.0,
+        "grid_y": 28.0,
+        "hammer_x": -4800.0,
+        "hammer_y": 4544.0,
+        "world_x": -9600.0,
+        "world_y": 9088.0
+      },
+      "id": "wildlife_zone_0045",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -2496,
+        "hammer_x2": -2496,
+        "hammer_y1": 4160,
+        "hammer_y2": 4160,
+        "tile_count": 1,
+        "world_x1": -4992,
+        "world_x2": -4992,
+        "world_y1": 8320,
+        "world_y2": 8320,
+        "x1": 44,
+        "x2": 44,
+        "y1": 31,
+        "y2": 31
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 2,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 44.0,
+        "grid_y": 31.0,
+        "hammer_x": -2496.0,
+        "hammer_y": 4160.0,
+        "world_x": -4992.0,
+        "world_y": 8320.0
+      },
+      "id": "wildlife_zone_0046",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -1600,
+        "hammer_x2": -1600,
+        "hammer_y1": 7616,
+        "hammer_y2": 7616,
+        "tile_count": 1,
+        "world_x1": -3200,
+        "world_x2": -3200,
+        "world_y1": 15232,
+        "world_y2": 15232,
+        "x1": 51,
+        "x2": 51,
+        "y1": 4,
+        "y2": 4
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 3,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 51.0,
+        "grid_y": 4.0,
+        "hammer_x": -1600.0,
+        "hammer_y": 7616.0,
+        "world_x": -3200.0,
+        "world_y": 15232.0
+      },
+      "id": "wildlife_zone_0047",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 960,
+        "hammer_x2": 960,
+        "hammer_y1": 5568,
+        "hammer_y2": 5568,
+        "tile_count": 1,
+        "world_x1": 1920,
+        "world_x2": 1920,
+        "world_y1": 11136,
+        "world_y2": 11136,
+        "x1": 71,
+        "x2": 71,
+        "y1": 20,
+        "y2": 20
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 71.0,
+        "grid_y": 20.0,
+        "hammer_x": 960.0,
+        "hammer_y": 5568.0,
+        "world_x": 1920.0,
+        "world_y": 11136.0
+      },
+      "id": "wildlife_zone_0048",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 3008,
+        "hammer_x2": 3008,
+        "hammer_y1": 7616,
+        "hammer_y2": 7616,
+        "tile_count": 1,
+        "world_x1": 6016,
+        "world_x2": 6016,
+        "world_y1": 15232,
+        "world_y2": 15232,
+        "x1": 87,
+        "x2": 87,
+        "y1": 4,
+        "y2": 4
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 87.0,
+        "grid_y": 4.0,
+        "hammer_x": 3008.0,
+        "hammer_y": 7616.0,
+        "world_x": 6016.0,
+        "world_y": 15232.0
+      },
+      "id": "wildlife_zone_0049",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 5440,
+        "hammer_x2": 5952,
+        "hammer_y1": 6592,
+        "hammer_y2": 7616,
+        "tile_count": 2,
+        "world_x1": 10880,
+        "world_x2": 11904,
+        "world_y1": 13184,
+        "world_y2": 15232,
+        "x1": 106,
+        "x2": 110,
+        "y1": 4,
+        "y2": 12
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 108.0,
+        "grid_y": 8.0,
+        "hammer_x": 5696.0,
+        "hammer_y": 7104.0,
+        "world_x": 11392.0,
+        "world_y": 14208.0
+      },
+      "id": "wildlife_zone_0050",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_small",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 4544,
+        "hammer_x2": 6080,
+        "hammer_y1": 4928,
+        "hammer_y2": 5952,
+        "tile_count": 3,
+        "world_x1": 9088,
+        "world_x2": 12160,
+        "world_y1": 9856,
+        "world_y2": 11904,
+        "x1": 99,
+        "x2": 111,
+        "y1": 17,
+        "y2": 25
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 1
+      },
+      "center": {
+        "grid_x": 106.67,
+        "grid_y": 20.0,
+        "hammer_x": 5525.33,
+        "hammer_y": 5568.0,
+        "world_x": 11050.67,
+        "world_y": 11136.0
+      },
+      "id": "wildlife_zone_0051",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "passive_small",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6208,
+        "hammer_x2": 6592,
+        "hammer_y1": 6464,
+        "hammer_y2": 7744,
+        "tile_count": 2,
+        "world_x1": 12416,
+        "world_x2": 13184,
+        "world_y1": 12928,
+        "world_y2": 15488,
+        "x1": 112,
+        "x2": 115,
+        "y1": 3,
+        "y2": 13
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 113.5,
+        "grid_y": 8.0,
+        "hammer_x": 6400.0,
+        "hammer_y": 7104.0,
+        "world_x": 12800.0,
+        "world_y": 14208.0
+      },
+      "id": "wildlife_zone_0052",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_small",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 64,
+        "hammer_x2": 64,
+        "hammer_y1": 6592,
+        "hammer_y2": 6592,
+        "tile_count": 1,
+        "world_x1": 128,
+        "world_x2": 128,
+        "world_y1": 13184,
+        "world_y2": 13184,
+        "x1": 64,
+        "x2": 64,
+        "y1": 12,
+        "y2": 12
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 0
+      },
+      "center": {
+        "grid_x": 64.0,
+        "grid_y": 12.0,
+        "hammer_x": 64.0,
+        "hammer_y": 6592.0,
+        "world_x": 128.0,
+        "world_y": 13184.0
+      },
+      "id": "wildlife_zone_0053",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "world_boss",
+      "zone": "frost_north"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -832,
+        "hammer_x2": -832,
+        "hammer_y1": -1216,
+        "hammer_y2": -1216,
+        "tile_count": 1,
+        "world_x1": -1664,
+        "world_x2": -1664,
+        "world_y1": -2432,
+        "world_y2": -2432,
+        "x1": 57,
+        "x2": 57,
+        "y1": 73,
+        "y2": 73
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 3,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 57.0,
+        "grid_y": 73.0,
+        "hammer_x": -832.0,
+        "hammer_y": -1216.0,
+        "world_x": -1664.0,
+        "world_y": -2432.0
+      },
+      "id": "wildlife_zone_0054",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "grimroot_marsh"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -576,
+        "hammer_x2": -576,
+        "hammer_y1": -2496,
+        "hammer_y2": -2496,
+        "tile_count": 1,
+        "world_x1": -1152,
+        "world_x2": -1152,
+        "world_y1": -4992,
+        "world_y2": -4992,
+        "x1": 59,
+        "x2": 59,
+        "y1": 83,
+        "y2": 83
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 3,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 59.0,
+        "grid_y": 83.0,
+        "hammer_x": -576.0,
+        "hammer_y": -2496.0,
+        "world_x": -1152.0,
+        "world_y": -4992.0
+      },
+      "id": "wildlife_zone_0055",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "grimroot_marsh"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 1984,
+        "hammer_x2": 1984,
+        "hammer_y1": -2368,
+        "hammer_y2": -2368,
+        "tile_count": 1,
+        "world_x1": 3968,
+        "world_x2": 3968,
+        "world_y1": -4736,
+        "world_y2": -4736,
+        "x1": 79,
+        "x2": 79,
+        "y1": 82,
+        "y2": 82
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 79.0,
+        "grid_y": 82.0,
+        "hammer_x": 1984.0,
+        "hammer_y": -2368.0,
+        "world_x": 3968.0,
+        "world_y": -4736.0
+      },
+      "id": "wildlife_zone_0056",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "grimroot_marsh"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -1344,
+        "hammer_x2": -1344,
+        "hammer_y1": -576,
+        "hammer_y2": -576,
+        "tile_count": 1,
+        "world_x1": -2688,
+        "world_x2": -2688,
+        "world_y1": -1152,
+        "world_y2": -1152,
+        "x1": 53,
+        "x2": 53,
+        "y1": 68,
+        "y2": 68
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 3,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 53.0,
+        "grid_y": 68.0,
+        "hammer_x": -1344.0,
+        "hammer_y": -576.0,
+        "world_x": -2688.0,
+        "world_y": -1152.0
+      },
+      "id": "wildlife_zone_0057",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "grimroot_marsh"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 448,
+        "hammer_x2": 448,
+        "hammer_y1": -1344,
+        "hammer_y2": -1344,
+        "tile_count": 1,
+        "world_x1": 896,
+        "world_x2": 896,
+        "world_y1": -2688,
+        "world_y2": -2688,
+        "x1": 67,
+        "x2": 67,
+        "y1": 74,
+        "y2": 74
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 67.0,
+        "grid_y": 74.0,
+        "hammer_x": 448.0,
+        "hammer_y": -1344.0,
+        "world_x": 896.0,
+        "world_y": -2688.0
+      },
+      "id": "wildlife_zone_0058",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "grimroot_marsh"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 320,
+        "hammer_x2": 320,
+        "hammer_y1": -3392,
+        "hammer_y2": -3392,
+        "tile_count": 1,
+        "world_x1": 640,
+        "world_x2": 640,
+        "world_y1": -6784,
+        "world_y2": -6784,
+        "x1": 66,
+        "x2": 66,
+        "y1": 90,
+        "y2": 90
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 66.0,
+        "grid_y": 90.0,
+        "hammer_x": 320.0,
+        "hammer_y": -3392.0,
+        "world_x": 640.0,
+        "world_y": -6784.0
+      },
+      "id": "wildlife_zone_0059",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "grimroot_marsh"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 64,
+        "hammer_x2": 64,
+        "hammer_y1": -64,
+        "hammer_y2": -64,
+        "tile_count": 1,
+        "world_x1": 128,
+        "world_x2": 128,
+        "world_y1": -128,
+        "world_y2": -128,
+        "x1": 64,
+        "x2": 64,
+        "y1": 64,
+        "y2": 64
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 64.0,
+        "grid_y": 64.0,
+        "hammer_x": 64.0,
+        "hammer_y": -64.0,
+        "world_x": 128.0,
+        "world_y": -128.0
+      },
+      "id": "wildlife_zone_0060",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "world_boss",
+      "zone": "grimroot_marsh"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -2752,
+        "hammer_x2": -2752,
+        "hammer_y1": 2240,
+        "hammer_y2": 2240,
+        "tile_count": 1,
+        "world_x1": -5504,
+        "world_x2": -5504,
+        "world_y1": 4480,
+        "world_y2": 4480,
+        "x1": 42,
+        "x2": 42,
+        "y1": 46,
+        "y2": 46
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 2,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 42.0,
+        "grid_y": 46.0,
+        "hammer_x": -2752.0,
+        "hammer_y": 2240.0,
+        "world_x": -5504.0,
+        "world_y": 4480.0
+      },
+      "id": "wildlife_zone_0061",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_pack",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -1472,
+        "hammer_x2": -1472,
+        "hammer_y1": 3008,
+        "hammer_y2": 3008,
+        "tile_count": 1,
+        "world_x1": -2944,
+        "world_x2": -2944,
+        "world_y1": 6016,
+        "world_y2": 6016,
+        "x1": 52,
+        "x2": 52,
+        "y1": 40,
+        "y2": 40
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 3,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 52.0,
+        "grid_y": 40.0,
+        "hammer_x": -1472.0,
+        "hammer_y": 3008.0,
+        "world_x": -2944.0,
+        "world_y": 6016.0
+      },
+      "id": "wildlife_zone_0062",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_pack",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 2752,
+        "hammer_x2": 2752,
+        "hammer_y1": 2624,
+        "hammer_y2": 2624,
+        "tile_count": 1,
+        "world_x1": 5504,
+        "world_x2": 5504,
+        "world_y1": 5248,
+        "world_y2": 5248,
+        "x1": 85,
+        "x2": 85,
+        "y1": 43,
+        "y2": 43
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 85.0,
+        "grid_y": 43.0,
+        "hammer_x": 2752.0,
+        "hammer_y": 2624.0,
+        "world_x": 5504.0,
+        "world_y": 5248.0
+      },
+      "id": "wildlife_zone_0063",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_pack",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -2624,
+        "hammer_x2": -2624,
+        "hammer_y1": 1984,
+        "hammer_y2": 1984,
+        "tile_count": 1,
+        "world_x1": -5248,
+        "world_x2": -5248,
+        "world_y1": 3968,
+        "world_y2": 3968,
+        "x1": 43,
+        "x2": 43,
+        "y1": 48,
+        "y2": 48
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 2,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 43.0,
+        "grid_y": 48.0,
+        "hammer_x": -2624.0,
+        "hammer_y": 1984.0,
+        "world_x": -5248.0,
+        "world_y": 3968.0
+      },
+      "id": "wildlife_zone_0064",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -3648,
+        "hammer_x2": -3648,
+        "hammer_y1": -192,
+        "hammer_y2": -192,
+        "tile_count": 1,
+        "world_x1": -7296,
+        "world_x2": -7296,
+        "world_y1": -384,
+        "world_y2": -384,
+        "x1": 35,
+        "x2": 35,
+        "y1": 65,
+        "y2": 65
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 2,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 35.0,
+        "grid_y": 65.0,
+        "hammer_x": -3648.0,
+        "hammer_y": -192.0,
+        "world_x": -7296.0,
+        "world_y": -384.0
+      },
+      "id": "wildlife_zone_0065",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 3136,
+        "hammer_x2": 3648,
+        "hammer_y1": 3136,
+        "hammer_y2": 3520,
+        "tile_count": 2,
+        "world_x1": 6272,
+        "world_x2": 7296,
+        "world_y1": 6272,
+        "world_y2": 7040,
+        "x1": 88,
+        "x2": 92,
+        "y1": 36,
+        "y2": 39
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 90.0,
+        "grid_y": 37.5,
+        "hammer_x": 3392.0,
+        "hammer_y": 3328.0,
+        "world_x": 6784.0,
+        "world_y": 6656.0
+      },
+      "id": "wildlife_zone_0066",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_large",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 3008,
+        "hammer_x2": 3008,
+        "hammer_y1": 1856,
+        "hammer_y2": 1856,
+        "tile_count": 1,
+        "world_x1": 6016,
+        "world_x2": 6016,
+        "world_y1": 3712,
+        "world_y2": 3712,
+        "x1": 87,
+        "x2": 87,
+        "y1": 49,
+        "y2": 49
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 87.0,
+        "grid_y": 49.0,
+        "hammer_x": 3008.0,
+        "hammer_y": 1856.0,
+        "world_x": 6016.0,
+        "world_y": 3712.0
+      },
+      "id": "wildlife_zone_0067",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 3136,
+        "hammer_x2": 3136,
+        "hammer_y1": -1344,
+        "hammer_y2": -1344,
+        "tile_count": 1,
+        "world_x1": 6272,
+        "world_x2": 6272,
+        "world_y1": -2688,
+        "world_y2": -2688,
+        "x1": 88,
+        "x2": 88,
+        "y1": 74,
+        "y2": 74
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 88.0,
+        "grid_y": 74.0,
+        "hammer_x": 3136.0,
+        "hammer_y": -1344.0,
+        "world_x": 6272.0,
+        "world_y": -2688.0
+      },
+      "id": "wildlife_zone_0068",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 2112,
+        "hammer_x2": 3648,
+        "hammer_y1": -4032,
+        "hammer_y2": -2112,
+        "tile_count": 4,
+        "world_x1": 4224,
+        "world_x2": 7296,
+        "world_y1": -8064,
+        "world_y2": -4224,
+        "x1": 80,
+        "x2": 92,
+        "y1": 80,
+        "y2": 95
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 86.25,
+        "grid_y": 88.0,
+        "hammer_x": 2912.0,
+        "hammer_y": -3136.0,
+        "world_x": 5824.0,
+        "world_y": -6272.0
+      },
+      "id": "wildlife_zone_0069",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 4,
+      "spawn_group": "passive_large",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -3392,
+        "hammer_x2": -2880,
+        "hammer_y1": 320,
+        "hammer_y2": 1600,
+        "tile_count": 2,
+        "world_x1": -6784,
+        "world_x2": -5760,
+        "world_y1": 640,
+        "world_y2": 3200,
+        "x1": 37,
+        "x2": 41,
+        "y1": 51,
+        "y2": 61
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 2,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 39.0,
+        "grid_y": 56.0,
+        "hammer_x": -3136.0,
+        "hammer_y": 960.0,
+        "world_x": -6272.0,
+        "world_y": 1920.0
+      },
+      "id": "wildlife_zone_0070",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_small",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -3392,
+        "hammer_x2": -3392,
+        "hammer_y1": -192,
+        "hammer_y2": -192,
+        "tile_count": 1,
+        "world_x1": -6784,
+        "world_x2": -6784,
+        "world_y1": -384,
+        "world_y2": -384,
+        "x1": 37,
+        "x2": 37,
+        "y1": 65,
+        "y2": 65
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 2,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 37.0,
+        "grid_y": 65.0,
+        "hammer_x": -3392.0,
+        "hammer_y": -192.0,
+        "world_x": -6784.0,
+        "world_y": -384.0
+      },
+      "id": "wildlife_zone_0071",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 64,
+        "hammer_x2": 192,
+        "hammer_y1": 3520,
+        "hammer_y2": 3776,
+        "tile_count": 2,
+        "world_x1": 128,
+        "world_x2": 384,
+        "world_y1": 7040,
+        "world_y2": 7552,
+        "x1": 64,
+        "x2": 65,
+        "y1": 34,
+        "y2": 36
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 64.5,
+        "grid_y": 35.0,
+        "hammer_x": 128.0,
+        "hammer_y": 3648.0,
+        "world_x": 256.0,
+        "world_y": 7296.0
+      },
+      "id": "wildlife_zone_0072",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_small",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 3008,
+        "hammer_x2": 3136,
+        "hammer_y1": 3008,
+        "hammer_y2": 4032,
+        "tile_count": 2,
+        "world_x1": 6016,
+        "world_x2": 6272,
+        "world_y1": 6016,
+        "world_y2": 8064,
+        "x1": 87,
+        "x2": 88,
+        "y1": 32,
+        "y2": 40
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 87.5,
+        "grid_y": 36.0,
+        "hammer_x": 3072.0,
+        "hammer_y": 3520.0,
+        "world_x": 6144.0,
+        "world_y": 7040.0
+      },
+      "id": "wildlife_zone_0073",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_small",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 3008,
+        "hammer_x2": 3520,
+        "hammer_y1": -1600,
+        "hammer_y2": -448,
+        "tile_count": 3,
+        "world_x1": 6016,
+        "world_x2": 7040,
+        "world_y1": -3200,
+        "world_y2": -896,
+        "x1": 87,
+        "x2": 91,
+        "y1": 67,
+        "y2": 76
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 89.0,
+        "grid_y": 72.33,
+        "hammer_x": 3264.0,
+        "hammer_y": -1130.67,
+        "world_x": 6528.0,
+        "world_y": -2261.33
+      },
+      "id": "wildlife_zone_0074",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "passive_small",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 2496,
+        "hammer_x2": 3392,
+        "hammer_y1": -3648,
+        "hammer_y2": -2240,
+        "tile_count": 3,
+        "world_x1": 4992,
+        "world_x2": 6784,
+        "world_y1": -7296,
+        "world_y2": -4480,
+        "x1": 83,
+        "x2": 90,
+        "y1": 81,
+        "y2": 92
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 85.33,
+        "grid_y": 86.0,
+        "hammer_x": 2794.67,
+        "hammer_y": -2880.0,
+        "world_x": 5589.33,
+        "world_y": -5760.0
+      },
+      "id": "wildlife_zone_0075",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "passive_small",
+      "zone": "heartland"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -2368,
+        "hammer_x2": -2368,
+        "hammer_y1": -4800,
+        "hammer_y2": -4800,
+        "tile_count": 1,
+        "world_x1": -4736,
+        "world_x2": -4736,
+        "world_y1": -9600,
+        "world_y2": -9600,
+        "x1": 45,
+        "x2": 45,
+        "y1": 101,
+        "y2": 101
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 2,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 45.0,
+        "grid_y": 101.0,
+        "hammer_x": -2368.0,
+        "hammer_y": -4800.0,
+        "world_x": -4736.0,
+        "world_y": -9600.0
+      },
+      "id": "wildlife_zone_0076",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "elite_boss",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -6976,
+        "hammer_x2": -6976,
+        "hammer_y1": -7744,
+        "hammer_y2": -7744,
+        "tile_count": 1,
+        "world_x1": -13952,
+        "world_x2": -13952,
+        "world_y1": -15488,
+        "world_y2": -15488,
+        "x1": 9,
+        "x2": 9,
+        "y1": 124,
+        "y2": 124
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 9.0,
+        "grid_y": 124.0,
+        "hammer_x": -6976.0,
+        "hammer_y": -7744.0,
+        "world_x": -13952.0,
+        "world_y": -15488.0
+      },
+      "id": "wildlife_zone_0077",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -5952,
+        "hammer_x2": -4928,
+        "hammer_y1": -7616,
+        "hammer_y2": -6336,
+        "tile_count": 3,
+        "world_x1": -11904,
+        "world_x2": -9856,
+        "world_y1": -15232,
+        "world_y2": -12672,
+        "x1": 17,
+        "x2": 25,
+        "y1": 113,
+        "y2": 123
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 20.33,
+        "grid_y": 117.0,
+        "hammer_x": -5525.33,
+        "hammer_y": -6848.0,
+        "world_x": -11050.67,
+        "world_y": -13696.0
+      },
+      "id": "wildlife_zone_0078",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "hostile_elite",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -3264,
+        "hammer_x2": -3264,
+        "hammer_y1": -5056,
+        "hammer_y2": -5056,
+        "tile_count": 1,
+        "world_x1": -6528,
+        "world_x2": -6528,
+        "world_y1": -10112,
+        "world_y2": -10112,
+        "x1": 38,
+        "x2": 38,
+        "y1": 103,
+        "y2": 103
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 2,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 38.0,
+        "grid_y": 103.0,
+        "hammer_x": -3264.0,
+        "hammer_y": -5056.0,
+        "world_x": -6528.0,
+        "world_y": -10112.0
+      },
+      "id": "wildlife_zone_0079",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -3008,
+        "hammer_x2": -3008,
+        "hammer_y1": -6976,
+        "hammer_y2": -6976,
+        "tile_count": 1,
+        "world_x1": -6016,
+        "world_x2": -6016,
+        "world_y1": -13952,
+        "world_y2": -13952,
+        "x1": 40,
+        "x2": 40,
+        "y1": 118,
+        "y2": 118
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 2,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 40.0,
+        "grid_y": 118.0,
+        "hammer_x": -3008.0,
+        "hammer_y": -6976.0,
+        "world_x": -6016.0,
+        "world_y": -13952.0
+      },
+      "id": "wildlife_zone_0080",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 192,
+        "hammer_x2": 192,
+        "hammer_y1": -4544,
+        "hammer_y2": -4544,
+        "tile_count": 1,
+        "world_x1": 384,
+        "world_x2": 384,
+        "world_y1": -9088,
+        "world_y2": -9088,
+        "x1": 65,
+        "x2": 65,
+        "y1": 99,
+        "y2": 99
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 65.0,
+        "grid_y": 99.0,
+        "hammer_x": 192.0,
+        "hammer_y": -4544.0,
+        "world_x": 384.0,
+        "world_y": -9088.0
+      },
+      "id": "wildlife_zone_0081",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 1856,
+        "hammer_x2": 1856,
+        "hammer_y1": -7616,
+        "hammer_y2": -7616,
+        "tile_count": 1,
+        "world_x1": 3712,
+        "world_x2": 3712,
+        "world_y1": -15232,
+        "world_y2": -15232,
+        "x1": 78,
+        "x2": 78,
+        "y1": 123,
+        "y2": 123
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 78.0,
+        "grid_y": 123.0,
+        "hammer_x": 1856.0,
+        "hammer_y": -7616.0,
+        "world_x": 3712.0,
+        "world_y": -15232.0
+      },
+      "id": "wildlife_zone_0082",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 2240,
+        "hammer_x2": 3776,
+        "hammer_y1": -7616,
+        "hammer_y2": -6848,
+        "tile_count": 4,
+        "world_x1": 4480,
+        "world_x2": 7552,
+        "world_y1": -15232,
+        "world_y2": -13696,
+        "x1": 81,
+        "x2": 93,
+        "y1": 117,
+        "y2": 123
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 86.75,
+        "grid_y": 120.5,
+        "hammer_x": 2976.0,
+        "hammer_y": -7296.0,
+        "world_x": 5952.0,
+        "world_y": -14592.0
+      },
+      "id": "wildlife_zone_0083",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 4,
+      "spawn_group": "hostile_elite",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 5952,
+        "hammer_x2": 5952,
+        "hammer_y1": -5952,
+        "hammer_y2": -5952,
+        "tile_count": 1,
+        "world_x1": 11904,
+        "world_x2": 11904,
+        "world_y1": -11904,
+        "world_y2": -11904,
+        "x1": 110,
+        "x2": 110,
+        "y1": 110,
+        "y2": 110
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 110.0,
+        "grid_y": 110.0,
+        "hammer_x": 5952.0,
+        "hammer_y": -5952.0,
+        "world_x": 11904.0,
+        "world_y": -11904.0
+      },
+      "id": "wildlife_zone_0084",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 5696,
+        "hammer_x2": 5696,
+        "hammer_y1": -6976,
+        "hammer_y2": -6976,
+        "tile_count": 1,
+        "world_x1": 11392,
+        "world_x2": 11392,
+        "world_y1": -13952,
+        "world_y2": -13952,
+        "x1": 108,
+        "x2": 108,
+        "y1": 118,
+        "y2": 118
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 108.0,
+        "grid_y": 118.0,
+        "hammer_x": 5696.0,
+        "hammer_y": -6976.0,
+        "world_x": 11392.0,
+        "world_y": -13952.0
+      },
+      "id": "wildlife_zone_0085",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6592,
+        "hammer_x2": 7488,
+        "hammer_y1": -6080,
+        "hammer_y2": -5056,
+        "tile_count": 2,
+        "world_x1": 13184,
+        "world_x2": 14976,
+        "world_y1": -12160,
+        "world_y2": -10112,
+        "x1": 115,
+        "x2": 122,
+        "y1": 103,
+        "y2": 111
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 118.5,
+        "grid_y": 107.0,
+        "hammer_x": 7040.0,
+        "hammer_y": -5568.0,
+        "world_x": 14080.0,
+        "world_y": -11136.0
+      },
+      "id": "wildlife_zone_0086",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "hostile_elite",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 7616,
+        "hammer_x2": 7616,
+        "hammer_y1": -6720,
+        "hammer_y2": -6720,
+        "tile_count": 1,
+        "world_x1": 15232,
+        "world_x2": 15232,
+        "world_y1": -13440,
+        "world_y2": -13440,
+        "x1": 123,
+        "x2": 123,
+        "y1": 116,
+        "y2": 116
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 123.0,
+        "grid_y": 116.0,
+        "hammer_x": 7616.0,
+        "hammer_y": -6720.0,
+        "world_x": 15232.0,
+        "world_y": -13440.0
+      },
+      "id": "wildlife_zone_0087",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_elite",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -7488,
+        "hammer_x2": -7488,
+        "hammer_y1": -6336,
+        "hammer_y2": -6336,
+        "tile_count": 1,
+        "world_x1": -14976,
+        "world_x2": -14976,
+        "world_y1": -12672,
+        "world_y2": -12672,
+        "x1": 5,
+        "x2": 5,
+        "y1": 113,
+        "y2": 113
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 5.0,
+        "grid_y": 113.0,
+        "hammer_x": -7488.0,
+        "hammer_y": -6336.0,
+        "world_x": -14976.0,
+        "world_y": -12672.0
+      },
+      "id": "wildlife_zone_0088",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_pack",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 3392,
+        "hammer_x2": 3392,
+        "hammer_y1": -5952,
+        "hammer_y2": -5568,
+        "tile_count": 2,
+        "world_x1": 6784,
+        "world_x2": 6784,
+        "world_y1": -11904,
+        "world_y2": -11136,
+        "x1": 90,
+        "x2": 90,
+        "y1": 107,
+        "y2": 110
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 90.0,
+        "grid_y": 108.5,
+        "hammer_x": 3392.0,
+        "hammer_y": -5760.0,
+        "world_x": 6784.0,
+        "world_y": -11520.0
+      },
+      "id": "wildlife_zone_0089",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "hostile_pack",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 3520,
+        "hammer_x2": 3520,
+        "hammer_y1": -6208,
+        "hammer_y2": -6208,
+        "tile_count": 1,
+        "world_x1": 7040,
+        "world_x2": 7040,
+        "world_y1": -12416,
+        "world_y2": -12416,
+        "x1": 91,
+        "x2": 91,
+        "y1": 112,
+        "y2": 112
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 91.0,
+        "grid_y": 112.0,
+        "hammer_x": 3520.0,
+        "hammer_y": -6208.0,
+        "world_x": 7040.0,
+        "world_y": -12416.0
+      },
+      "id": "wildlife_zone_0090",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_pack",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6464,
+        "hammer_x2": 6720,
+        "hammer_y1": -5696,
+        "hammer_y2": -4928,
+        "tile_count": 2,
+        "world_x1": 12928,
+        "world_x2": 13440,
+        "world_y1": -11392,
+        "world_y2": -9856,
+        "x1": 114,
+        "x2": 116,
+        "y1": 102,
+        "y2": 108
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 115.0,
+        "grid_y": 105.0,
+        "hammer_x": 6592.0,
+        "hammer_y": -5312.0,
+        "world_x": 13184.0,
+        "world_y": -10624.0
+      },
+      "id": "wildlife_zone_0091",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "hostile_pack",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -7232,
+        "hammer_x2": -6592,
+        "hammer_y1": -5952,
+        "hammer_y2": -5184,
+        "tile_count": 3,
+        "world_x1": -14464,
+        "world_x2": -13184,
+        "world_y1": -11904,
+        "world_y2": -10368,
+        "x1": 7,
+        "x2": 12,
+        "y1": 104,
+        "y2": 110
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 9.33,
+        "grid_y": 107.67,
+        "hammer_x": -6933.33,
+        "hammer_y": -5653.33,
+        "world_x": -13866.67,
+        "world_y": -11306.67
+      },
+      "id": "wildlife_zone_0092",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "passive_large",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -5952,
+        "hammer_x2": -5952,
+        "hammer_y1": -5568,
+        "hammer_y2": -5568,
+        "tile_count": 1,
+        "world_x1": -11904,
+        "world_x2": -11904,
+        "world_y1": -11136,
+        "world_y2": -11136,
+        "x1": 17,
+        "x2": 17,
+        "y1": 107,
+        "y2": 107
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 17.0,
+        "grid_y": 107.0,
+        "hammer_x": -5952.0,
+        "hammer_y": -5568.0,
+        "world_x": -11904.0,
+        "world_y": -11136.0
+      },
+      "id": "wildlife_zone_0093",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -5824,
+        "hammer_x2": -4928,
+        "hammer_y1": -7360,
+        "hammer_y2": -6976,
+        "tile_count": 3,
+        "world_x1": -11648,
+        "world_x2": -9856,
+        "world_y1": -14720,
+        "world_y2": -13952,
+        "x1": 18,
+        "x2": 25,
+        "y1": 118,
+        "y2": 121
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 21.33,
+        "grid_y": 119.67,
+        "hammer_x": -5397.33,
+        "hammer_y": -7189.33,
+        "world_x": -10794.67,
+        "world_y": -14378.67
+      },
+      "id": "wildlife_zone_0094",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "passive_large",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -3008,
+        "hammer_x2": -3008,
+        "hammer_y1": -6464,
+        "hammer_y2": -6464,
+        "tile_count": 1,
+        "world_x1": -6016,
+        "world_x2": -6016,
+        "world_y1": -12928,
+        "world_y2": -12928,
+        "x1": 40,
+        "x2": 40,
+        "y1": 114,
+        "y2": 114
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 2,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 40.0,
+        "grid_y": 114.0,
+        "hammer_x": -3008.0,
+        "hammer_y": -6464.0,
+        "world_x": -6016.0,
+        "world_y": -12928.0
+      },
+      "id": "wildlife_zone_0095",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 2880,
+        "hammer_x2": 2880,
+        "hammer_y1": -5056,
+        "hammer_y2": -5056,
+        "tile_count": 1,
+        "world_x1": 5760,
+        "world_x2": 5760,
+        "world_y1": -10112,
+        "world_y2": -10112,
+        "x1": 86,
+        "x2": 86,
+        "y1": 103,
+        "y2": 103
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 86.0,
+        "grid_y": 103.0,
+        "hammer_x": 2880.0,
+        "hammer_y": -5056.0,
+        "world_x": 5760.0,
+        "world_y": -10112.0
+      },
+      "id": "wildlife_zone_0096",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 5824,
+        "hammer_x2": 5824,
+        "hammer_y1": -6080,
+        "hammer_y2": -6080,
+        "tile_count": 1,
+        "world_x1": 11648,
+        "world_x2": 11648,
+        "world_y1": -12160,
+        "world_y2": -12160,
+        "x1": 109,
+        "x2": 109,
+        "y1": 111,
+        "y2": 111
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 109.0,
+        "grid_y": 111.0,
+        "hammer_x": 5824.0,
+        "hammer_y": -6080.0,
+        "world_x": 11648.0,
+        "world_y": -12160.0
+      },
+      "id": "wildlife_zone_0097",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 4416,
+        "hammer_x2": 6080,
+        "hammer_y1": -7360,
+        "hammer_y2": -6592,
+        "tile_count": 2,
+        "world_x1": 8832,
+        "world_x2": 12160,
+        "world_y1": -14720,
+        "world_y2": -13184,
+        "x1": 98,
+        "x2": 111,
+        "y1": 115,
+        "y2": 121
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 104.5,
+        "grid_y": 118.0,
+        "hammer_x": 5248.0,
+        "hammer_y": -6976.0,
+        "world_x": 10496.0,
+        "world_y": -13952.0
+      },
+      "id": "wildlife_zone_0098",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_large",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6720,
+        "hammer_x2": 6720,
+        "hammer_y1": -5184,
+        "hammer_y2": -5184,
+        "tile_count": 1,
+        "world_x1": 13440,
+        "world_x2": 13440,
+        "world_y1": -10368,
+        "world_y2": -10368,
+        "x1": 116,
+        "x2": 116,
+        "y1": 104,
+        "y2": 104
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 116.0,
+        "grid_y": 104.0,
+        "hammer_x": 6720.0,
+        "hammer_y": -5184.0,
+        "world_x": 13440.0,
+        "world_y": -10368.0
+      },
+      "id": "wildlife_zone_0099",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 7744,
+        "hammer_x2": 7744,
+        "hammer_y1": -7744,
+        "hammer_y2": -7744,
+        "tile_count": 1,
+        "world_x1": 15488,
+        "world_x2": 15488,
+        "world_y1": -15488,
+        "world_y2": -15488,
+        "x1": 124,
+        "x2": 124,
+        "y1": 124,
+        "y2": 124
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 124.0,
+        "grid_y": 124.0,
+        "hammer_x": 7744.0,
+        "hammer_y": -7744.0,
+        "world_x": 15488.0,
+        "world_y": -15488.0
+      },
+      "id": "wildlife_zone_0100",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -7360,
+        "hammer_x2": -7104,
+        "hammer_y1": -6080,
+        "hammer_y2": -5312,
+        "tile_count": 2,
+        "world_x1": -14720,
+        "world_x2": -14208,
+        "world_y1": -12160,
+        "world_y2": -10624,
+        "x1": 6,
+        "x2": 8,
+        "y1": 105,
+        "y2": 111
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 7.0,
+        "grid_y": 108.0,
+        "hammer_x": -7232.0,
+        "hammer_y": -5696.0,
+        "world_x": -14464.0,
+        "world_y": -11392.0
+      },
+      "id": "wildlife_zone_0101",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_small",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -7488,
+        "hammer_x2": -6720,
+        "hammer_y1": -6976,
+        "hammer_y2": -6976,
+        "tile_count": 2,
+        "world_x1": -14976,
+        "world_x2": -13440,
+        "world_y1": -13952,
+        "world_y2": -13952,
+        "x1": 5,
+        "x2": 11,
+        "y1": 118,
+        "y2": 118
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 8.0,
+        "grid_y": 118.0,
+        "hammer_x": -7104.0,
+        "hammer_y": -6976.0,
+        "world_x": -14208.0,
+        "world_y": -13952.0
+      },
+      "id": "wildlife_zone_0102",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_small",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -5696,
+        "hammer_x2": -5696,
+        "hammer_y1": -5952,
+        "hammer_y2": -5952,
+        "tile_count": 1,
+        "world_x1": -11392,
+        "world_x2": -11392,
+        "world_y1": -11904,
+        "world_y2": -11904,
+        "x1": 19,
+        "x2": 19,
+        "y1": 110,
+        "y2": 110
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 19.0,
+        "grid_y": 110.0,
+        "hammer_x": -5696.0,
+        "hammer_y": -5952.0,
+        "world_x": -11392.0,
+        "world_y": -11904.0
+      },
+      "id": "wildlife_zone_0103",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -5440,
+        "hammer_x2": -5440,
+        "hammer_y1": -6848,
+        "hammer_y2": -6848,
+        "tile_count": 1,
+        "world_x1": -10880,
+        "world_x2": -10880,
+        "world_y1": -13696,
+        "world_y2": -13696,
+        "x1": 21,
+        "x2": 21,
+        "y1": 117,
+        "y2": 117
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 21.0,
+        "grid_y": 117.0,
+        "hammer_x": -5440.0,
+        "hammer_y": -6848.0,
+        "world_x": -10880.0,
+        "world_y": -13696.0
+      },
+      "id": "wildlife_zone_0104",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -960,
+        "hammer_x2": -960,
+        "hammer_y1": -4288,
+        "hammer_y2": -4288,
+        "tile_count": 1,
+        "world_x1": -1920,
+        "world_x2": -1920,
+        "world_y1": -8576,
+        "world_y2": -8576,
+        "x1": 56,
+        "x2": 56,
+        "y1": 97,
+        "y2": 97
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 3,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 56.0,
+        "grid_y": 97.0,
+        "hammer_x": -960.0,
+        "hammer_y": -4288.0,
+        "world_x": -1920.0,
+        "world_y": -8576.0
+      },
+      "id": "wildlife_zone_0105",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 1088,
+        "hammer_x2": 1088,
+        "hammer_y1": -7616,
+        "hammer_y2": -7616,
+        "tile_count": 1,
+        "world_x1": 2176,
+        "world_x2": 2176,
+        "world_y1": -15232,
+        "world_y2": -15232,
+        "x1": 72,
+        "x2": 72,
+        "y1": 123,
+        "y2": 123
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 4,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 72.0,
+        "grid_y": 123.0,
+        "hammer_x": 1088.0,
+        "hammer_y": -7616.0,
+        "world_x": 2176.0,
+        "world_y": -15232.0
+      },
+      "id": "wildlife_zone_0106",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 3776,
+        "hammer_x2": 3776,
+        "hammer_y1": -7488,
+        "hammer_y2": -7488,
+        "tile_count": 1,
+        "world_x1": 7552,
+        "world_x2": 7552,
+        "world_y1": -14976,
+        "world_y2": -14976,
+        "x1": 93,
+        "x2": 93,
+        "y1": 122,
+        "y2": 122
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 93.0,
+        "grid_y": 122.0,
+        "hammer_x": 3776.0,
+        "hammer_y": -7488.0,
+        "world_x": 7552.0,
+        "world_y": -14976.0
+      },
+      "id": "wildlife_zone_0107",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 5312,
+        "hammer_x2": 5568,
+        "hammer_y1": -5952,
+        "hammer_y2": -4288,
+        "tile_count": 2,
+        "world_x1": 10624,
+        "world_x2": 11136,
+        "world_y1": -11904,
+        "world_y2": -8576,
+        "x1": 105,
+        "x2": 107,
+        "y1": 97,
+        "y2": 110
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 106.0,
+        "grid_y": 103.5,
+        "hammer_x": 5440.0,
+        "hammer_y": -5120.0,
+        "world_x": 10880.0,
+        "world_y": -10240.0
+      },
+      "id": "wildlife_zone_0108",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_small",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 5568,
+        "hammer_x2": 5568,
+        "hammer_y1": -7744,
+        "hammer_y2": -7744,
+        "tile_count": 1,
+        "world_x1": 11136,
+        "world_x2": 11136,
+        "world_y1": -15488,
+        "world_y2": -15488,
+        "x1": 107,
+        "x2": 107,
+        "y1": 124,
+        "y2": 124
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 6,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 107.0,
+        "grid_y": 124.0,
+        "hammer_x": 5568.0,
+        "hammer_y": -7744.0,
+        "world_x": 11136.0,
+        "world_y": -15488.0
+      },
+      "id": "wildlife_zone_0109",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6464,
+        "hammer_x2": 7616,
+        "hammer_y1": -5568,
+        "hammer_y2": -4544,
+        "tile_count": 3,
+        "world_x1": 12928,
+        "world_x2": 15232,
+        "world_y1": -11136,
+        "world_y2": -9088,
+        "x1": 114,
+        "x2": 123,
+        "y1": 99,
+        "y2": 107
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 118.0,
+        "grid_y": 102.67,
+        "hammer_x": 6976.0,
+        "hammer_y": -5013.33,
+        "world_x": 13952.0,
+        "world_y": -10026.67
+      },
+      "id": "wildlife_zone_0110",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "passive_small",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 6336,
+        "hammer_x2": 7360,
+        "hammer_y1": -7360,
+        "hammer_y2": -6592,
+        "tile_count": 2,
+        "world_x1": 12672,
+        "world_x2": 14720,
+        "world_y1": -14720,
+        "world_y2": -13184,
+        "x1": 113,
+        "x2": 121,
+        "y1": 115,
+        "y2": 121
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 7,
+        "y": 7
+      },
+      "center": {
+        "grid_x": 117.0,
+        "grid_y": 118.0,
+        "hammer_x": 6848.0,
+        "hammer_y": -6976.0,
+        "world_x": 13696.0,
+        "world_y": -13952.0
+      },
+      "id": "wildlife_zone_0111",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_small",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": 2496,
+        "hammer_x2": 2496,
+        "hammer_y1": -4800,
+        "hammer_y2": -4800,
+        "tile_count": 1,
+        "world_x1": 4992,
+        "world_x2": 4992,
+        "world_y1": -9600,
+        "world_y2": -9600,
+        "x1": 83,
+        "x2": 83,
+        "y1": 101,
+        "y2": 101
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 5,
+        "y": 6
+      },
+      "center": {
+        "grid_x": 83.0,
+        "grid_y": 101.0,
+        "hammer_x": 2496.0,
+        "hammer_y": -4800.0,
+        "world_x": 4992.0,
+        "world_y": -9600.0
+      },
+      "id": "wildlife_zone_0112",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "world_boss",
+      "zone": "southern_wilds"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -5312,
+        "hammer_x2": -5312,
+        "hammer_y1": 192,
+        "hammer_y2": 192,
+        "tile_count": 1,
+        "world_x1": -10624,
+        "world_x2": -10624,
+        "world_y1": 384,
+        "world_y2": 384,
+        "x1": 22,
+        "x2": 22,
+        "y1": 62,
+        "y2": 62
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 22.0,
+        "grid_y": 62.0,
+        "hammer_x": -5312.0,
+        "hammer_y": 192.0,
+        "world_x": -10624.0,
+        "world_y": 384.0
+      },
+      "id": "wildlife_zone_0113",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "cave_boss",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -7360,
+        "hammer_x2": -7360,
+        "hammer_y1": -2624,
+        "hammer_y2": -2624,
+        "tile_count": 1,
+        "world_x1": -14720,
+        "world_x2": -14720,
+        "world_y1": -5248,
+        "world_y2": -5248,
+        "x1": 6,
+        "x2": 6,
+        "y1": 84,
+        "y2": 84
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 6.0,
+        "grid_y": 84.0,
+        "hammer_x": -7360.0,
+        "hammer_y": -2624.0,
+        "world_x": -14720.0,
+        "world_y": -5248.0
+      },
+      "id": "wildlife_zone_0114",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_pack",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -4288,
+        "hammer_x2": -4288,
+        "hammer_y1": -2368,
+        "hammer_y2": -2368,
+        "tile_count": 1,
+        "world_x1": -8576,
+        "world_x2": -8576,
+        "world_y1": -4736,
+        "world_y2": -4736,
+        "x1": 30,
+        "x2": 30,
+        "y1": 82,
+        "y2": 82
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 30.0,
+        "grid_y": 82.0,
+        "hammer_x": -4288.0,
+        "hammer_y": -2368.0,
+        "world_x": -8576.0,
+        "world_y": -4736.0
+      },
+      "id": "wildlife_zone_0115",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_pack",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -4032,
+        "hammer_x2": -4032,
+        "hammer_y1": 832,
+        "hammer_y2": 832,
+        "tile_count": 1,
+        "world_x1": -8064,
+        "world_x2": -8064,
+        "world_y1": 1664,
+        "world_y2": 1664,
+        "x1": 32,
+        "x2": 32,
+        "y1": 57,
+        "y2": 57
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 2,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 32.0,
+        "grid_y": 57.0,
+        "hammer_x": -4032.0,
+        "hammer_y": 832.0,
+        "world_x": -8064.0,
+        "world_y": 1664.0
+      },
+      "id": "wildlife_zone_0116",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "hostile_pack",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -7232,
+        "hammer_x2": -7232,
+        "hammer_y1": 2112,
+        "hammer_y2": 2112,
+        "tile_count": 1,
+        "world_x1": -14464,
+        "world_x2": -14464,
+        "world_y1": 4224,
+        "world_y2": 4224,
+        "x1": 7,
+        "x2": 7,
+        "y1": 47,
+        "y2": 47
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 7.0,
+        "grid_y": 47.0,
+        "hammer_x": -7232.0,
+        "hammer_y": 2112.0,
+        "world_x": -14464.0,
+        "world_y": 4224.0
+      },
+      "id": "wildlife_zone_0117",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -6592,
+        "hammer_x2": -6336,
+        "hammer_y1": 64,
+        "hammer_y2": 960,
+        "tile_count": 2,
+        "world_x1": -13184,
+        "world_x2": -12672,
+        "world_y1": 128,
+        "world_y2": 1920,
+        "x1": 12,
+        "x2": 14,
+        "y1": 56,
+        "y2": 63
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 13.0,
+        "grid_y": 59.5,
+        "hammer_x": -6464.0,
+        "hammer_y": 512.0,
+        "world_x": -12928.0,
+        "world_y": 1024.0
+      },
+      "id": "wildlife_zone_0118",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_large",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -7360,
+        "hammer_x2": -6976,
+        "hammer_y1": -1984,
+        "hammer_y2": -1088,
+        "tile_count": 3,
+        "world_x1": -14720,
+        "world_x2": -13952,
+        "world_y1": -3968,
+        "world_y2": -2176,
+        "x1": 6,
+        "x2": 9,
+        "y1": 72,
+        "y2": 79
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 7.0,
+        "grid_y": 75.0,
+        "hammer_x": -7232.0,
+        "hammer_y": -1472.0,
+        "world_x": -14464.0,
+        "world_y": -2944.0
+      },
+      "id": "wildlife_zone_0119",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "passive_large",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -6848,
+        "hammer_x2": -6848,
+        "hammer_y1": -3008,
+        "hammer_y2": -3008,
+        "tile_count": 1,
+        "world_x1": -13696,
+        "world_x2": -13696,
+        "world_y1": -6016,
+        "world_y2": -6016,
+        "x1": 10,
+        "x2": 10,
+        "y1": 87,
+        "y2": 87
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 10.0,
+        "grid_y": 87.0,
+        "hammer_x": -6848.0,
+        "hammer_y": -3008.0,
+        "world_x": -13696.0,
+        "world_y": -6016.0
+      },
+      "id": "wildlife_zone_0120",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -5952,
+        "hammer_x2": -5440,
+        "hammer_y1": 2880,
+        "hammer_y2": 3264,
+        "tile_count": 2,
+        "world_x1": -11904,
+        "world_x2": -10880,
+        "world_y1": 5760,
+        "world_y2": 6528,
+        "x1": 17,
+        "x2": 21,
+        "y1": 38,
+        "y2": 41
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 19.0,
+        "grid_y": 39.5,
+        "hammer_x": -5696.0,
+        "hammer_y": 3072.0,
+        "world_x": -11392.0,
+        "world_y": 6144.0
+      },
+      "id": "wildlife_zone_0121",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_large",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -6080,
+        "hammer_x2": -4288,
+        "hammer_y1": 576,
+        "hammer_y2": 1088,
+        "tile_count": 2,
+        "world_x1": -12160,
+        "world_x2": -8576,
+        "world_y1": 1152,
+        "world_y2": 2176,
+        "x1": 16,
+        "x2": 30,
+        "y1": 55,
+        "y2": 59
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 23.0,
+        "grid_y": 57.0,
+        "hammer_x": -5184.0,
+        "hammer_y": 832.0,
+        "world_x": -10368.0,
+        "world_y": 1664.0
+      },
+      "id": "wildlife_zone_0122",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_large",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -5568,
+        "hammer_x2": -5568,
+        "hammer_y1": -2624,
+        "hammer_y2": -2624,
+        "tile_count": 1,
+        "world_x1": -11136,
+        "world_x2": -11136,
+        "world_y1": -5248,
+        "world_y2": -5248,
+        "x1": 20,
+        "x2": 20,
+        "y1": 84,
+        "y2": 84
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 20.0,
+        "grid_y": 84.0,
+        "hammer_x": -5568.0,
+        "hammer_y": -2624.0,
+        "world_x": -11136.0,
+        "world_y": -5248.0
+      },
+      "id": "wildlife_zone_0123",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_large",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -6336,
+        "hammer_x2": -6208,
+        "hammer_y1": 2240,
+        "hammer_y2": 3520,
+        "tile_count": 2,
+        "world_x1": -12672,
+        "world_x2": -12416,
+        "world_y1": 4480,
+        "world_y2": 7040,
+        "x1": 14,
+        "x2": 15,
+        "y1": 36,
+        "y2": 46
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 14.5,
+        "grid_y": 41.0,
+        "hammer_x": -6272.0,
+        "hammer_y": 2880.0,
+        "world_x": -12544.0,
+        "world_y": 5760.0
+      },
+      "id": "wildlife_zone_0124",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_small",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -7232,
+        "hammer_x2": -6336,
+        "hammer_y1": -1344,
+        "hammer_y2": -64,
+        "tile_count": 3,
+        "world_x1": -14464,
+        "world_x2": -12672,
+        "world_y1": -2688,
+        "world_y2": -128,
+        "x1": 7,
+        "x2": 14,
+        "y1": 64,
+        "y2": 74
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 4
+      },
+      "center": {
+        "grid_x": 11.33,
+        "grid_y": 69.33,
+        "hammer_x": -6677.33,
+        "hammer_y": -746.67,
+        "world_x": -13354.67,
+        "world_y": -1493.33
+      },
+      "id": "wildlife_zone_0125",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "passive_small",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -7744,
+        "hammer_x2": -7232,
+        "hammer_y1": -3520,
+        "hammer_y2": -2496,
+        "tile_count": 3,
+        "world_x1": -15488,
+        "world_x2": -14464,
+        "world_y1": -7040,
+        "world_y2": -4992,
+        "x1": 3,
+        "x2": 7,
+        "y1": 83,
+        "y2": 91
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 0,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 4.33,
+        "grid_y": 86.0,
+        "hammer_x": -7573.33,
+        "hammer_y": -2880.0,
+        "world_x": -15146.67,
+        "world_y": -5760.0
+      },
+      "id": "wildlife_zone_0126",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 3,
+      "spawn_group": "passive_small",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -4672,
+        "hammer_x2": -4288,
+        "hammer_y1": 2880,
+        "hammer_y2": 3136,
+        "tile_count": 2,
+        "world_x1": -9344,
+        "world_x2": -8576,
+        "world_y1": 5760,
+        "world_y2": 6272,
+        "x1": 27,
+        "x2": 30,
+        "y1": 39,
+        "y2": 41
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 2
+      },
+      "center": {
+        "grid_x": 28.5,
+        "grid_y": 40.0,
+        "hammer_x": -4480.0,
+        "hammer_y": 3008.0,
+        "world_x": -8960.0,
+        "world_y": 6016.0
+      },
+      "id": "wildlife_zone_0127",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 2,
+      "spawn_group": "passive_small",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -4160,
+        "hammer_x2": -4160,
+        "hammer_y1": 64,
+        "hammer_y2": 64,
+        "tile_count": 1,
+        "world_x1": -8320,
+        "world_x2": -8320,
+        "world_y1": 128,
+        "world_y2": 128,
+        "x1": 31,
+        "x2": 31,
+        "y1": 63,
+        "y2": 63
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 3
+      },
+      "center": {
+        "grid_x": 31.0,
+        "grid_y": 63.0,
+        "hammer_x": -4160.0,
+        "hammer_y": 64.0,
+        "world_x": -8320.0,
+        "world_y": 128.0
+      },
+      "id": "wildlife_zone_0128",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "western_highlands"
+    },
+    {
+      "bounds": {
+        "hammer_x1": -5696,
+        "hammer_x2": -5696,
+        "hammer_y1": -2624,
+        "hammer_y2": -2624,
+        "tile_count": 1,
+        "world_x1": -11392,
+        "world_x2": -11392,
+        "world_y1": -5248,
+        "world_y2": -5248,
+        "x1": 19,
+        "x2": 19,
+        "y1": 84,
+        "y2": 84
+      },
+      "cell": {
+        "size_tiles": 16,
+        "x": 1,
+        "y": 5
+      },
+      "center": {
+        "grid_x": 19.0,
+        "grid_y": 84.0,
+        "hammer_x": -5696.0,
+        "hammer_y": -2624.0,
+        "world_x": -11392.0,
+        "world_y": -5248.0
+      },
+      "id": "wildlife_zone_0129",
+      "recommended_placement": "one spawn controller for this cell, not one entity per marker",
+      "source_marker_count": 1,
+      "spawn_group": "passive_small",
+      "zone": "western_highlands"
+    }
+  ],
+  "summary": {
+    "central_basin:passive_large": 3,
+    "central_basin:passive_small": 4,
+    "eastern_highlands:cave_boss": 1,
+    "eastern_highlands:hostile_pack": 4,
+    "eastern_highlands:passive_large": 13,
+    "eastern_highlands:passive_small": 12,
+    "frost_north:hostile_elite": 13,
+    "frost_north:hostile_pack": 3,
+    "frost_north:passive_large": 14,
+    "frost_north:passive_small": 14,
+    "frost_north:world_boss": 1,
+    "grimroot_marsh:passive_large": 3,
+    "grimroot_marsh:passive_small": 3,
+    "grimroot_marsh:world_boss": 1,
+    "heartland:hostile_pack": 3,
+    "heartland:passive_large": 10,
+    "heartland:passive_small": 13,
+    "southern_wilds:elite_boss": 1,
+    "southern_wilds:hostile_elite": 17,
+    "southern_wilds:hostile_pack": 6,
+    "southern_wilds:passive_large": 14,
+    "southern_wilds:passive_small": 17,
+    "southern_wilds:world_boss": 1,
+    "western_highlands:cave_boss": 1,
+    "western_highlands:hostile_pack": 3,
+    "western_highlands:passive_large": 12,
+    "western_highlands:passive_small": 12
+  }
+}

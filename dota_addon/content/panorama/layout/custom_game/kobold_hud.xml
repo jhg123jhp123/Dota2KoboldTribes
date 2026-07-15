@@ -1,0 +1,37 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/kobold_hud.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/kobold_hud.js" />
+    </scripts>
+
+    <Panel id="KoboldHud" class="KoboldHud">
+        <Panel class="SurvivalPanel">
+            <Label id="HudTitle" class="HudTitle" text="Kobold Survival" />
+
+            <Panel class="MeterRow">
+                <Label class="MeterLabel" text="Hunger" />
+                <ProgressBar id="HungerBar" class="MeterBar HungerBar" min="0" max="100" value="100" />
+                <Label id="HungerValue" class="MeterValue" text="100" />
+            </Panel>
+
+            <Panel class="MeterRow">
+                <Label class="MeterLabel" text="Warmth" />
+                <ProgressBar id="WarmthBar" class="MeterBar WarmthBar" min="0" max="100" value="100" />
+                <Label id="WarmthValue" class="MeterValue" text="100" />
+            </Panel>
+
+            <Panel class="MeterRow">
+                <Label class="MeterLabel" text="Stamina" />
+                <ProgressBar id="StaminaBar" class="MeterBar StaminaBar" min="0" max="100" value="100" />
+                <Label id="StaminaValue" class="MeterValue" text="100" />
+            </Panel>
+        </Panel>
+
+        <Panel class="ResourcePanel">
+            <Label class="HudTitle" text="Tribe Stores" />
+            <Label id="ResourceText" class="ResourceText" text="Waiting for tribe resources..." />
+        </Panel>
+    </Panel>
+</root>

@@ -1,0 +1,321 @@
+"DOTAUnits"
+{
+    "Version" "1"
+
+    "npc_kobold_building_base"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/props_structures/tower_good.vmdl"
+        "ModelScale"                    "0.6"
+        "SoundSet"                      "0"
+        "Level"                         "1"
+        "UnitLabel"                     "kobold_building"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_NO_ATTACK"
+        "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_NONE"
+        "StatusHealth"                  "500"
+        "StatusHealthRegen"             "0"
+        "ArmorPhysical"                 "2"
+        "MagicalResistance"             "25"
+        "BoundsHullName"                "DOTA_HULL_SIZE_BUILDING"
+        "VisionDaytimeRange"            "700"
+        "VisionNighttimeRange"          "700"
+        "CanBeDominated"                "0"
+        "HasInventory"                  "0"
+    }
+
+    "npc_kobold_building_campfire"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/props_gameplay/campfire001.vmdl"
+        "ModelScale"                    "0.85"
+        "StatusHealth"                  "250"
+        "Ability1"                      "passive_campfire_warmth_aura"
+        "Ability2"                      "passive_campfire_animal_fear"
+        "Ability3"                      "passive_campfire_fuel_timer"
+        "Ability4"                      "passive_campfire_light"
+    }
+
+    "npc_kobold_building_tent"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/props_structures/tent_dire.vmdl"
+        "ModelScale"                    "0.75"
+        "StatusHealth"                  "360"
+        "Ability1"                      "passive_tent_stamina_recovery"
+    }
+
+    "npc_kobold_building_farm"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/props_structures/good_barracks_melee001.vmdl"
+        "ModelScale"                    "0.45"
+        "StatusHealth"                  "200"
+        "ArmorPhysical"                 "1"
+        "Ability1"                      "passive_farm_sheep_production"
+        "Ability2"                      "passive_farm_pheasant_bait"
+    }
+
+    "npc_kobold_building_workbench"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/props_gameplay/treasure_chest001.vmdl"
+        "StatusHealth"                  "360"
+    }
+
+    "npc_kobold_building_smithy"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/props_structures/radiant_tower001.vmdl"
+        "ModelScale"                    "0.35"
+        "StatusHealth"                  "700"
+        "ArmorPhysical"                 "5"
+    }
+
+    "npc_kobold_building_storage"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/props_gameplay/treasure_chest001.vmdl"
+        "ModelScale"                    "1.2"
+        "StatusHealth"                  "420"
+    }
+
+    "npc_kobold_building_hunters_lodge"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/props_structures/good_barracks_range001.vmdl"
+        "ModelScale"                    "0.45"
+        "StatusHealth"                  "520"
+    }
+
+    "npc_kobold_building_tavern"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/props_structures/good_ancient001.vmdl"
+        "ModelScale"                    "0.35"
+        "StatusHealth"                  "850"
+    }
+
+    "npc_kobold_building_spike_trap"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/props_traps/spiketrap001.vmdl"
+        "ModelScale"                    "0.55"
+        "StatusHealth"                  "120"
+        "Ability1"                      "passive_spike_trap_trigger"
+    }
+
+    "npc_kobold_building_revival_shrine"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/props_structures/radiant_statue001.vmdl"
+        "ModelScale"                    "0.65"
+        "StatusHealth"                  "1200"
+    }
+
+    "npc_kobold_resource_node_base"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/props_tree/dire_tree001.vmdl"
+        "ModelScale"                    "0.9"
+        "SoundSet"                      "0"
+        "Level"                         "1"
+        "UnitLabel"                     "kobold_resource_node"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_NO_ATTACK"
+        "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_NONE"
+        "StatusHealth"                  "90"
+        "StatusHealthRegen"             "0"
+        "ArmorPhysical"                 "0"
+        "MagicalResistance"             "0"
+        "BoundsHullName"                "DOTA_HULL_SIZE_SMALL"
+        "VisionDaytimeRange"            "0"
+        "VisionNighttimeRange"          "0"
+        "CanBeDominated"                "0"
+        "HasInventory"                  "0"
+    }
+
+    "npc_kobold_node_ordinary_tree"         { "BaseClass" "npc_dota_creature" "Model" "models/props_tree/dire_tree001.vmdl" "StatusHealth" "75" "AttackCapabilities" "DOTA_UNIT_CAP_NO_ATTACK" "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE" }
+    "npc_kobold_node_elder_tree"            { "BaseClass" "npc_dota_creature" "Model" "models/props_tree/dire_tree005.vmdl" "StatusHealth" "150" "ModelScale" "1.15" "AttackCapabilities" "DOTA_UNIT_CAP_NO_ATTACK" "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE" }
+    "npc_kobold_node_stone_deposit"         { "BaseClass" "npc_dota_creature" "Model" "models/props_gameplay/neutral_box.vmdl" "StatusHealth" "110" "AttackCapabilities" "DOTA_UNIT_CAP_NO_ATTACK" "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE" }
+    "npc_kobold_node_gold_deposit"          { "BaseClass" "npc_dota_creature" "Model" "models/props_gameplay/gold_bag001.vmdl" "StatusHealth" "90" "AttackCapabilities" "DOTA_UNIT_CAP_NO_ATTACK" "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE" }
+    "npc_kobold_node_iron_deposit"          { "BaseClass" "npc_dota_creature" "Model" "models/props_gameplay/neutral_box.vmdl" "StatusHealth" "130" "AttackCapabilities" "DOTA_UNIT_CAP_NO_ATTACK" "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE" }
+    "npc_kobold_node_shadowstone_source"    { "BaseClass" "npc_dota_creature" "Model" "models/props_gameplay/rune_doubledamage01.vmdl" "StatusHealth" "140" "AttackCapabilities" "DOTA_UNIT_CAP_NO_ATTACK" "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE" }
+    "npc_kobold_node_radiant_gemstone_source" { "BaseClass" "npc_dota_creature" "Model" "models/props_gameplay/rune_regeneration01.vmdl" "StatusHealth" "140" "AttackCapabilities" "DOTA_UNIT_CAP_NO_ATTACK" "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE" }
+    "npc_kobold_node_berry_bush"            { "BaseClass" "npc_dota_creature" "Model" "models/props_tree/radiant_tree001.vmdl" "StatusHealth" "45" "ModelScale" "0.55" "AttackCapabilities" "DOTA_UNIT_CAP_NO_ATTACK" "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE" }
+    "npc_kobold_node_spicy_herbs"           { "BaseClass" "npc_dota_creature" "Model" "models/props_tree/radiant_tree002.vmdl" "StatusHealth" "45" "ModelScale" "0.45" "AttackCapabilities" "DOTA_UNIT_CAP_NO_ATTACK" "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE" }
+    "npc_kobold_node_sageberry"             { "BaseClass" "npc_dota_creature" "Model" "models/props_tree/radiant_tree003.vmdl" "StatusHealth" "50" "ModelScale" "0.45" "AttackCapabilities" "DOTA_UNIT_CAP_NO_ATTACK" "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE" }
+    "npc_kobold_node_lambent_sunflower"     { "BaseClass" "npc_dota_creature" "Model" "models/props_tree/radiant_tree004.vmdl" "StatusHealth" "50" "ModelScale" "0.45" "AttackCapabilities" "DOTA_UNIT_CAP_NO_ATTACK" "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE" }
+
+    "npc_kobold_animal_base"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/creeps/neutral_creeps/n_creep_worg_small/n_creep_worg_small.vmdl"
+        "ModelScale"                    "0.8"
+        "SoundSet"                      "0"
+        "Level"                         "1"
+        "UnitLabel"                     "kobold_wildlife"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackDamageMin"               "8"
+        "AttackDamageMax"               "12"
+        "AttackRate"                    "1.6"
+        "AttackRange"                   "120"
+        "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"                 "280"
+        "StatusHealth"                  "120"
+        "ArmorPhysical"                 "0"
+        "MagicalResistance"             "0"
+        "BoundsHullName"                "DOTA_HULL_SIZE_SMALL"
+        "VisionDaytimeRange"            "600"
+        "VisionNighttimeRange"          "500"
+        "CanBeDominated"                "0"
+        "HasInventory"                  "0"
+    }
+
+    "npc_kobold_animal_sheep"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/items/hex/sheep_hex/sheep_hex.vmdl"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_NO_ATTACK"
+        "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"                 "260"
+        "StatusHealth"                  "70"
+        "BoundsHullName"                "DOTA_HULL_SIZE_SMALL"
+        "VisionDaytimeRange"            "600"
+        "VisionNighttimeRange"          "450"
+        "Ability1"                      "passive_animal_sheep_loot"
+    }
+
+    "npc_kobold_animal_pheasant"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/creeps/neutral_creeps/n_creep_harpy_a/n_creep_harpy_a.vmdl"
+        "ModelScale"                    "0.55"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_NO_ATTACK"
+        "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"                 "320"
+        "StatusHealth"                  "10"
+        "BoundsHullName"                "DOTA_HULL_SIZE_SMALL"
+        "VisionDaytimeRange"            "650"
+        "VisionNighttimeRange"          "450"
+        "Ability1"                      "passive_animal_pheasant_loot"
+    }
+
+    "npc_kobold_animal_wolf"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/creeps/neutral_creeps/n_creep_worg_small/n_creep_worg_small.vmdl"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
+        "AttackRange"                   "120"
+        "AttackRate"                    "1.6"
+        "MovementSpeed"                 "285"
+        "StatusHealth"                  "160"
+        "AttackDamageMin"               "12"
+        "AttackDamageMax"               "18"
+        "BoundsHullName"                "DOTA_HULL_SIZE_SMALL"
+        "VisionDaytimeRange"            "700"
+        "VisionNighttimeRange"          "650"
+        "Ability1"                      "passive_wolf_neutral_temperament"
+        "Ability2"                      "passive_wolf_fear_fire"
+        "Ability3"                      "passive_wolf_loot"
+    }
+
+    "npc_kobold_animal_dire_wolf"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/creeps/neutral_creeps/n_creep_worg_large/n_creep_worg_large.vmdl"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
+        "AttackRange"                   "120"
+        "AttackRate"                    "1.45"
+        "StatusHealth"                  "230"
+        "AttackDamageMin"               "18"
+        "AttackDamageMax"               "26"
+        "MovementSpeed"                 "315"
+        "BoundsHullName"                "DOTA_HULL_SIZE_SMALL"
+        "VisionDaytimeRange"            "750"
+        "VisionNighttimeRange"          "850"
+        "Ability1"                      "passive_dire_wolf_night_aggression"
+        "Ability2"                      "passive_dire_wolf_fear_fire"
+        "Ability3"                      "passive_dire_wolf_loot"
+    }
+
+    "npc_kobold_animal_bear"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/creeps/neutral_creeps/n_creep_beast/n_creep_beast.vmdl"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
+        "AttackRange"                   "150"
+        "AttackRate"                    "1.8"
+        "StatusHealth"                  "460"
+        "AttackDamageMin"               "32"
+        "AttackDamageMax"               "45"
+        "MovementSpeed"                 "255"
+        "BoundsHullName"                "DOTA_HULL_SIZE_SMALL"
+        "VisionDaytimeRange"            "700"
+        "VisionNighttimeRange"          "600"
+        "Ability1"                      "passive_bear_territorial_behavior"
+        "Ability2"                      "passive_bear_heavy_attack"
+        "Ability3"                      "passive_bear_loot"
+    }
+
+    "npc_kobold_animal_stag"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/creeps/neutral_creeps/n_creep_forest_troll_high_priest/n_creep_forest_troll_high_priest.vmdl"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_NO_ATTACK"
+        "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"                 "335"
+        "StatusHealth"                  "150"
+        "BoundsHullName"                "DOTA_HULL_SIZE_SMALL"
+        "VisionDaytimeRange"            "800"
+        "VisionNighttimeRange"          "650"
+    }
+
+    "npc_kobold_boss_raging_arcane_beast"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/creeps/neutral_creeps/n_creep_thunder_lizard/n_creep_thunder_lizard_big.vmdl"
+        "ModelScale"                    "1.15"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
+        "AttackRange"                   "180"
+        "AttackRate"                    "1.5"
+        "MovementSpeed"                 "285"
+        "StatusHealth"                  "2500"
+        "AttackDamageMin"               "70"
+        "AttackDamageMax"               "95"
+        "ArmorPhysical"                 "8"
+        "MagicalResistance"             "35"
+        "Ability1"                      "boss_passive_arcane_scaling"
+        "Ability2"                      "boss_ability_arcane_burst"
+        "Ability3"                      "boss_ability_arcane_projectile"
+        "Ability4"                      "boss_ability_arcane_field"
+        "Ability5"                      "boss_passive_phase_controller"
+        "Ability6"                      "boss_passive_loot_controller"
+    }
+
+    "npc_kobold_murloc_slave"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/creeps/neutral_creeps/n_creep_satyr_a/n_creep_satyr_a.vmdl"
+        "ModelScale"                    "0.72"
+        "SoundSet"                      "n_creep_Satyr"
+        "Level"                         "2"
+        "UnitLabel"                     "kobold_hired_worker"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
+        "AttackDamageMin"               "10"
+        "AttackDamageMax"               "16"
+        "AttackRate"                    "1.6"
+        "AttackRange"                   "120"
+        "MovementSpeed"                 "300"
+        "StatusHealth"                  "260"
+        "ArmorPhysical"                 "1"
+        "BoundsHullName"                "DOTA_HULL_SIZE_SMALL"
+        "VisionDaytimeRange"            "650"
+        "VisionNighttimeRange"          "650"
+        "CanBeDominated"                "0"
+        "HasInventory"                  "0"
+    }
+}

@@ -1,0 +1,3974 @@
+[
+  {
+    "path": "Source_2/Docs/Level_Design/Visibility.html",
+    "title": "Source / 2/Docs/Level / Design/Visibility",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Inside vs outside"
+      },
+      {
+        "level": 2,
+        "text": "Basic usage"
+      },
+      {
+        "level": 2,
+        "text": "Viewing vis in game"
+      },
+      {
+        "level": 2,
+        "text": "Viewing vis in Hammer"
+      },
+      {
+        "level": 2,
+        "text": "Best practices/common issues"
+      },
+      {
+        "level": 3,
+        "text": "Avoid holes in vis contributing geometry at the level boundary"
+      },
+      {
+        "level": 3,
+        "text": "Do not use SkyVisBlocker"
+      },
+      {
+        "level": 3,
+        "text": "Use Solid Block Light carefully"
+      },
+      {
+        "level": 3,
+        "text": "Avoid outward facing geometry at level bounds"
+      },
+      {
+        "level": 3,
+        "text": "Avoid vis contributors extending through the level bounds"
+      },
+      {
+        "level": 3,
+        "text": "Avoid placing objects outside the level"
+      }
+    ]
+  },
+  {
+    "path": "Source_2/Docs/Level_Design/Visibility/Load_Compiled_Vis_Data.html",
+    "title": "Source / 2/Docs/Level / Design/Visibility/Load / Compiled / Vis / Data",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Loading the visibility data"
+      },
+      {
+        "level": 2,
+        "text": "Viewing visibility"
+      },
+      {
+        "level": 2,
+        "text": "Viewing lines of sight between clusters"
+      }
+    ]
+  },
+  {
+    "path": "Source_2/Docs/Level_Design/Prefabs_and_Instances.html",
+    "title": "Source / 2/Docs/Level / Design/Prefabs / and / Instances",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Prefabs"
+      },
+      {
+        "level": 3,
+        "text": "Creating Prefabs"
+      },
+      {
+        "level": 3,
+        "text": "Editing Prefabs"
+      },
+      {
+        "level": 3,
+        "text": "Collapsing Prefabs"
+      },
+      {
+        "level": 3,
+        "text": "Customizing Prefabs"
+      },
+      {
+        "level": 2,
+        "text": "Instances"
+      },
+      {
+        "level": 3,
+        "text": "Creating Instances"
+      },
+      {
+        "level": 3,
+        "text": "Editing Instances"
+      },
+      {
+        "level": 3,
+        "text": "Collapsing Instances"
+      }
+    ]
+  },
+  {
+    "path": "Source_2/Docs/Level_Design/Navigation.html",
+    "title": "Source / 2/Docs/Level / Design/Navigation",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "3D Viewport"
+      },
+      {
+        "level": 3,
+        "text": "Right-Mouse-Button WASD Toggle"
+      },
+      {
+        "level": 3,
+        "text": "Fly Mode"
+      },
+      {
+        "level": 3,
+        "text": "Navigation Around a Point"
+      },
+      {
+        "level": 2,
+        "text": "Active Viewport"
+      },
+      {
+        "level": 2,
+        "text": "2D Viewports"
+      }
+    ]
+  },
+  {
+    "path": "Source_2/Docs/Level_Design/Mesh_Entities.html",
+    "title": "Source / 2/Docs/Level / Design/Mesh / Entities",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Mesh Entity Tutorial"
+      }
+    ]
+  },
+  {
+    "path": "Source_2/Docs/Level_Design/Lighting.html",
+    "title": "Source / 2/Docs/Level / Design/Lighting",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Light source types"
+      },
+      {
+        "level": 2,
+        "text": "Direct and Indirect Lighting"
+      },
+      {
+        "level": 3,
+        "text": "Default is Baked Light Indexing"
+      },
+      {
+        "level": 3,
+        "text": "Fully baked Direct Lighting"
+      },
+      {
+        "level": 3,
+        "text": "Per-Pixel Direct Lighting"
+      },
+      {
+        "level": 3,
+        "text": "Indirect lighting"
+      },
+      {
+        "level": 2,
+        "text": "Lightmap Density"
+      },
+      {
+        "level": 3,
+        "text": "Lightmap Player Spaces"
+      },
+      {
+        "level": 3,
+        "text": "Lightmap Resolution Bias"
+      },
+      {
+        "level": 2,
+        "text": "Basic summary of lighting:"
+      },
+      {
+        "level": 2,
+        "text": "Volumetric Fog"
+      },
+      {
+        "level": 2,
+        "text": "Building Lighting"
+      },
+      {
+        "level": 3,
+        "text": "Preview Baked Lighting"
+      },
+      {
+        "level": 3,
+        "text": "Building Lightmaps"
+      }
+    ]
+  },
+  {
+    "path": "Source_2/Docs/Level_Design/Hammer_Overview.html",
+    "title": "Source / 2/Docs/Level / Design/Hammer / Overview",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "3D Viewport"
+      },
+      {
+        "level": 2,
+        "text": "2D Viewport"
+      },
+      {
+        "level": 2,
+        "text": "Customizing Window Panes"
+      },
+      {
+        "level": 3,
+        "text": "Selection Tool"
+      },
+      {
+        "level": 3,
+        "text": "Translate Tool"
+      },
+      {
+        "level": 3,
+        "text": "Rotate Tool"
+      },
+      {
+        "level": 3,
+        "text": "Scale Tool"
+      },
+      {
+        "level": 3,
+        "text": "Pivot Tool"
+      },
+      {
+        "level": 3,
+        "text": "Entity Tool"
+      },
+      {
+        "level": 3,
+        "text": "Block Tool"
+      },
+      {
+        "level": 3,
+        "text": "Clipping Tool"
+      },
+      {
+        "level": 3,
+        "text": "Mirror Tool"
+      },
+      {
+        "level": 3,
+        "text": "Texture Projection Tool"
+      },
+      {
+        "level": 3,
+        "text": "Paint Tool"
+      },
+      {
+        "level": 3,
+        "text": "Displacement Tool"
+      },
+      {
+        "level": 3,
+        "text": "Asset Spray Tool"
+      },
+      {
+        "level": 3,
+        "text": "Tile Editor"
+      },
+      {
+        "level": 3,
+        "text": "Path Tool"
+      },
+      {
+        "level": 3,
+        "text": "Physics Tool"
+      },
+      {
+        "level": 3,
+        "text": "Mesh Projection Tool"
+      },
+      {
+        "level": 2,
+        "text": "Selection Modes"
+      },
+      {
+        "level": 2,
+        "text": "Undo History"
+      },
+      {
+        "level": 2,
+        "text": "Command History"
+      },
+      {
+        "level": 2,
+        "text": "Outliner"
+      },
+      {
+        "level": 2,
+        "text": "Selection Sets"
+      },
+      {
+        "level": 2,
+        "text": "Object Properties"
+      },
+      {
+        "level": 2,
+        "text": "Active Material"
+      },
+      {
+        "level": 2,
+        "text": "Assets Tabs"
+      },
+      {
+        "level": 2,
+        "text": "Useful Settings"
+      }
+    ]
+  },
+  {
+    "path": "Source_2/Docs/Level_Design/Creating_Your_First_Room.html",
+    "title": "Source / 2/Docs/Level / Design/Creating / Your / First / Room",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Introduction"
+      },
+      {
+        "level": 3,
+        "text": "Requirements"
+      },
+      {
+        "level": 2,
+        "text": "Creating your First Room"
+      },
+      {
+        "level": 3,
+        "text": "Creating the Mesh"
+      },
+      {
+        "level": 3,
+        "text": "Placing the Player Spawn Point"
+      },
+      {
+        "level": 3,
+        "text": "Adding Lighting to your Room"
+      },
+      {
+        "level": 3,
+        "text": "Adding a Doorway"
+      },
+      {
+        "level": 4,
+        "text": "Clipping Tool"
+      },
+      {
+        "level": 4,
+        "text": "Cut Tool"
+      },
+      {
+        "level": 2,
+        "text": "Additional"
+      },
+      {
+        "level": 3,
+        "text": "Notes"
+      }
+    ]
+  },
+  {
+    "path": "Source_2/Docs/Level_Design/Basic_Construction/Mesh_Texturing.html",
+    "title": "Source / 2/Docs/Level / Design/Basic / Construction/Mesh / Texturing",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Basic Texturing"
+      },
+      {
+        "level": 2,
+        "text": "Maintaining Texture Alignment"
+      },
+      {
+        "level": 3,
+        "text": "Texture Lock"
+      },
+      {
+        "level": 3,
+        "text": "Texture Lock Scale"
+      },
+      {
+        "level": 3,
+        "text": "Texture Lock Component Manipulations"
+      },
+      {
+        "level": 2,
+        "text": "UV Peel"
+      }
+    ]
+  },
+  {
+    "path": "Source_2/Docs/Level_Design/Basic_Construction/Mesh_Editing_4.html",
+    "title": "Source / 2/Docs/Level / Design/Basic / Construction/Mesh / Editing / 4",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Selection Local Space Axes"
+      },
+      {
+        "level": 2,
+        "text": "The Workplane"
+      },
+      {
+        "level": 2,
+        "text": "Other Useful Tools"
+      },
+      {
+        "level": 3,
+        "text": "Clipping Tool"
+      },
+      {
+        "level": 3,
+        "text": "Mirror Tool"
+      },
+      {
+        "level": 3,
+        "text": "Bevel"
+      },
+      {
+        "level": 2,
+        "text": "Conclusions so far"
+      }
+    ]
+  },
+  {
+    "path": "Source_2/Docs/Level_Design/Basic_Construction/Mesh_Editing_3.html",
+    "title": "Source / 2/Docs/Level / Design/Basic / Construction/Mesh / Editing / 3",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Creating a Basic \"Template\""
+      },
+      {
+        "level": 2,
+        "text": "Introducing Pivot Points"
+      },
+      {
+        "level": 2,
+        "text": "Geometry Creation Using Pivot Points"
+      },
+      {
+        "level": 2,
+        "text": "Workflow Notes"
+      }
+    ]
+  },
+  {
+    "path": "Source_2/Docs/Level_Design/Basic_Construction/Mesh_Editing_2.html",
+    "title": "Source / 2/Docs/Level / Design/Basic / Construction/Mesh / Editing / 2",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Blocking Out the Shape"
+      },
+      {
+        "level": 2,
+        "text": "Sewing the Arch"
+      },
+      {
+        "level": 2,
+        "text": "Adding Detail"
+      },
+      {
+        "level": 2,
+        "text": "Further Exploration"
+      }
+    ]
+  },
+  {
+    "path": "Source_2/Docs/Level_Design/Basic_Construction/Mesh_Editing_1.html",
+    "title": "Source / 2/Docs/Level / Design/Basic / Construction/Mesh / Editing / 1",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Building Blocks"
+      },
+      {
+        "level": 3,
+        "text": "Groups"
+      },
+      {
+        "level": 3,
+        "text": "Objects"
+      },
+      {
+        "level": 3,
+        "text": "Meshes"
+      },
+      {
+        "level": 3,
+        "text": "Faces"
+      },
+      {
+        "level": 3,
+        "text": "Edges"
+      },
+      {
+        "level": 3,
+        "text": "Vertices"
+      },
+      {
+        "level": 2,
+        "text": "Not Brushes"
+      },
+      {
+        "level": 2,
+        "text": "Creating Geometry"
+      },
+      {
+        "level": 3,
+        "text": "Basic Blocks"
+      },
+      {
+        "level": 3,
+        "text": "Camera Control"
+      },
+      {
+        "level": 3,
+        "text": "Basic Transformations"
+      },
+      {
+        "level": 2,
+        "text": "Mesh Editing"
+      },
+      {
+        "level": 3,
+        "text": "Faces"
+      },
+      {
+        "level": 3,
+        "text": "Edges"
+      },
+      {
+        "level": 3,
+        "text": "Edge Rings and Loops"
+      },
+      {
+        "level": 2,
+        "text": "Rotate and Scale"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Getting Started"
+      },
+      {
+        "level": 2,
+        "text": "Scripting Abilities"
+      },
+      {
+        "level": 2,
+        "text": "Common Techniques"
+      },
+      {
+        "level": 2,
+        "text": "Reference"
+      },
+      {
+        "level": 2,
+        "text": "Examples"
+      },
+      {
+        "level": 2,
+        "text": "Lua Resources"
+      },
+      {
+        "level": 2,
+        "text": "See also"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/Using_Bitfields_To_Adjust_Stat_Value_Bonuses.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/Using / Bitfields / To / Adjust / Stat / Value / Bonuses",
+    "headings": [
+      {
+        "level": 2,
+        "text": "addon_game_mode.lua"
+      },
+      {
+        "level": 2,
+        "text": "npc_items_custom.txt"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/ThinkerFunctions.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/ThinkerFunctions",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Signature"
+      },
+      {
+        "level": 2,
+        "text": "Examples"
+      },
+      {
+        "level": 3,
+        "text": "Example 1"
+      },
+      {
+        "level": 3,
+        "text": "Example 2"
+      },
+      {
+        "level": 3,
+        "text": "Example 3"
+      },
+      {
+        "level": 3,
+        "text": "Example 4"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/Listening_to_game_events.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/Listening / to / game / events",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Introduction"
+      },
+      {
+        "level": 3,
+        "text": "Example 1"
+      },
+      {
+        "level": 3,
+        "text": "Example 2"
+      },
+      {
+        "level": 2,
+        "text": "The function ListenToGameEvent"
+      },
+      {
+        "level": 3,
+        "text": "Parameters"
+      },
+      {
+        "level": 2,
+        "text": "Event details"
+      },
+      {
+        "level": 2,
+        "text": "Your listener function"
+      },
+      {
+        "level": 3,
+        "text": "Example 3"
+      },
+      {
+        "level": 2,
+        "text": "More examples"
+      },
+      {
+        "level": 3,
+        "text": "Example 4"
+      },
+      {
+        "level": 3,
+        "text": "Example 5"
+      },
+      {
+        "level": 3,
+        "text": "Example 6"
+      },
+      {
+        "level": 2,
+        "text": "FAQ"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/Getting_Started.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/Getting / Started",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Required Files"
+      },
+      {
+        "level": 2,
+        "text": "Running Script Files"
+      },
+      {
+        "level": 2,
+        "text": "Required Script Functions"
+      },
+      {
+        "level": 3,
+        "text": "Precache"
+      },
+      {
+        "level": 3,
+        "text": "Activate"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/Debugging_Lua_scripts.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/Debugging / Lua / scripts",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 3,
+        "text": "Overview"
+      },
+      {
+        "level": 3,
+        "text": "Installing Eclipse LDT"
+      },
+      {
+        "level": 3,
+        "text": "Setting up a new LDT project"
+      },
+      {
+        "level": 3,
+        "text": "Setting up a new LDT debug configuration for the project"
+      },
+      {
+        "level": 3,
+        "text": "Opening the Debug Perspective in LDT"
+      },
+      {
+        "level": 3,
+        "text": "Connecting LDT to the game"
+      },
+      {
+        "level": 3,
+        "text": "Using the LDT debugging UI"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/Creating_a_Tower_Example.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/Creating / a / Tower / Example",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 3,
+        "text": "Firstly"
+      },
+      {
+        "level": 3,
+        "text": "Secondly"
+      },
+      {
+        "level": 3,
+        "text": "Thirdly"
+      },
+      {
+        "level": 3,
+        "text": "Thats it!"
+      },
+      {
+        "level": 3,
+        "text": "Notes"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/Constants.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/Constants",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Accessing the DOTA 2 Scripting API from Lua"
+      },
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 3,
+        "text": "Functions"
+      },
+      {
+        "level": 4,
+        "text": "Global"
+      },
+      {
+        "level": 4,
+        "text": "CBaseAnimating"
+      },
+      {
+        "level": 4,
+        "text": "CBaseCombatCharacter"
+      },
+      {
+        "level": 4,
+        "text": "CBaseEntity"
+      },
+      {
+        "level": 4,
+        "text": "CBaseFlex"
+      },
+      {
+        "level": 4,
+        "text": "CBaseModelEntity"
+      },
+      {
+        "level": 4,
+        "text": "CBasePlayer"
+      },
+      {
+        "level": 4,
+        "text": "CBaseTrigger"
+      },
+      {
+        "level": 4,
+        "text": "CBodyComponent"
+      },
+      {
+        "level": 4,
+        "text": "CCustomGameEventManager"
+      },
+      {
+        "level": 4,
+        "text": "CCustomNetTableManager"
+      },
+      {
+        "level": 4,
+        "text": "CDOTABaseAbility"
+      },
+      {
+        "level": 4,
+        "text": "CDOTABaseGameMode"
+      },
+      {
+        "level": 4,
+        "text": "CDOTAGameManager"
+      },
+      {
+        "level": 4,
+        "text": "CDOTAGamerules"
+      },
+      {
+        "level": 4,
+        "text": "CDOTAPlayer"
+      },
+      {
+        "level": 4,
+        "text": "CDOTATutorial"
+      },
+      {
+        "level": 4,
+        "text": "CDOTAVoteSystem"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_Animation_Attack"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_Animation_TailSpin"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_DataDriven"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_Lua"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_Nian_Dive"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_Nian_Leap"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_Nian_Roar"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC_Building"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC_Creature"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC_Hero"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC_RotatableBuilding"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC_Shop"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC_Trap_Ward"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Buff"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_CustomUIManager"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Item"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_ItemSpawner"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Item_DataDriven"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Item_Lua"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Item_Physical"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_MapTree"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Modifier_Lua"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Modifier_Lua_Horizontal_Motion"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Modifier_Lua_Motion_Both"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Modifier_Lua_Vertical_Motion"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_PlayerResource"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_ShopTrigger"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_SimpleObstruction"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Unit_Courier"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Unit_Nian"
+      },
+      {
+        "level": 4,
+        "text": "CDebugOverlayScriptHelper"
+      },
+      {
+        "level": 4,
+        "text": "CDotaQuest"
+      },
+      {
+        "level": 4,
+        "text": "CDotaSubquestBase"
+      },
+      {
+        "level": 4,
+        "text": "CEntities"
+      },
+      {
+        "level": 4,
+        "text": "CEntityInstance"
+      },
+      {
+        "level": 4,
+        "text": "CEntityScriptFramework"
+      },
+      {
+        "level": 4,
+        "text": "CEnvEntityMaker"
+      },
+      {
+        "level": 4,
+        "text": "CEnvProjectedTexture"
+      },
+      {
+        "level": 4,
+        "text": "CInfoData"
+      },
+      {
+        "level": 4,
+        "text": "CInfoWorldLayer"
+      },
+      {
+        "level": 4,
+        "text": "CLogicScript"
+      },
+      {
+        "level": 4,
+        "text": "CMarkupVolumeTagged"
+      },
+      {
+        "level": 4,
+        "text": "CNativeOutputs"
+      },
+      {
+        "level": 4,
+        "text": "CParticleSystem"
+      },
+      {
+        "level": 4,
+        "text": "CPhysicsProp"
+      },
+      {
+        "level": 4,
+        "text": "CPointClientUIWorldPanel"
+      },
+      {
+        "level": 4,
+        "text": "CPointTemplate"
+      },
+      {
+        "level": 4,
+        "text": "CPointWorldText"
+      },
+      {
+        "level": 4,
+        "text": "CPropHMDAvatar"
+      },
+      {
+        "level": 4,
+        "text": "CPropVRHand"
+      },
+      {
+        "level": 4,
+        "text": "CSceneEntity"
+      },
+      {
+        "level": 4,
+        "text": "CScriptHeroList"
+      },
+      {
+        "level": 4,
+        "text": "CScriptKeyValues"
+      },
+      {
+        "level": 4,
+        "text": "CScriptParticleManager"
+      },
+      {
+        "level": 4,
+        "text": "CScriptPrecacheContext"
+      },
+      {
+        "level": 4,
+        "text": "Convars"
+      },
+      {
+        "level": 4,
+        "text": "GlobalSys"
+      },
+      {
+        "level": 4,
+        "text": "GridNav"
+      },
+      {
+        "level": 4,
+        "text": "ProjectileManager"
+      },
+      {
+        "level": 4,
+        "text": "SteamInfo"
+      },
+      {
+        "level": 3,
+        "text": "Constants"
+      },
+      {
+        "level": 4,
+        "text": "AbilityLearnResult_t"
+      },
+      {
+        "level": 4,
+        "text": "AttributeDerivedStats"
+      },
+      {
+        "level": 4,
+        "text": "Attributes"
+      },
+      {
+        "level": 4,
+        "text": "DAMAGE_TYPES"
+      },
+      {
+        "level": 4,
+        "text": "DOTAAbilitySpeakTrigger_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTADamageFlag_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAHUDVisibility_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAInventoryFlags_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAMinimapEvent_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAModifierAttribute_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAMusicStatus_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTASlotType_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTASpeechType_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTATeam_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAUnitAttackCapability_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAUnitMoveCapability_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_UNIT_ORDERS"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_ABILITY_BEHAVIOR"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_HeroPickState"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_MOTION_CONTROLLER_PRIORITY"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_RUNES"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_UNIT_TARGET_FLAGS"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_UNIT_TARGET_TEAM"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_UNIT_TARGET_TYPE"
+      },
+      {
+        "level": 4,
+        "text": "EDOTA_ModifyGold_Reason"
+      },
+      {
+        "level": 4,
+        "text": "EDOTA_ModifyXP_Reason"
+      },
+      {
+        "level": 4,
+        "text": "EShareAbility"
+      },
+      {
+        "level": 4,
+        "text": "LuaModifierType"
+      },
+      {
+        "level": 4,
+        "text": "ModifierPriority"
+      },
+      {
+        "level": 4,
+        "text": "ParticleAttachment_t"
+      },
+      {
+        "level": 4,
+        "text": "UnitFilterResult"
+      },
+      {
+        "level": 4,
+        "text": "modifierstate"
+      },
+      {
+        "level": 4,
+        "text": "quest_text_replace_values_t"
+      },
+      {
+        "level": 4,
+        "text": "Find Types"
+      },
+      {
+        "level": 4,
+        "text": "subquest_text_replace_values_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAScriptInventorySlot_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_GameState"
+      },
+      {
+        "level": 4,
+        "text": "DOTALimits_t"
+      },
+      {
+        "level": 4,
+        "text": "GameActivity_t"
+      },
+      {
+        "level": 4,
+        "text": "modifierfunction"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_CONNECTION_STATE"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/Built-In_Engine_Events.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/Built-In / Engine / Events",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Game event format"
+      },
+      {
+        "level": 2,
+        "text": "Core team events"
+      },
+      {
+        "level": 2,
+        "text": "Player events"
+      },
+      {
+        "level": 2,
+        "text": "Game events"
+      },
+      {
+        "level": 2,
+        "text": "Economy events"
+      },
+      {
+        "level": 2,
+        "text": "ModEvents"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/Built-In_Ability_Names.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/Built-In / Ability / Names",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 4,
+        "text": "abaddon"
+      },
+      {
+        "level": 4,
+        "text": "abyssal_underlord"
+      },
+      {
+        "level": 4,
+        "text": "alchemist"
+      },
+      {
+        "level": 4,
+        "text": "ancient_apparition"
+      },
+      {
+        "level": 4,
+        "text": "antimage"
+      },
+      {
+        "level": 4,
+        "text": "arc_warden"
+      },
+      {
+        "level": 4,
+        "text": "axe"
+      },
+      {
+        "level": 4,
+        "text": "bane"
+      },
+      {
+        "level": 4,
+        "text": "batrider"
+      },
+      {
+        "level": 4,
+        "text": "beastmaster"
+      },
+      {
+        "level": 4,
+        "text": "bloodseeker"
+      },
+      {
+        "level": 4,
+        "text": "bounty_hunter"
+      },
+      {
+        "level": 4,
+        "text": "brewmaster"
+      },
+      {
+        "level": 4,
+        "text": "bristleback"
+      },
+      {
+        "level": 4,
+        "text": "broodmother"
+      },
+      {
+        "level": 4,
+        "text": "centaur"
+      },
+      {
+        "level": 4,
+        "text": "chaos_knight"
+      },
+      {
+        "level": 4,
+        "text": "chen"
+      },
+      {
+        "level": 4,
+        "text": "clinkz"
+      },
+      {
+        "level": 4,
+        "text": "crystal_maiden"
+      },
+      {
+        "level": 4,
+        "text": "dark_seer"
+      },
+      {
+        "level": 4,
+        "text": "dazzle"
+      },
+      {
+        "level": 4,
+        "text": "death_prophet"
+      },
+      {
+        "level": 4,
+        "text": "disruptor"
+      },
+      {
+        "level": 4,
+        "text": "doom_bringer"
+      },
+      {
+        "level": 4,
+        "text": "dragon_knight"
+      },
+      {
+        "level": 4,
+        "text": "drow_ranger"
+      },
+      {
+        "level": 4,
+        "text": "earth_spirit"
+      },
+      {
+        "level": 4,
+        "text": "earthshaker"
+      },
+      {
+        "level": 4,
+        "text": "elder_titan"
+      },
+      {
+        "level": 4,
+        "text": "ember_spirit"
+      },
+      {
+        "level": 4,
+        "text": "enchantress"
+      },
+      {
+        "level": 4,
+        "text": "enigma"
+      },
+      {
+        "level": 4,
+        "text": "faceless_void"
+      },
+      {
+        "level": 4,
+        "text": "furion"
+      },
+      {
+        "level": 4,
+        "text": "gyrocopter"
+      },
+      {
+        "level": 4,
+        "text": "huskar"
+      },
+      {
+        "level": 4,
+        "text": "invoker"
+      },
+      {
+        "level": 4,
+        "text": "jakiro"
+      },
+      {
+        "level": 4,
+        "text": "juggernaut"
+      },
+      {
+        "level": 4,
+        "text": "keeper_of_the_light"
+      },
+      {
+        "level": 4,
+        "text": "kunkka"
+      },
+      {
+        "level": 4,
+        "text": "legion_commander"
+      },
+      {
+        "level": 4,
+        "text": "leshrac"
+      },
+      {
+        "level": 4,
+        "text": "lich"
+      },
+      {
+        "level": 4,
+        "text": "life_stealer"
+      },
+      {
+        "level": 4,
+        "text": "lina"
+      },
+      {
+        "level": 4,
+        "text": "lion"
+      },
+      {
+        "level": 4,
+        "text": "lone_druid"
+      },
+      {
+        "level": 4,
+        "text": "luna"
+      },
+      {
+        "level": 4,
+        "text": "lycan"
+      },
+      {
+        "level": 4,
+        "text": "magnataur"
+      },
+      {
+        "level": 4,
+        "text": "medusa"
+      },
+      {
+        "level": 4,
+        "text": "meepo"
+      },
+      {
+        "level": 4,
+        "text": "mirana"
+      },
+      {
+        "level": 4,
+        "text": "monkey_king"
+      },
+      {
+        "level": 4,
+        "text": "morphling"
+      },
+      {
+        "level": 4,
+        "text": "naga_siren"
+      },
+      {
+        "level": 4,
+        "text": "necrolyte"
+      },
+      {
+        "level": 4,
+        "text": "nevermore"
+      },
+      {
+        "level": 4,
+        "text": "night_stalker"
+      },
+      {
+        "level": 4,
+        "text": "nyx_assassin"
+      },
+      {
+        "level": 4,
+        "text": "obsidian_destroyer"
+      },
+      {
+        "level": 4,
+        "text": "ogre_magi"
+      },
+      {
+        "level": 4,
+        "text": "omniknight"
+      },
+      {
+        "level": 4,
+        "text": "oracle"
+      },
+      {
+        "level": 4,
+        "text": "phantom_assassin"
+      },
+      {
+        "level": 4,
+        "text": "phantom_lancer"
+      },
+      {
+        "level": 4,
+        "text": "phoenix"
+      },
+      {
+        "level": 4,
+        "text": "puck"
+      },
+      {
+        "level": 4,
+        "text": "pudge"
+      },
+      {
+        "level": 4,
+        "text": "pugna"
+      },
+      {
+        "level": 4,
+        "text": "queenofpain"
+      },
+      {
+        "level": 4,
+        "text": "rattletrap"
+      },
+      {
+        "level": 4,
+        "text": "razor"
+      },
+      {
+        "level": 4,
+        "text": "riki"
+      },
+      {
+        "level": 4,
+        "text": "rubick"
+      },
+      {
+        "level": 4,
+        "text": "sand_king"
+      },
+      {
+        "level": 4,
+        "text": "shadow_demon"
+      },
+      {
+        "level": 4,
+        "text": "shadow_shaman"
+      },
+      {
+        "level": 4,
+        "text": "shredder"
+      },
+      {
+        "level": 4,
+        "text": "silencer"
+      },
+      {
+        "level": 4,
+        "text": "skeleton_king"
+      },
+      {
+        "level": 4,
+        "text": "skywrath_mage"
+      },
+      {
+        "level": 4,
+        "text": "slardar"
+      },
+      {
+        "level": 4,
+        "text": "slark"
+      },
+      {
+        "level": 4,
+        "text": "sniper"
+      },
+      {
+        "level": 4,
+        "text": "spectre"
+      },
+      {
+        "level": 4,
+        "text": "spirit_breaker"
+      },
+      {
+        "level": 4,
+        "text": "storm_spirit"
+      },
+      {
+        "level": 4,
+        "text": "sven"
+      },
+      {
+        "level": 4,
+        "text": "techies"
+      },
+      {
+        "level": 4,
+        "text": "templar_assassin"
+      },
+      {
+        "level": 4,
+        "text": "terrorblade"
+      },
+      {
+        "level": 4,
+        "text": "tidehunter"
+      },
+      {
+        "level": 4,
+        "text": "tinker"
+      },
+      {
+        "level": 4,
+        "text": "tiny"
+      },
+      {
+        "level": 4,
+        "text": "treant"
+      },
+      {
+        "level": 4,
+        "text": "troll_warlord"
+      },
+      {
+        "level": 4,
+        "text": "tusk"
+      },
+      {
+        "level": 4,
+        "text": "undying"
+      },
+      {
+        "level": 4,
+        "text": "ursa"
+      },
+      {
+        "level": 4,
+        "text": "vengefulspirit"
+      },
+      {
+        "level": 4,
+        "text": "venomancer"
+      },
+      {
+        "level": 4,
+        "text": "viper"
+      },
+      {
+        "level": 4,
+        "text": "visage"
+      },
+      {
+        "level": 4,
+        "text": "warlock"
+      },
+      {
+        "level": 4,
+        "text": "weaver"
+      },
+      {
+        "level": 4,
+        "text": "windrunner"
+      },
+      {
+        "level": 4,
+        "text": "winter_wyvern"
+      },
+      {
+        "level": 4,
+        "text": "wisp"
+      },
+      {
+        "level": 4,
+        "text": "witch_doctor"
+      },
+      {
+        "level": 4,
+        "text": "zuus"
+      },
+      {
+        "level": 4,
+        "text": "Misc"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/Applying_Data_Driven_Modifiers_from_script.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/Applying / Data / Driven / Modifiers / from / script",
+    "headings": [
+      {
+        "level": 3,
+        "text": "CDOTA_Item_DataDriven"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/Abilities_Data_Driven_Examples.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/Abilities / Data / Driven / Examples",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "AOE Damage Over Time"
+      },
+      {
+        "level": 2,
+        "text": "Orb Attack Example"
+      },
+      {
+        "level": 2,
+        "text": "System's Aura Example"
+      },
+      {
+        "level": 2,
+        "text": "\u4e00\u4e2a\u81ea\u5b9a\u4e49\u7684\u5149\u73af\u5b9e\u4f8b(A CustomAura Example)"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/Abilities_Data_Driven.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/Abilities / Data / Driven",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Data Driven Ability Example"
+      },
+      {
+        "level": 3,
+        "text": "Example Breakdown"
+      },
+      {
+        "level": 2,
+        "text": "Behavior Flags"
+      },
+      {
+        "level": 2,
+        "text": "Ability Events and Actions"
+      },
+      {
+        "level": 3,
+        "text": "Events"
+      },
+      {
+        "level": 3,
+        "text": "Actions"
+      },
+      {
+        "level": 3,
+        "text": "Example"
+      },
+      {
+        "level": 2,
+        "text": "Action Target Values"
+      },
+      {
+        "level": 3,
+        "text": "Single Target"
+      },
+      {
+        "level": 3,
+        "text": "Multiple Targets"
+      },
+      {
+        "level": 2,
+        "text": "Modifiers"
+      },
+      {
+        "level": 3,
+        "text": "Modifier Properties"
+      },
+      {
+        "level": 4,
+        "text": "Available Modifier Properties"
+      },
+      {
+        "level": 3,
+        "text": "Modifier States"
+      },
+      {
+        "level": 4,
+        "text": "Available Modifier States"
+      },
+      {
+        "level": 3,
+        "text": "Modifier Events"
+      },
+      {
+        "level": 2,
+        "text": "Additional Examples"
+      },
+      {
+        "level": 2,
+        "text": "Precaching"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/API.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/API",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Accessing the DOTA 2 Scripting API from Lua"
+      },
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 3,
+        "text": "Functions"
+      },
+      {
+        "level": 4,
+        "text": "Global"
+      },
+      {
+        "level": 4,
+        "text": "CBaseAnimating"
+      },
+      {
+        "level": 4,
+        "text": "CBaseCombatCharacter"
+      },
+      {
+        "level": 4,
+        "text": "CBaseEntity"
+      },
+      {
+        "level": 4,
+        "text": "CBaseFlex"
+      },
+      {
+        "level": 4,
+        "text": "CBaseModelEntity"
+      },
+      {
+        "level": 4,
+        "text": "CBasePlayer"
+      },
+      {
+        "level": 4,
+        "text": "CBaseTrigger"
+      },
+      {
+        "level": 4,
+        "text": "CBodyComponent"
+      },
+      {
+        "level": 4,
+        "text": "CCustomGameEventManager"
+      },
+      {
+        "level": 4,
+        "text": "CCustomNetTableManager"
+      },
+      {
+        "level": 4,
+        "text": "CDOTABaseAbility"
+      },
+      {
+        "level": 4,
+        "text": "CDOTABaseGameMode"
+      },
+      {
+        "level": 4,
+        "text": "CDOTAGameManager"
+      },
+      {
+        "level": 4,
+        "text": "CDOTAGamerules"
+      },
+      {
+        "level": 4,
+        "text": "CDOTAPlayer"
+      },
+      {
+        "level": 4,
+        "text": "CDOTATutorial"
+      },
+      {
+        "level": 4,
+        "text": "CDOTAVoteSystem"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_Animation_Attack"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_Animation_TailSpin"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_DataDriven"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_Lua"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_Nian_Dive"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_Nian_Leap"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Ability_Nian_Roar"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC_Building"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC_Creature"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC_Hero"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC_RotatableBuilding"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC_Shop"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_BaseNPC_Trap_Ward"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Buff"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_CustomUIManager"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Item"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_ItemSpawner"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Item_DataDriven"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Item_Lua"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Item_Physical"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_MapTree"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Modifier_Lua"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Modifier_Lua_Horizontal_Motion"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Modifier_Lua_Motion_Both"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Modifier_Lua_Vertical_Motion"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_PlayerResource"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_ShopTrigger"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_SimpleObstruction"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Unit_Courier"
+      },
+      {
+        "level": 4,
+        "text": "CDOTA_Unit_Nian"
+      },
+      {
+        "level": 4,
+        "text": "CDebugOverlayScriptHelper"
+      },
+      {
+        "level": 4,
+        "text": "CDotaQuest"
+      },
+      {
+        "level": 4,
+        "text": "CDotaSubquestBase"
+      },
+      {
+        "level": 4,
+        "text": "CEntities"
+      },
+      {
+        "level": 4,
+        "text": "CEntityInstance"
+      },
+      {
+        "level": 4,
+        "text": "CEntityScriptFramework"
+      },
+      {
+        "level": 4,
+        "text": "CEnvEntityMaker"
+      },
+      {
+        "level": 4,
+        "text": "CEnvProjectedTexture"
+      },
+      {
+        "level": 4,
+        "text": "CInfoData"
+      },
+      {
+        "level": 4,
+        "text": "CInfoWorldLayer"
+      },
+      {
+        "level": 4,
+        "text": "CLogicScript"
+      },
+      {
+        "level": 4,
+        "text": "CMarkupVolumeTagged"
+      },
+      {
+        "level": 4,
+        "text": "CNativeOutputs"
+      },
+      {
+        "level": 4,
+        "text": "CParticleSystem"
+      },
+      {
+        "level": 4,
+        "text": "CPhysicsProp"
+      },
+      {
+        "level": 4,
+        "text": "CPointClientUIWorldPanel"
+      },
+      {
+        "level": 4,
+        "text": "CPointTemplate"
+      },
+      {
+        "level": 4,
+        "text": "CPointWorldText"
+      },
+      {
+        "level": 4,
+        "text": "CPropHMDAvatar"
+      },
+      {
+        "level": 4,
+        "text": "CPropVRHand"
+      },
+      {
+        "level": 4,
+        "text": "CSceneEntity"
+      },
+      {
+        "level": 4,
+        "text": "CScriptHeroList"
+      },
+      {
+        "level": 4,
+        "text": "CScriptKeyValues"
+      },
+      {
+        "level": 4,
+        "text": "CScriptParticleManager"
+      },
+      {
+        "level": 4,
+        "text": "CScriptPrecacheContext"
+      },
+      {
+        "level": 4,
+        "text": "Convars"
+      },
+      {
+        "level": 4,
+        "text": "GlobalSys"
+      },
+      {
+        "level": 4,
+        "text": "GridNav"
+      },
+      {
+        "level": 4,
+        "text": "ProjectileManager"
+      },
+      {
+        "level": 4,
+        "text": "SteamInfo"
+      },
+      {
+        "level": 3,
+        "text": "Constants"
+      },
+      {
+        "level": 4,
+        "text": "AbilityLearnResult_t"
+      },
+      {
+        "level": 4,
+        "text": "AttributeDerivedStats"
+      },
+      {
+        "level": 4,
+        "text": "Attributes"
+      },
+      {
+        "level": 4,
+        "text": "DAMAGE_TYPES"
+      },
+      {
+        "level": 4,
+        "text": "DOTAAbilitySpeakTrigger_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTADamageFlag_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAHUDVisibility_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAInventoryFlags_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAMinimapEvent_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAModifierAttribute_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAMusicStatus_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTASlotType_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTASpeechType_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTATeam_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAUnitAttackCapability_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAUnitMoveCapability_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_UNIT_ORDERS"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_ABILITY_BEHAVIOR"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_HeroPickState"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_MOTION_CONTROLLER_PRIORITY"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_RUNES"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_UNIT_TARGET_FLAGS"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_UNIT_TARGET_TEAM"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_UNIT_TARGET_TYPE"
+      },
+      {
+        "level": 4,
+        "text": "EDOTA_ModifyGold_Reason"
+      },
+      {
+        "level": 4,
+        "text": "EDOTA_ModifyXP_Reason"
+      },
+      {
+        "level": 4,
+        "text": "EShareAbility"
+      },
+      {
+        "level": 4,
+        "text": "LuaModifierType"
+      },
+      {
+        "level": 4,
+        "text": "ModifierPriority"
+      },
+      {
+        "level": 4,
+        "text": "ParticleAttachment_t"
+      },
+      {
+        "level": 4,
+        "text": "UnitFilterResult"
+      },
+      {
+        "level": 4,
+        "text": "modifierstate"
+      },
+      {
+        "level": 4,
+        "text": "quest_text_replace_values_t"
+      },
+      {
+        "level": 4,
+        "text": "Find Types"
+      },
+      {
+        "level": 4,
+        "text": "subquest_text_replace_values_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTAScriptInventorySlot_t"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_GameState"
+      },
+      {
+        "level": 4,
+        "text": "DOTALimits_t"
+      },
+      {
+        "level": 4,
+        "text": "GameActivity_t"
+      },
+      {
+        "level": 4,
+        "text": "modifierfunction"
+      },
+      {
+        "level": 4,
+        "text": "DOTA_CONNECTION_STATE"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/API/index.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/API/index",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 3,
+        "text": "Global"
+      },
+      {
+        "level": 3,
+        "text": "CBaseEntity"
+      },
+      {
+        "level": 3,
+        "text": "CEntities"
+      },
+      {
+        "level": 3,
+        "text": "CEntityInstance"
+      },
+      {
+        "level": 3,
+        "text": "CDOTABaseAbility"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_Ability_Animation_Attack"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_Ability_Animation_TailSpin"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_Ability_Nian_Leap"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_Ability_Nian_Dive"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_Ability_Nian_Roar"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_Item"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_Item_Physical"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_Item_DataDriven"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_Unit_Nian"
+      },
+      {
+        "level": 3,
+        "text": "CBasePlayer"
+      },
+      {
+        "level": 3,
+        "text": "CDOTAPlayer"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_PlayerResource"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_BaseNPC"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_BaseNPC_Hero"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_BaseNPC_Creature"
+      },
+      {
+        "level": 3,
+        "text": "CDOTA_BaseNPC_Building"
+      },
+      {
+        "level": 3,
+        "text": "CRPG_Unit"
+      },
+      {
+        "level": 3,
+        "text": "CDOTABaseGameMode"
+      },
+      {
+        "level": 3,
+        "text": "CDotaQuest"
+      },
+      {
+        "level": 3,
+        "text": "CDotaSubquestBase"
+      },
+      {
+        "level": 3,
+        "text": "CPhysicsComponent"
+      },
+      {
+        "level": 3,
+        "text": "CPointTemplate"
+      },
+      {
+        "level": 3,
+        "text": "CBodyComponent"
+      },
+      {
+        "level": 3,
+        "text": "CBaseAnimating"
+      },
+      {
+        "level": 3,
+        "text": "CBaseCombatCharacter"
+      },
+      {
+        "level": 3,
+        "text": "ProjectileManager"
+      },
+      {
+        "level": 3,
+        "text": "CBaseTrigger"
+      },
+      {
+        "level": 3,
+        "text": "CEnvEntityMaker"
+      },
+      {
+        "level": 3,
+        "text": "CDOTAVoteSystem"
+      },
+      {
+        "level": 3,
+        "text": "CMarkupVolumeTagged"
+      },
+      {
+        "level": 3,
+        "text": "CScriptPrecacheContext"
+      },
+      {
+        "level": 3,
+        "text": "CScriptKeyValues"
+      },
+      {
+        "level": 3,
+        "text": "CScriptParticleManager"
+      },
+      {
+        "level": 3,
+        "text": "CScriptHeroList"
+      },
+      {
+        "level": 3,
+        "text": "CNativeOutputs"
+      },
+      {
+        "level": 3,
+        "text": "CEnvProjectedTexture"
+      },
+      {
+        "level": 3,
+        "text": "CInfoData"
+      },
+      {
+        "level": 3,
+        "text": "CPhysicsProp"
+      },
+      {
+        "level": 3,
+        "text": "CDOTAGamerules"
+      },
+      {
+        "level": 3,
+        "text": "CToneMapControllerComponent"
+      },
+      {
+        "level": 3,
+        "text": "CDebugOverlayScriptHelper"
+      },
+      {
+        "level": 3,
+        "text": "CBaseFlex"
+      },
+      {
+        "level": 3,
+        "text": "CSceneEntity"
+      },
+      {
+        "level": 3,
+        "text": "GridNav"
+      },
+      {
+        "level": 3,
+        "text": "Convars"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/API/CDOTA_BaseNPC_StartGestureWithPlaybackRate.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/API/CDOTA / BaseNPC / StartGestureWithPlaybackRate",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Function Description"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Scripting/API/CDOTABaseGameMode_SetPauseEnabled.html",
+    "title": "Dota / 2 / Workshop / Tools/Scripting/API/CDOTABaseGameMode / SetPauseEnabled",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Function Description"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Panorama.html",
+    "title": "Dota / 2 / Workshop / Tools/Panorama",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Panorama Concepts"
+      },
+      {
+        "level": 3,
+        "text": "Panels"
+      },
+      {
+        "level": 3,
+        "text": ".XML (Layout Files)"
+      },
+      {
+        "level": 3,
+        "text": ".CSS (Style Sheets)"
+      },
+      {
+        "level": 3,
+        "text": ".JS (Javascript)"
+      },
+      {
+        "level": 3,
+        "text": "Events"
+      },
+      {
+        "level": 3,
+        "text": "Similarity to the Web"
+      },
+      {
+        "level": 3,
+        "text": "Differences from the Web"
+      },
+      {
+        "level": 2,
+        "text": "Authoring Panorama UI"
+      },
+      {
+        "level": 3,
+        "text": "Getting Started"
+      },
+      {
+        "level": 3,
+        "text": "Workflow"
+      },
+      {
+        "level": 3,
+        "text": "Panorama Debugger"
+      },
+      {
+        "level": 3,
+        "text": "Tips"
+      },
+      {
+        "level": 3,
+        "text": "Localization"
+      },
+      {
+        "level": 2,
+        "text": "Valve-Provided Panorama UI"
+      },
+      {
+        "level": 2,
+        "text": "Additional Topics"
+      },
+      {
+        "level": 3,
+        "text": "Custom Loading Screens"
+      },
+      {
+        "level": 3,
+        "text": "Custom Hud Elements"
+      },
+      {
+        "level": 3,
+        "text": "GameUI.SetMouseCallback"
+      },
+      {
+        "level": 2,
+        "text": "Common Mistakes"
+      },
+      {
+        "level": 2,
+        "text": "Panorama Examples"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Introduction to Hammer"
+      },
+      {
+        "level": 2,
+        "text": "Hammer Documentation"
+      },
+      {
+        "level": 2,
+        "text": "Dota 2 Concepts"
+      },
+      {
+        "level": 2,
+        "text": "Dota 2 Example Maps"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/World_Layers.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/World / Layers",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Create a world layer group"
+      },
+      {
+        "level": 2,
+        "text": "Create an info_world_layer entity"
+      },
+      {
+        "level": 2,
+        "text": "Create a trigger to activate the world layer"
+      },
+      {
+        "level": 2,
+        "text": "Create a layer in the tile editor"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Tile_Editor_Basics__Your_First_Map.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Tile / Editor / Basics /  / Your / First / Map",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 1,
+        "text": "Overview"
+      },
+      {
+        "level": 1,
+        "text": "Your First Map Using the Tile Editor"
+      },
+      {
+        "level": 2,
+        "text": "Getting Started"
+      },
+      {
+        "level": 2,
+        "text": "Painting Terrain"
+      },
+      {
+        "level": 2,
+        "text": "Ramps, Water, and Trees"
+      },
+      {
+        "level": 2,
+        "text": "Placing Objects"
+      },
+      {
+        "level": 2,
+        "text": "Dota Grid Navigation"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Tile_Editor_Basics.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Tile / Editor / Basics",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 1,
+        "text": "Overview"
+      },
+      {
+        "level": 1,
+        "text": "Your First Map Using the Tile Editor"
+      },
+      {
+        "level": 2,
+        "text": "Getting Started"
+      },
+      {
+        "level": 2,
+        "text": "Basics of Navigating in Hammer"
+      },
+      {
+        "level": 2,
+        "text": "Painting Terrain"
+      },
+      {
+        "level": 2,
+        "text": "Ramps, Water, and Trees"
+      },
+      {
+        "level": 2,
+        "text": "Placing Objects"
+      },
+      {
+        "level": 2,
+        "text": "Dota Grid Navigation"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Tile_Editor.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Tile / Editor",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Tile Editor interface"
+      },
+      {
+        "level": 2,
+        "text": "Height Brush"
+      },
+      {
+        "level": 3,
+        "text": "Height brush mouse operations"
+      },
+      {
+        "level": 3,
+        "text": "Height brush key commands"
+      },
+      {
+        "level": 3,
+        "text": "Changing the brush radius"
+      },
+      {
+        "level": 3,
+        "text": "Selecting the current current tile set"
+      },
+      {
+        "level": 3,
+        "text": "Raise Height vs. Add Height"
+      },
+      {
+        "level": 3,
+        "text": "Tile grid height"
+      },
+      {
+        "level": 2,
+        "text": "Water Brush"
+      },
+      {
+        "level": 3,
+        "text": "Water brush mouse operations"
+      },
+      {
+        "level": 3,
+        "text": "Water brush key commands"
+      },
+      {
+        "level": 3,
+        "text": "Water and ground height"
+      },
+      {
+        "level": 3,
+        "text": "Water and trees"
+      },
+      {
+        "level": 2,
+        "text": "Path Brush"
+      },
+      {
+        "level": 3,
+        "text": "Path brush mouse operations"
+      },
+      {
+        "level": 3,
+        "text": "Path connectivity"
+      },
+      {
+        "level": 2,
+        "text": "Tree Brush"
+      },
+      {
+        "level": 3,
+        "text": "Tree brush mouse operations"
+      },
+      {
+        "level": 3,
+        "text": "Changing the tree brush density"
+      },
+      {
+        "level": 3,
+        "text": "Changing the tree type"
+      },
+      {
+        "level": 3,
+        "text": "Valid tree locations"
+      },
+      {
+        "level": 2,
+        "text": "Plant Brush"
+      },
+      {
+        "level": 3,
+        "text": "Plant brush mouse operations"
+      },
+      {
+        "level": 3,
+        "text": "Changing the tree brush density"
+      },
+      {
+        "level": 3,
+        "text": "Changing the plant type"
+      },
+      {
+        "level": 2,
+        "text": "Blend Painting Brush"
+      },
+      {
+        "level": 3,
+        "text": "Painting blend layers"
+      },
+      {
+        "level": 3,
+        "text": "Brush settings"
+      },
+      {
+        "level": 3,
+        "text": "Painting layer transitions"
+      },
+      {
+        "level": 3,
+        "text": "Smoothing blends"
+      },
+      {
+        "level": 3,
+        "text": "Erasing all blending"
+      },
+      {
+        "level": 3,
+        "text": "Painting color tint"
+      },
+      {
+        "level": 2,
+        "text": "Material Sets and Transitions"
+      },
+      {
+        "level": 3,
+        "text": "Applying Material Sets"
+      },
+      {
+        "level": 3,
+        "text": "Transition Material Sets"
+      },
+      {
+        "level": 2,
+        "text": "Object Placement"
+      },
+      {
+        "level": 3,
+        "text": "Object position grid"
+      },
+      {
+        "level": 3,
+        "text": "Object placement mouse operations"
+      },
+      {
+        "level": 3,
+        "text": "Placing objects"
+      },
+      {
+        "level": 3,
+        "text": "Selecting the object type"
+      },
+      {
+        "level": 3,
+        "text": "Changing the variation of an object"
+      },
+      {
+        "level": 3,
+        "text": "Moving and cloning objects"
+      },
+      {
+        "level": 3,
+        "text": "Rotating objects"
+      },
+      {
+        "level": 3,
+        "text": "Removing objects"
+      },
+      {
+        "level": 3,
+        "text": "Editing trees and plants"
+      },
+      {
+        "level": 2,
+        "text": "Item selection"
+      },
+      {
+        "level": 3,
+        "text": "Selecting items"
+      },
+      {
+        "level": 3,
+        "text": "Selection modifiers"
+      },
+      {
+        "level": 3,
+        "text": "Selection filtering"
+      },
+      {
+        "level": 3,
+        "text": "Selection commands"
+      },
+      {
+        "level": 3,
+        "text": "Collapse"
+      },
+      {
+        "level": 3,
+        "text": "Detail components"
+      },
+      {
+        "level": 3,
+        "text": "Copy and paste"
+      },
+      {
+        "level": 2,
+        "text": "Enable Disable"
+      },
+      {
+        "level": 3,
+        "text": "Disabling tiles"
+      },
+      {
+        "level": 3,
+        "text": "Re-enabling tiles"
+      },
+      {
+        "level": 2,
+        "text": "Managing Tile Sets"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Terrain_Blending.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Terrain / Blending",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Paint Tool"
+      },
+      {
+        "level": 3,
+        "text": "Paint On"
+      },
+      {
+        "level": 3,
+        "text": "Visualization"
+      },
+      {
+        "level": 3,
+        "text": "Painting"
+      },
+      {
+        "level": 3,
+        "text": "N-Channel Blend"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/New_Tilesets.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/New / Tilesets",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 1,
+        "text": "Overview"
+      },
+      {
+        "level": 1,
+        "text": "Tileset Walkthrough"
+      },
+      {
+        "level": 3,
+        "text": "Notes"
+      },
+      {
+        "level": 2,
+        "text": "Ground - Tileset"
+      },
+      {
+        "level": 3,
+        "text": "Height Nodes"
+      },
+      {
+        "level": 3,
+        "text": "Path Nodes"
+      },
+      {
+        "level": 2,
+        "text": "Proxies"
+      },
+      {
+        "level": 3,
+        "text": "Tile Proxies"
+      },
+      {
+        "level": 3,
+        "text": "Group Proxies"
+      },
+      {
+        "level": 2,
+        "text": "Details - Tileset"
+      },
+      {
+        "level": 2,
+        "text": "Trees - Tileset"
+      },
+      {
+        "level": 2,
+        "text": "TreeDetails"
+      },
+      {
+        "level": 2,
+        "text": "Plants - Tileset"
+      },
+      {
+        "level": 2,
+        "text": "PlantDetails"
+      },
+      {
+        "level": 2,
+        "text": "Props - Tileset"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Navigation.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Navigation",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "3D Viewport"
+      },
+      {
+        "level": 3,
+        "text": "Right-Mouse-Button WASD Toggle"
+      },
+      {
+        "level": 3,
+        "text": "Fly Mode"
+      },
+      {
+        "level": 3,
+        "text": "Navigation Around a Point"
+      },
+      {
+        "level": 2,
+        "text": "Active Viewport"
+      },
+      {
+        "level": 2,
+        "text": "2D Viewports"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Hammer_Overview.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Hammer / Overview",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "3D Viewport"
+      },
+      {
+        "level": 2,
+        "text": "2D Viewport"
+      },
+      {
+        "level": 2,
+        "text": "Customizing Window Panes"
+      },
+      {
+        "level": 3,
+        "text": "Selection Tool"
+      },
+      {
+        "level": 3,
+        "text": "Translate Tool"
+      },
+      {
+        "level": 3,
+        "text": "Rotate Tool"
+      },
+      {
+        "level": 3,
+        "text": "Scale Tool"
+      },
+      {
+        "level": 3,
+        "text": "Pivot Tool"
+      },
+      {
+        "level": 3,
+        "text": "Entity Tool"
+      },
+      {
+        "level": 3,
+        "text": "Block Tool"
+      },
+      {
+        "level": 3,
+        "text": "Clipping Tool"
+      },
+      {
+        "level": 3,
+        "text": "Mirror Tool"
+      },
+      {
+        "level": 3,
+        "text": "Texture Projection Tool"
+      },
+      {
+        "level": 3,
+        "text": "Paint Tool"
+      },
+      {
+        "level": 3,
+        "text": "Displacement Tool"
+      },
+      {
+        "level": 3,
+        "text": "Asset Spray Tool"
+      },
+      {
+        "level": 3,
+        "text": "Tile Editor"
+      },
+      {
+        "level": 3,
+        "text": "Path Tool"
+      },
+      {
+        "level": 3,
+        "text": "Physics Tool"
+      },
+      {
+        "level": 3,
+        "text": "Mesh Projection Tool"
+      },
+      {
+        "level": 2,
+        "text": "Selection Modes"
+      },
+      {
+        "level": 2,
+        "text": "Undo History"
+      },
+      {
+        "level": 2,
+        "text": "Command History"
+      },
+      {
+        "level": 2,
+        "text": "Outliner"
+      },
+      {
+        "level": 2,
+        "text": "Selection Sets"
+      },
+      {
+        "level": 2,
+        "text": "Object Properties"
+      },
+      {
+        "level": 2,
+        "text": "Active Material"
+      },
+      {
+        "level": 2,
+        "text": "Assets Tabs"
+      },
+      {
+        "level": 2,
+        "text": "Useful Settings"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Getting_Started.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Getting / Started",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Launching Hammer"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Example_Map_Dota_PvP_Tiled.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Example / Map / Dota / PvP / Tiled",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 1,
+        "text": "Tile Editor"
+      },
+      {
+        "level": 2,
+        "text": "Terrain"
+      },
+      {
+        "level": 2,
+        "text": "Trees"
+      },
+      {
+        "level": 2,
+        "text": "Objects"
+      },
+      {
+        "level": 1,
+        "text": "Prefabs"
+      },
+      {
+        "level": 2,
+        "text": "Ancient"
+      },
+      {
+        "level": 2,
+        "text": "Barracks"
+      },
+      {
+        "level": 2,
+        "text": "Tower"
+      },
+      {
+        "level": 3,
+        "text": "Exposed fields"
+      },
+      {
+        "level": 2,
+        "text": "Filler building"
+      },
+      {
+        "level": 2,
+        "text": "Rune"
+      },
+      {
+        "level": 2,
+        "text": "Every entity"
+      },
+      {
+        "level": 2,
+        "text": "Radiant player start"
+      },
+      {
+        "level": 2,
+        "text": "Dire player start"
+      },
+      {
+        "level": 2,
+        "text": "Radiant-only entities"
+      },
+      {
+        "level": 2,
+        "text": "Dire-only entities"
+      },
+      {
+        "level": 2,
+        "text": "Neutral camp"
+      },
+      {
+        "level": 2,
+        "text": "Creeps"
+      },
+      {
+        "level": 2,
+        "text": "Shops?"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Dota/Performance.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Dota/Performance",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 3,
+        "text": "Client Side Entities"
+      },
+      {
+        "level": 3,
+        "text": "Tree Placement"
+      },
+      {
+        "level": 3,
+        "text": "Tile Editor Perf Implications"
+      },
+      {
+        "level": 3,
+        "text": "Lighting Performance"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Dota/Navigation_Mesh.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Dota/Navigation / Mesh",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Hammer Navigation Preview"
+      },
+      {
+        "level": 3,
+        "text": "Preview Color Definitions"
+      },
+      {
+        "level": 2,
+        "text": "Creating a Navigation Mesh"
+      },
+      {
+        "level": 2,
+        "text": "Clipping"
+      },
+      {
+        "level": 3,
+        "text": "Types of Clip Materials"
+      },
+      {
+        "level": 1,
+        "text": "Console Commands"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Dota/Minimap.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Dota/Minimap",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Automatically Creating a Minimap Image"
+      },
+      {
+        "level": 2,
+        "text": "Manually Creating a Minimap Image"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Dota/Lighting.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Dota/Lighting",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 3,
+        "text": "env_global_light"
+      },
+      {
+        "level": 3,
+        "text": "ent_dota_lightinfo"
+      },
+      {
+        "level": 3,
+        "text": "env_deferred_light"
+      },
+      {
+        "level": 2,
+        "text": "Performance Considerations"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Dota/Fog_of_War.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Dota/Fog / of / War",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Limitations/Requirements"
+      },
+      {
+        "level": 3,
+        "text": "Flat Terrain"
+      },
+      {
+        "level": 3,
+        "text": "Elevation Changes"
+      },
+      {
+        "level": 3,
+        "text": "Elevation Limitations"
+      },
+      {
+        "level": 3,
+        "text": "Maximum Map Size"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Dota/Common_Developer_Commands.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Dota/Common / Developer / Commands",
+    "headings": [
+      {
+        "level": 1,
+        "text": "Common Console Commands"
+      },
+      {
+        "level": 1,
+        "text": "Common In-Game Commands"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Creating_A_Dota-Style_Map.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Creating / A / Dota-Style / Map",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 1,
+        "text": "Launch the Workshop Tools"
+      },
+      {
+        "level": 1,
+        "text": "Open the Reference Map"
+      },
+      {
+        "level": 1,
+        "text": "Create Your Map"
+      },
+      {
+        "level": 2,
+        "text": "Basic Entities"
+      },
+      {
+        "level": 2,
+        "text": "Ancients"
+      },
+      {
+        "level": 2,
+        "text": "Towers"
+      },
+      {
+        "level": 3,
+        "text": "Radiant Tier 1 Tower"
+      },
+      {
+        "level": 3,
+        "text": "Radiant Tier 2 Tower"
+      },
+      {
+        "level": 3,
+        "text": "Dire Tier 1 Tower"
+      },
+      {
+        "level": 3,
+        "text": "Dire Tier 2 Tower"
+      },
+      {
+        "level": 2,
+        "text": "Entity I/O - Part 1"
+      },
+      {
+        "level": 3,
+        "text": "Radiant Tier 1 Tower Output"
+      },
+      {
+        "level": 3,
+        "text": "Dire Tier 1 Tower Output"
+      },
+      {
+        "level": 2,
+        "text": "Barracks"
+      },
+      {
+        "level": 3,
+        "text": "Radiant Middle Barracks"
+      },
+      {
+        "level": 3,
+        "text": "Dire Middle Barracks"
+      },
+      {
+        "level": 2,
+        "text": "Creep Spawners and Paths"
+      },
+      {
+        "level": 3,
+        "text": "Radiant Creeps"
+      },
+      {
+        "level": 4,
+        "text": "Creep Spawner"
+      },
+      {
+        "level": 4,
+        "text": "First Waypoint"
+      },
+      {
+        "level": 4,
+        "text": "Second Waypoint"
+      },
+      {
+        "level": 4,
+        "text": "Staging Node"
+      },
+      {
+        "level": 3,
+        "text": "Dire Creeps"
+      },
+      {
+        "level": 4,
+        "text": "Spawner"
+      },
+      {
+        "level": 4,
+        "text": "First Waypoint"
+      },
+      {
+        "level": 4,
+        "text": "Second Waypoint"
+      },
+      {
+        "level": 4,
+        "text": "Staging Node"
+      },
+      {
+        "level": 2,
+        "text": "Entity I/O - Part 2"
+      },
+      {
+        "level": 3,
+        "text": "Radiant Tier 2 Tower Outputs"
+      },
+      {
+        "level": 3,
+        "text": "Dire Tier 2 Tower Outputs"
+      },
+      {
+        "level": 2,
+        "text": "Fountain"
+      },
+      {
+        "level": 2,
+        "text": "Shops"
+      },
+      {
+        "level": 2,
+        "text": "Runes"
+      },
+      {
+        "level": 2,
+        "text": "Neutral Camp"
+      },
+      {
+        "level": 2,
+        "text": "Roshan"
+      },
+      {
+        "level": 3,
+        "text": "Spawn Roshan"
+      },
+      {
+        "level": 3,
+        "text": "Make Roshan Attackable"
+      },
+      {
+        "level": 3,
+        "text": "Block Vision Around Roshan"
+      },
+      {
+        "level": 3,
+        "text": "Prevent Ward Placement"
+      },
+      {
+        "level": 2,
+        "text": "Compile and run the map"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Level_Design/Command_History.html",
+    "title": "Dota / 2 / Workshop / Tools/Level / Design/Command / History",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Repeat Last Command"
+      },
+      {
+        "level": 2,
+        "text": "Command History interface"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Custom_Nettables.html",
+    "title": "Dota / 2 / Workshop / Tools/Custom / Nettables",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Example"
+      },
+      {
+        "level": 3,
+        "text": "Table Registration"
+      },
+      {
+        "level": 3,
+        "text": "Writing a Nettable on the Server (Lua)"
+      },
+      {
+        "level": 3,
+        "text": "Reading a Nettable on a Client (Javascript)"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Addon_Overview.html",
+    "title": "Dota / 2 / Workshop / Tools/Addon / Overview",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Getting Started"
+      },
+      {
+        "level": 2,
+        "text": "Publishing"
+      },
+      {
+        "level": 2,
+        "text": "Playing"
+      },
+      {
+        "level": 2,
+        "text": "Development Tips"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Addon_Overview/Simulating_Players_During_Development.html",
+    "title": "Dota / 2 / Workshop / Tools/Addon / Overview/Simulating / Players / During / Development",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Simulating Players During Development"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Addon_Overview/Playing_Addons.html",
+    "title": "Dota / 2 / Workshop / Tools/Addon / Overview/Playing / Addons",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contents"
+      },
+      {
+        "level": 2,
+        "text": "Playing Custom Game Modes"
+      },
+      {
+        "level": 3,
+        "text": "Hosting a Custom Game"
+      },
+      {
+        "level": 3,
+        "text": "Joining a Custom Game"
+      },
+      {
+        "level": 3,
+        "text": "Starting a Custom Game via the Console"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Addon_Overview/File_Structure.html",
+    "title": "Dota / 2 / Workshop / Tools/Addon / Overview/File / Structure",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Content"
+      },
+      {
+        "level": 2,
+        "text": "Game"
+      },
+      {
+        "level": 2,
+        "text": "Asset Organization"
+      }
+    ]
+  },
+  {
+    "path": "Dota_2_Workshop_Tools/Addon_Overview/Addon_Creation.html",
+    "title": "Dota / 2 / Workshop / Tools/Addon / Overview/Addon / Creation",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Creating an Addon"
+      }
+    ]
+  }
+]

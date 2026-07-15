@@ -1,0 +1,72 @@
+.KoboldHud {
+    width: 520px;
+    flow-children: down;
+    vertical-align: bottom;
+    horizontal-align: left;
+    margin-left: 24px;
+    margin-bottom: 180px;
+}
+
+.SurvivalPanel,
+.ResourcePanel {
+    width: 100%;
+    flow-children: down;
+    background-color: rgba(12, 16, 18, 0.86);
+    border: 1px solid rgba(210, 230, 220, 0.18);
+    padding: 10px 12px;
+    margin-top: 8px;
+}
+
+.HudTitle {
+    color: #e8f5ee;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.MeterRow {
+    width: 100%;
+    height: 24px;
+    flow-children: right;
+    margin-top: 4px;
+}
+
+.MeterLabel {
+    width: 80px;
+    color: #c7d8d0;
+    font-size: 15px;
+    vertical-align: center;
+}
+
+.MeterBar {
+    width: 330px;
+    height: 14px;
+    vertical-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.MeterBar .ProgressBarLeft {
+    background-color: #d8b35f;
+}
+
+.WarmthBar .ProgressBarLeft {
+    background-color: #d1734a;
+}
+
+.StaminaBar .ProgressBarLeft {
+    background-color: #80b96c;
+}
+
+.MeterValue {
+    width: 54px;
+    color: #f2f6f0;
+    text-align: right;
+    font-size: 15px;
+    vertical-align: center;
+}
+
+.ResourceText {
+    color: #d7e2dc;
+    font-size: 15px;
+    line-height: 20px;
+}

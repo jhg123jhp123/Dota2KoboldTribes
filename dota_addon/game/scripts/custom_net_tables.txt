@@ -1,0 +1,11 @@
+"CustomNetTables"
+{
+    "kobold_survival"   {}
+    "kobold_resources"  {}
+    "kobold_progression" {}
+    "kobold_tribes"     {}
+    "kobold_world"      {}
+    "kobold_inventory"  {}
+    "kobold_deaths"     {}
+    "kobold_weather"    {}
+}

@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+    "TeamCount"     "4"
+    "IsPlayable"   "1"
+    "maps"         "kobold_survival_test"
+
+    "kobold_survival_test"
+    {
+        "MaxPlayers" "10"
+    }
+}

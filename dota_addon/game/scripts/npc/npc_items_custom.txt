@@ -1,0 +1,745 @@
+"DOTAItems"
+{
+    "Version" "1"
+
+    "item_food_roasted_lamb"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "tango"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "50" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "25" }
+            "03" { "var_type" "FIELD_INTEGER" "mana_restore" "0" }
+        }
+    }
+
+    "item_food_wolf_steak"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "tango"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "48" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "32" }
+            "03" { "var_type" "FIELD_INTEGER" "mana_restore" "0" }
+        }
+    }
+
+    "item_food_pheasant_berry_sauce"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "tango"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "135" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "65" }
+            "03" { "var_type" "FIELD_INTEGER" "mana_restore" "0" }
+        }
+    }
+
+    "item_food_spiced_lamb_feast"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_recipe"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "80" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "40" }
+            "03" { "var_type" "FIELD_INTEGER" "mana_restore" "0" }
+            "04" { "var_type" "FIELD_INTEGER" "attribute_bonus" "5" }
+            "05" { "var_type" "FIELD_INTEGER" "buff_duration" "180" }
+        }
+    }
+
+    "item_food_grilled_wolf_entrecote"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_recipe"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "66" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "44" }
+            "03" { "var_type" "FIELD_INTEGER" "mana_restore" "0" }
+            "04" { "var_type" "FIELD_INTEGER" "attribute_bonus" "5" }
+            "05" { "var_type" "FIELD_INTEGER" "buff_duration" "180" }
+        }
+    }
+
+    "item_food_beer_braised_pheasant"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_recipe"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "120" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "60" }
+            "03" { "var_type" "FIELD_INTEGER" "mana_restore" "0" }
+            "04" { "var_type" "FIELD_INTEGER" "attribute_bonus" "5" }
+            "05" { "var_type" "FIELD_INTEGER" "buff_duration" "180" }
+        }
+    }
+
+    "item_food_burgundian_bear_cutlet"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_recipe"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "120" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "50" }
+            "03" { "var_type" "FIELD_INTEGER" "warmth_restore" "40" }
+            "04" { "var_type" "FIELD_INTEGER" "cold_resistance_pct" "15" }
+            "05" { "var_type" "FIELD_INTEGER" "buff_duration" "180" }
+        }
+    }
+
+    "item_food_smoked_lamb_sirloin"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_recipe"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "0" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "70" }
+            "03" { "var_type" "FIELD_INTEGER" "mana_restore" "0" }
+            "04" { "var_type" "FIELD_INTEGER" "max_health_restore_pct" "25" }
+            "05" { "var_type" "FIELD_INTEGER" "max_mana_restore_pct" "12" }
+        }
+    }
+
+    "item_food_glimmer_cheese"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_recipe"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "30" }
+            "02" { "var_type" "FIELD_INTEGER" "mana_restore" "30" }
+            "03" { "var_type" "FIELD_INTEGER" "buff_duration" "7" }
+            "04" { "var_type" "FIELD_INTEGER" "damage_instances" "4" }
+        }
+    }
+
+    "item_food_stag_stew"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_recipe"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "100" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "30" }
+            "03" { "var_type" "FIELD_INTEGER" "stamina_restore" "40" }
+            "04" { "var_type" "FIELD_INTEGER" "move_speed_pct" "7" }
+            "05" { "var_type" "FIELD_INTEGER" "buff_duration" "360" }
+        }
+    }
+
+    "item_fish_striped_lurker"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "slark_shadow_dance"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "30" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "30" }
+            "03" { "var_type" "FIELD_INTEGER" "buff_duration" "360" }
+        }
+    }
+
+    "item_fish_blind_rainfish"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "disruptor_thunder_strike"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "35" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "10" }
+        }
+    }
+
+    "item_fish_jewel_danio"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "bounty_hunter_track"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "40" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "60" }
+            "03" { "var_type" "FIELD_INTEGER" "buff_duration" "360" }
+        }
+    }
+
+    "item_fish_fire_ammonite"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "phoenix_fire_spirits"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "45" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "20" }
+            "03" { "var_type" "FIELD_INTEGER" "warmth_restore" "60" }
+        }
+    }
+
+    "item_fish_forest_trout"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "tidehunter_gush"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "50" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "50" }
+            "03" { "var_type" "FIELD_INTEGER" "stamina_restore" "35" }
+        }
+    }
+
+    "item_fish_highland_guppy"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "oracle_fates_edict"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "60" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "20" }
+            "03" { "var_type" "FIELD_INTEGER" "buff_duration" "360" }
+        }
+    }
+
+    "item_fish_giant_sunfish"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "keeper_of_the_light_illuminate"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "60" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "50" }
+            "03" { "var_type" "FIELD_INTEGER" "buff_duration" "360" }
+        }
+    }
+
+    "item_fish_slippery_eel"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "slardar_sprint"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "75" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "30" }
+            "03" { "var_type" "FIELD_INTEGER" "buff_duration" "360" }
+        }
+    }
+
+    "item_fish_albino_cavefish"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_platemail"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "100" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "80" }
+            "03" { "var_type" "FIELD_INTEGER" "buff_duration" "360" }
+        }
+    }
+
+    "item_fish_water_scorpion"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "nyx_assassin_spiked_carapace"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "health_restore" "450" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_restore" "100" }
+        }
+    }
+
+    "item_fish_toxic_frog"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "venomancer_poison_sting"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "buff_duration" "20" }
+            "02" { "var_type" "FIELD_INTEGER" "energy_regen" "10" }
+        }
+    }
+
+    "item_fish_tiger_gourami"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "lycan_howl"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "buff_duration" "10" }
+            "02" { "var_type" "FIELD_INTEGER" "pet_speed_pct" "25" }
+        }
+    }
+
+    "item_fishing_murloc_treat"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "chen_holy_persuasion"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "1"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "duration" "300" }
+        }
+    }
+
+    "item_active_powdered_flask"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "riki_smoke_screen"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT"
+        "AbilityCastRange"              "700"
+        "AbilityCooldown"               "18"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "radius" "275" }
+            "02" { "var_type" "FIELD_INTEGER" "duration" "8" }
+            "03" { "var_type" "FIELD_INTEGER" "enemy_slow_pct" "20" }
+            "04" { "var_type" "FIELD_INTEGER" "enemy_vision_reduction_pct" "25" }
+            "05" { "var_type" "FIELD_INTEGER" "ally_cloak_duration" "3" }
+            "06" { "var_type" "FIELD_INTEGER" "ally_move_speed_pct" "15" }
+        }
+    }
+
+    "item_active_cleansing_draught"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_lotus_orb"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "8"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "duration" "12" }
+            "02" { "var_type" "FIELD_INTEGER" "mana_regen" "4" }
+        }
+    }
+
+    "item_active_diseased_cocktail"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "venomancer_poison_nova"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT"
+        "AbilityCastRange"              "700"
+        "AbilityCooldown"               "20"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+    }
+
+    "item_active_unstable_concoction"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "alchemist_unstable_concoction"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT"
+        "AbilityCastRange"              "700"
+        "AbilityCooldown"               "24"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+    }
+
+    "item_active_drunken_booze"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "brewmaster_drunken_brawler"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "20"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+    }
+
+    "item_active_elixir_mastery"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_tome_of_knowledge"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCooldown"               "0"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+    }
+
+    "item_active_sleeping_bag"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "chen_holy_persuasion"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        "AbilityChannelTime"            "0"
+        "AbilityCooldown"               "3"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "duration" "9999" }
+            "02" { "var_type" "FIELD_INTEGER" "stamina_per_second" "15" }
+        }
+    }
+
+    "item_active_scroll_transmutation"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_recipe"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_OTHER"
+        "AbilityCastRange"              "500"
+        "AbilityCooldown"               "0"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+    }
+
+    "item_active_tower_shield_brace"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_vanguard"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE"
+        "AbilityCooldown"               "0"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "move_slow_pct" "25" }
+            "02" { "var_type" "FIELD_INTEGER" "frontal_physical_reduction_pct" "30" }
+        }
+    }
+
+    "item_active_vengeful_murloc_skull"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_skull_basher"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityCastRange"              "600"
+        "AbilityCooldown"               "18"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+    }
+
+    "item_active_enigmatic_staff_restore"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_staff_of_wizardry"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        "AbilityChannelTime"            "3"
+        "AbilityCooldown"               "30"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+    }
+
+    "item_active_obedience_rod_pacify"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_rod_of_atos"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_BASIC"
+        "AbilityCastRange"              "600"
+        "AbilityCooldown"               "20"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+    }
+
+    "item_active_murloc_doomhammer_slam"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_basher"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT"
+        "AbilityCastRange"              "300"
+        "AbilityCooldown"               "18"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+    }
+
+    "item_utility_lantern"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_ward_observer"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "light_radius" "450" }
+            "02" { "var_type" "FIELD_INTEGER" "cold_loss_reduction_pct" "30" }
+        }
+    }
+
+    "item_utility_iron_banded_buckler"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_buckler"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "armor" "3" }
+            "02" { "var_type" "FIELD_INTEGER" "block_chance_pct" "15" }
+            "03" { "var_type" "FIELD_INTEGER" "block_damage" "12" }
+        }
+    }
+
+    "item_utility_heavy_tower_shield"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_vanguard"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "armor" "6" }
+            "02" { "var_type" "FIELD_INTEGER" "block_damage" "20" }
+        }
+    }
+
+    "item_utility_mystic_tribal_shield"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_pipe"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"                      "0"
+    }
+
+    "item_utility_vengeful_murloc_skull"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_skull_basher"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"                      "0"
+    }
+
+    "item_utility_murlocket"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_ultimate_orb"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "aura_radius" "900" }
+        }
+    }
+
+    "item_utility_necromancers_necklace"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_desolator"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"                      "0"
+    }
+
+    "item_utility_conjurers_charm"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_null_talisman"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"                      "0"
+    }
+
+    "item_tool_sharp_iron_pickaxe"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_quelling_blade"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "mining_speed_pct" "35" }
+            "02" { "var_type" "FIELD_INTEGER" "mining_stamina_cost_reduction_pct" "20" }
+        }
+    }
+
+    "item_tool_fishing_rod"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_quelling_blade"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        "AbilityCastRange"              "700"
+        "AbilityChannelTime"            "5"
+        "AbilityCooldown"               "3"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "0"
+        "AbilitySpecial"
+        {
+            "01" { "var_type" "FIELD_INTEGER" "endurance_bonus" "5" }
+            "02" { "var_type" "FIELD_INTEGER" "hunger_drain_reduction_pct" "50" }
+            "03" { "var_type" "FIELD_INTEGER" "fishing_xp" "12" }
+        }
+    }
+
+    "item_weapon_elder_wand"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_magic_wand"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"                      "0"
+    }
+
+    "item_weapon_enigmatic_staff"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_staff_of_wizardry"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"                      "0"
+    }
+
+    "item_weapon_obedience_rod"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_rod_of_atos"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"                      "0"
+    }
+
+    "item_weapon_murloc_doomhammer"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/kobold_items.lua"
+        "AbilityTextureName"            "item_basher"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"                      "0"
+    }
+}
